@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnumTest : MonoBehaviour
 {
-    // 방향을 나타내는 Enum 정의
+    /* // 방향을 나타내는 Enum 정의
     public enum Direction
     {
         Up,     // 0
@@ -60,7 +60,77 @@ public class EnumTest : MonoBehaviour
         {
             transform.Translate(Vector3.right * speed * Time.deltaTime);
         }
+    } */
+
+    // 플레이어의 상태를 나타내는 Enum 정의
+    public enum PlayerState
+    {
+        Idle,
+        Walking,
+        Running,
+        Jumping
     }
 
-    
+    // 현재 플레이어 상태
+    private PlayerState currentState;
+
+    void Start()
+    {
+        // 초기 상태 설정
+        SetPlayerState(PlayerState.Idle);
+    }
+
+    void Update()
+    {
+        // 사용자 입력 또는 게임 로직에 따라 상태 업데이트
+        if (Input.GetKey(KeyCode.W))
+        {
+            SetPlayerState(PlayerState.Walking);
+        }
+        else if (Input.GetKey(KeyCode.LeftShift))
+        {
+            SetPlayerState(PlayerState.Running);
+        }
+        else if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SetPlayerState(PlayerState.Jumping);
+        }
+        else
+        {
+            SetPlayerState(PlayerState.Idle);
+        }
+    }
+
+    // 상태 설정 함수
+    void SetPlayerState(PlayerState newState)
+    {
+        // 현재 상태와 새로운 상태가 같으면 함수 종료
+        if (currentState == newState)
+        {
+            return;
+        }
+
+        // 상태에 따라 다른 동작 수행
+        switch (newState)
+        {
+            case PlayerState.Idle:
+                // Idle 상태에 대한 동작 수행
+                break;
+
+            case PlayerState.Walking:
+                // Walking 상태에 대한 동작 수행
+                break;
+
+            case PlayerState.Running:
+                // Running 상태에 대한 동작 수행
+                break;
+
+            case PlayerState.Jumping:
+                // Jumping 상태에 대한 동작 수행
+                break;
+        }
+
+        // 현재 상태 갱신
+        currentState = newState;
+    }
 }
