@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 
+// None Generic 테스트 코드
 public class NoneGenericTest : MonoBehaviour
 {
     private void Start()
