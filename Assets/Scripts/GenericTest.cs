@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
+// Generic 테스트 코드
 public class GenericTest : MonoBehaviour
 {
     void Start()
