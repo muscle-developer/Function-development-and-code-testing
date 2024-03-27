@@ -4,15 +4,5 @@ using UnityEngine;
 
 public class GetSetTest : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    // getter 와 setter에 관하여
 }
