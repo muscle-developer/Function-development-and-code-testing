@@ -4,8 +4,20 @@ using System.Collections.Generic;
 
 public class GenericCollection : MonoBehaviour
 {
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Q))
+            List();
+        else if(Input.GetKeyDown(KeyCode.W))
+            Dictionary();
+        else if(Input.GetKeyDown(KeyCode.E))
+            Queue();
+        else if(Input.GetKeyDown(KeyCode.R))
+            Stack();
+    }
+
     // List
-    /*void Start()
+    void List()
     {
         List<int> numbers = new List<int>();
         numbers.Add(1);
@@ -22,10 +34,10 @@ public class GenericCollection : MonoBehaviour
         }
 
         Debug.Log(numbers.Count);
-    }*/
+    }
 
     // Dictionary
-    void Start()
+    void Dictionary()
     {
         Dictionary<string, int> nameAndAges = new Dictionary<string, int>();
         nameAndAges.Add("철수", 30);
@@ -48,5 +60,50 @@ public class GenericCollection : MonoBehaviour
         } 
                 
         Debug.Log($"{nameAndAges["영희"]}"); 
+    }
+
+    // Queue
+    void Queue()
+    {
+        Queue<string> queue = new Queue<string>();
+        queue.Enqueue("1번 블록");
+        queue.Enqueue("2번 블록");
+        queue.Enqueue("3번 블록");
+
+        foreach (var tmp in queue) 
+        { 
+            Debug.Log(tmp); 
+        } 
+
+        queue.Dequeue(); 
+
+        foreach (var tmp in queue) 
+        { 
+            Debug.LogWarning(tmp); 
+        } 
+    }
+
+    // Stack
+    void Stack()
+    {
+        Stack<string> stack = new Stack<string>(); 
+        stack.Push("1 번째"); 
+        stack.Push("2 번째"); 
+        stack.Push("3 번째"); 
+
+        foreach (var tmp in stack) 
+        { 
+            Debug.Log(tmp); 
+        } 
+
+        // Stack<T>의 맨 위에서 개체를 제거하지 않고 반환
+        Debug.Log(stack.Peek().ToString()); 
+        // Stack<T>의 맨 위에서 개체를 제거하고 반환
+        stack.Pop(); 
+
+        foreach (var tmp in stack) 
+        { 
+            Debug.LogWarning(tmp);
+        } 
     }
 }
