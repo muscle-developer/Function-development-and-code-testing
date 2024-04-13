@@ -24,6 +24,6 @@ public class TupleTest : MonoBehaviour
         Debug.Log(numbers.Rest.Item1); //returns (8, 9, 10, 11, 12, 13)
         Debug.Log(numbers.Rest.Item1.Item1); //returns 8
         Debug.Log(numbers.Rest.Item1.Item2); //returns 9
-        // 깃 잔디 테스트
+        // 깃 잔디 테스트 4 / 13일
     }
 }
