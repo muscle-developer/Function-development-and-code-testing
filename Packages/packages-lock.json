@@ -46,10 +46,14 @@
     },
     "com.unity.ide.visualstudio": {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "version": "2.0.22",
 =======
       "version": "2.0.17",
 >>>>>>> 0f1af19 (Create project)
+=======
+      "version": "2.0.22",
+>>>>>>> 774f32e (C#,자료구조 - 다형성(Override에 관하여))
       "depth": 0,
       "source": "registry",
       "dependencies": {

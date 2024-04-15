@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 774f32e (C#,자료구조 - 다형성(Override에 관하여))
 {
     "files.exclude": {
         "**/.DS_Store": true,
@@ -54,6 +57,7 @@
     },
     "dotnet.preferCSharpExtension": true,
     "dotnet.defaultSolution": "Function development and code testing.sln"
+<<<<<<< HEAD
 =======
 ﻿{
     "files.exclude":
@@ -110,4 +114,6 @@
         "Temp/":true
     }
 >>>>>>> 0f1af19 (Create project)
+=======
+>>>>>>> 774f32e (C#,자료구조 - 다형성(Override에 관하여))
 }
