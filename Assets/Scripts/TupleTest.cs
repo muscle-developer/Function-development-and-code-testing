@@ -25,8 +25,12 @@ public class TupleTest : MonoBehaviour
         Debug.Log(numbers.Rest.Item1.Item1); //returns 8
         Debug.Log(numbers.Rest.Item1.Item2); //returns 9
 <<<<<<< HEAD
+<<<<<<< HEAD
         // 깃 잔디 테스트 4 / 13일
 =======
 >>>>>>> e14a5ca ([자료구조] - 튜플에 관하여)
+=======
+        // 깃 잔디 테스트
+>>>>>>> a4c187c (깃 허브 잔디 테스트)
     }
 }
