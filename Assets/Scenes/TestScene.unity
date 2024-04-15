@@ -250,6 +250,8 @@ Transform:
   m_RootOrder: 4
 >>>>>>> 774f32e (C#,자료구조 - 다형성(Override에 관하여))
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,7 +699,11 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
   m_IsActive: 0
+=======
+  m_IsActive: 1
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
 --- !u!114 &1738491409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -807,7 +813,11 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
   m_IsActive: 0
+=======
+  m_IsActive: 1
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
 --- !u!64 &1817650538
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -887,6 +897,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &2117143577
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,6 +943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 =======
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!29 &1
@@ -1202,3 +1214,6 @@ Transform:
 >>>>>>> 0f1af19 (Create project)
 =======
 >>>>>>> 774f32e (C#,자료구조 - 다형성(Override에 관하여))
+=======
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
+>>>>>>> 690f2d31bc0054432742a34d044b833abb052ab7
