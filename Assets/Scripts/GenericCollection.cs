@@ -21,8 +21,12 @@ public class GenericCollection : MonoBehaviour
     void List()
 =======
     // List
+<<<<<<< HEAD
     void Start()
 >>>>>>> 868fea7 (자료구조 - Generic Collection - List에 관한 코드 추가)
+=======
+    /*void Start()
+>>>>>>> f4dd7c9 (자료구조 - Generic Collection - Dictionary에 관한 코드 추가)
     {
         List<int> numbers = new List<int>();
         numbers.Add(1);
@@ -39,6 +43,32 @@ public class GenericCollection : MonoBehaviour
         }
 
         Debug.Log(numbers.Count);
+    }*/
+
+    // Dictionary
+    void Start()
+    {
+        Dictionary<string, int> nameAndAges = new Dictionary<string, int>();
+        nameAndAges.Add("철수", 30);
+        nameAndAges.Add("영희", 25);
+        nameAndAges.Add("유리", 35);
+
+        foreach (var tmp in nameAndAges) 
+        { 
+            Debug.Log($"{tmp.Key} {tmp.Value}");
+        } 
+
+        foreach (var key in nameAndAges.Keys) 
+        { 
+            Debug.Log(key); 
+        } 
+
+        foreach (var value in nameAndAges.Values) 
+        { 
+            Debug.Log(value); 
+        } 
+                
+        Debug.Log($"{nameAndAges["영희"]}"); 
     }
 <<<<<<< HEAD
 
