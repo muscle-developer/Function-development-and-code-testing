@@ -5,6 +5,9 @@ using System.Collections.Generic;
 public class GenericCollection : MonoBehaviour
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9de04c5 (Generic Collection 정리)
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Q))
@@ -19,6 +22,7 @@ public class GenericCollection : MonoBehaviour
 
     // List
     void List()
+<<<<<<< HEAD
 =======
     // List
 <<<<<<< HEAD
@@ -27,6 +31,8 @@ public class GenericCollection : MonoBehaviour
 =======
     /*void Start()
 >>>>>>> f4dd7c9 (자료구조 - Generic Collection - Dictionary에 관한 코드 추가)
+=======
+>>>>>>> 9de04c5 (Generic Collection 정리)
     {
         List<int> numbers = new List<int>();
         numbers.Add(1);
@@ -43,10 +49,10 @@ public class GenericCollection : MonoBehaviour
         }
 
         Debug.Log(numbers.Count);
-    }*/
+    }
 
     // Dictionary
-    void Start()
+    void Dictionary()
     {
         Dictionary<string, int> nameAndAges = new Dictionary<string, int>();
         nameAndAges.Add("철수", 30);
@@ -70,6 +76,7 @@ public class GenericCollection : MonoBehaviour
                 
         Debug.Log($"{nameAndAges["영희"]}"); 
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     // Dictionary
@@ -97,6 +104,8 @@ public class GenericCollection : MonoBehaviour
                 
         Debug.Log($"{nameAndAges["영희"]}"); 
     }
+=======
+>>>>>>> 9de04c5 (Generic Collection 정리)
 
     // Queue
     void Queue()
@@ -142,6 +151,9 @@ public class GenericCollection : MonoBehaviour
             Debug.LogWarning(tmp);
         } 
     }
+<<<<<<< HEAD
 =======
 >>>>>>> 868fea7 (자료구조 - Generic Collection - List에 관한 코드 추가)
+=======
+>>>>>>> 9de04c5 (Generic Collection 정리)
 }
