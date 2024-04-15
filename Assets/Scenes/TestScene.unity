@@ -186,6 +186,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 1956b85c86e614a8a822a820c5134fc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -269,6 +270,9 @@ Transform:
 >>>>>>> f639bdf (Enum의 관한 내용 정리)
 =======
   m_Script: {fileID: 11500000, guid: 6c93fc46052bc4b6cac4a0e5efc72507, type: 3}
+=======
+  m_Script: {fileID: 11500000, guid: 1956b85c86e614a8a822a820c5134fc8, type: 3}
+>>>>>>> 868fea7 (자료구조 - Generic Collection - List에 관한 코드 추가)
   m_Name: 
   m_EditorClassIdentifier: 
 >>>>>>> 0bcaa3b (Generic 과 None Generic의 차이 (자료구조))

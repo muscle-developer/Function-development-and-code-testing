@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 public class GenericCollection : MonoBehaviour
 {
+<<<<<<< HEAD
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Q))
@@ -18,6 +19,10 @@ public class GenericCollection : MonoBehaviour
 
     // List
     void List()
+=======
+    // List
+    void Start()
+>>>>>>> 868fea7 (자료구조 - Generic Collection - List에 관한 코드 추가)
     {
         List<int> numbers = new List<int>();
         numbers.Add(1);
@@ -35,6 +40,7 @@ public class GenericCollection : MonoBehaviour
 
         Debug.Log(numbers.Count);
     }
+<<<<<<< HEAD
 
     // Dictionary
     void Dictionary()
@@ -106,4 +112,6 @@ public class GenericCollection : MonoBehaviour
             Debug.LogWarning(tmp);
         } 
     }
+=======
+>>>>>>> 868fea7 (자료구조 - Generic Collection - List에 관한 코드 추가)
 }
