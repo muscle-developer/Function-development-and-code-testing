@@ -129,10 +129,14 @@ NavMeshSettings:
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &303152957
 =======
 --- !u!1 &188749621
 >>>>>>> 774f32e (C#,자료구조 - 다형성(Override에 관하여))
+=======
+--- !u!1 &303152957
+>>>>>>> 0bcaa3b (Generic 과 None Generic의 차이 (자료구조))
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,6 +145,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0bcaa3b (Generic 과 None Generic의 차이 (자료구조))
   - component: {fileID: 303152959}
   - component: {fileID: 303152960}
   m_Layer: 0
@@ -149,7 +156,11 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
   m_IsActive: 0
+=======
+  m_IsActive: 1
+>>>>>>> 0bcaa3b (Generic 과 None Generic의 차이 (자료구조))
 --- !u!4 &303152959
 Transform:
   m_ObjectHideFlags: 0
@@ -174,6 +185,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 303152957}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 1956b85c86e614a8a822a820c5134fc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -255,6 +267,11 @@ Transform:
 >>>>>>> f639bdf (Enum의 관한 내용 정리)
 =======
 >>>>>>> f639bdf (Enum의 관한 내용 정리)
+=======
+  m_Script: {fileID: 11500000, guid: 6c93fc46052bc4b6cac4a0e5efc72507, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> 0bcaa3b (Generic 과 None Generic의 차이 (자료구조))
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,6 +728,7 @@ GameObject:
   m_StaticEditorFlags: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IsActive: 0
 =======
   m_IsActive: 1
@@ -718,6 +736,9 @@ GameObject:
 =======
   m_IsActive: 1
 >>>>>>> f639bdf (Enum의 관한 내용 정리)
+=======
+  m_IsActive: 0
+>>>>>>> 0bcaa3b (Generic 과 None Generic의 차이 (자료구조))
 --- !u!114 &1738491409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -829,6 +850,7 @@ GameObject:
   m_StaticEditorFlags: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IsActive: 0
 =======
   m_IsActive: 1
@@ -836,6 +858,9 @@ GameObject:
 =======
   m_IsActive: 1
 >>>>>>> f639bdf (Enum의 관한 내용 정리)
+=======
+  m_IsActive: 0
+>>>>>>> 0bcaa3b (Generic 과 None Generic의 차이 (자료구조))
 --- !u!64 &1817650538
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -917,6 +942,9 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0bcaa3b (Generic 과 None Generic의 차이 (자료구조))
 --- !u!1 &2117143577
 GameObject:
   m_ObjectHideFlags: 0
@@ -961,6 +989,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98cf30410ef6e43b69fc5e8abc56b40f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 %YAML 1.1
@@ -1238,3 +1267,5 @@ Transform:
 >>>>>>> 690f2d31bc0054432742a34d044b833abb052ab7
 =======
 >>>>>>> f639bdf (Enum의 관한 내용 정리)
+=======
+>>>>>>> 0bcaa3b (Generic 과 None Generic의 차이 (자료구조))
