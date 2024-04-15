@@ -305,6 +305,7 @@
         297,
         298,
         299,
+<<<<<<< HEAD
         300,
         301,
         302,
@@ -347,6 +348,9 @@
         339,
         340,
         341
+=======
+        300
+>>>>>>> 0f1af19 (Create project)
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -855,6 +859,7 @@
         169,
         174,
         179,
+<<<<<<< HEAD
         184,
         188,
         190,
@@ -884,6 +889,52 @@
         258,
         262,
         264,
+=======
+        183,
+        185,
+        189,
+        190,
+        191,
+        193,
+        197,
+        199,
+        203,
+        205,
+        209,
+        211,
+        216,
+        220,
+        221,
+        223,
+        228,
+        232,
+        233,
+        235,
+        240,
+        244,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+>>>>>>> 0f1af19 (Create project)
         268,
         269,
         270,
@@ -894,6 +945,10 @@
         275,
         276,
         277,
+<<<<<<< HEAD
+=======
+        278,
+>>>>>>> 0f1af19 (Create project)
         279,
         280,
         281,
@@ -915,6 +970,7 @@
         297,
         298,
         299,
+<<<<<<< HEAD
         300,
         301,
         302,
@@ -957,6 +1013,9 @@
         339,
         340,
         341
+=======
+        300
+>>>>>>> 0f1af19 (Create project)
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 5
@@ -6001,6 +6060,7 @@
       "DebugActionIndex": 134
     },
     {
+<<<<<<< HEAD
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.Recorder.Base.AdditionalFile.txt",
       "ActionType": "WriteTextFile",
       "WriteTextFilePayload": "/Users/kimsin-young/Documents/_project/Function development and code testing",
@@ -6491,6 +6551,8 @@
       "DebugActionIndex": 139
     },
     {
+=======
+>>>>>>> 0f1af19 (Create project)
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.Rider.Editor.AdditionalFile.txt",
       "ActionType": "WriteTextFile",
       "WriteTextFilePayload": "/Users/kimsin-young/Documents/_project/Function development and code testing",
@@ -6499,7 +6561,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.Rider.Editor.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 140
+=======
+      "DebugActionIndex": 135
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.Rider.Editor.rsp",
@@ -6510,7 +6576,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.Rider.Editor.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 141
+=======
+      "DebugActionIndex": 136
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.Rider.Editor.dll (+2 others)",
@@ -6785,8 +6855,13 @@
         96,
         107,
         114,
+<<<<<<< HEAD
         140,
         141
+=======
+        135,
+        136
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.Rider.Editor.rsp"
@@ -6798,7 +6873,11 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 142
+=======
+      "DebugActionIndex": 137
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.Rider.Editor.dll.mvfrm.rsp",
@@ -6809,7 +6888,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.Rider.Editor.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 143
+=======
+      "DebugActionIndex": 138
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.Rider.Editor.dll.mvfrm",
@@ -7006,10 +7089,17 @@
         115,
         116,
         122,
+<<<<<<< HEAD
         143
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 144
+=======
+        138
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 139
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.Settings.Editor.AdditionalFile.txt",
@@ -7020,7 +7110,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.Settings.Editor.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 145
+=======
+      "DebugActionIndex": 140
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.Settings.Editor.rsp",
@@ -7031,7 +7125,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.Settings.Editor.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 146
+=======
+      "DebugActionIndex": 141
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.Settings.Editor.dll (+2 others)",
@@ -7288,8 +7386,13 @@
         96,
         107,
         114,
+<<<<<<< HEAD
         145,
         146
+=======
+        140,
+        141
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.Settings.Editor.rsp"
@@ -7301,7 +7404,11 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 147
+=======
+      "DebugActionIndex": 142
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.Settings.Editor.dll.mvfrm.rsp",
@@ -7312,7 +7419,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.Settings.Editor.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 148
+=======
+      "DebugActionIndex": 143
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.Settings.Editor.dll.mvfrm",
@@ -7521,10 +7632,17 @@
         115,
         116,
         122,
+<<<<<<< HEAD
         148
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 149
+=======
+        143
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 144
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.AdditionalFile.txt",
@@ -7535,7 +7653,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 150
+=======
+      "DebugActionIndex": 145
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp",
@@ -7546,7 +7668,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 151
+=======
+      "DebugActionIndex": 146
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll (+2 others)",
@@ -7807,8 +7933,13 @@
         96,
         107,
         114,
+<<<<<<< HEAD
         150,
         151
+=======
+        145,
+        146
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp"
@@ -7820,7 +7951,11 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 152
+=======
+      "DebugActionIndex": 147
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm.rsp",
@@ -7831,7 +7966,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 153
+=======
+      "DebugActionIndex": 148
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm",
@@ -8040,10 +8179,17 @@
         115,
         116,
         122,
+<<<<<<< HEAD
         153
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 154
+=======
+        148
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 149
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.AdditionalFile.txt",
@@ -8054,7 +8200,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 155
+=======
+      "DebugActionIndex": 150
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp",
@@ -8065,7 +8215,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 156
+=======
+      "DebugActionIndex": 151
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll (+2 others)",
@@ -8315,8 +8469,13 @@
         96,
         107,
         114,
+<<<<<<< HEAD
         155,
         156
+=======
+        150,
+        151
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp"
@@ -8328,7 +8487,11 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 157
+=======
+      "DebugActionIndex": 152
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm.rsp",
@@ -8339,7 +8502,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 158
+=======
+      "DebugActionIndex": 153
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm",
@@ -8548,10 +8715,17 @@
         115,
         116,
         122,
+<<<<<<< HEAD
         158
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 159
+=======
+        153
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 154
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.AdditionalFile.txt",
@@ -8562,7 +8736,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 160
+=======
+      "DebugActionIndex": 155
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.rsp",
@@ -8573,7 +8751,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 161
+=======
+      "DebugActionIndex": 156
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.dll (+2 others)",
@@ -8869,8 +9051,13 @@
       "ToBuildDependencies": [
         96,
         114,
+<<<<<<< HEAD
         160,
         161
+=======
+        155,
+        156
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.rsp"
@@ -8882,7 +9069,11 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 162
+=======
+      "DebugActionIndex": 157
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.dll.mvfrm.rsp",
@@ -8893,7 +9084,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 163
+=======
+      "DebugActionIndex": 158
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.dll.mvfrm",
@@ -9096,10 +9291,17 @@
         102,
         116,
         122,
+<<<<<<< HEAD
         163
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 164
+=======
+        158
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 159
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.AdditionalFile.txt",
@@ -9110,7 +9312,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 165
+=======
+      "DebugActionIndex": 160
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.rsp",
@@ -9121,7 +9327,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 166
+=======
+      "DebugActionIndex": 161
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.dll (+2 others)",
@@ -9431,8 +9641,13 @@
       "ToBuildDependencies": [
         96,
         114,
+<<<<<<< HEAD
         165,
         166
+=======
+        160,
+        161
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.rsp"
@@ -9444,7 +9659,11 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 167
+=======
+      "DebugActionIndex": 162
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.dll.mvfrm.rsp",
@@ -9455,7 +9674,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 168
+=======
+      "DebugActionIndex": 163
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.dll.mvfrm",
@@ -9658,10 +9881,17 @@
         102,
         116,
         122,
+<<<<<<< HEAD
         168
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 169
+=======
+        163
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 164
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VSCode.Editor.AdditionalFile.txt",
@@ -9672,7 +9902,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VSCode.Editor.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 170
+=======
+      "DebugActionIndex": 165
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VSCode.Editor.rsp",
@@ -9683,7 +9917,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VSCode.Editor.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 171
+=======
+      "DebugActionIndex": 166
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.VSCode.Editor.dll (+2 others)",
@@ -9937,8 +10175,13 @@
         96,
         107,
         114,
+<<<<<<< HEAD
         170,
         171
+=======
+        165,
+        166
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VSCode.Editor.rsp"
@@ -9950,7 +10193,11 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 172
+=======
+      "DebugActionIndex": 167
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VSCode.Editor.dll.mvfrm.rsp",
@@ -9961,7 +10208,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VSCode.Editor.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 173
+=======
+      "DebugActionIndex": 168
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.VSCode.Editor.dll.mvfrm",
@@ -10170,10 +10421,17 @@
         115,
         116,
         122,
+<<<<<<< HEAD
         173
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 174
+=======
+        168
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 169
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Core.AdditionalFile.txt",
@@ -10184,7 +10442,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Core.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 175
+=======
+      "DebugActionIndex": 170
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Core.rsp",
@@ -10195,7 +10457,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Core.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 176
+=======
+      "DebugActionIndex": 171
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Core.dll (+2 others)",
@@ -10859,8 +11125,13 @@
       "ToBuildDependencies": [
         96,
         114,
+<<<<<<< HEAD
         175,
         176
+=======
+        170,
+        171
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Core.rsp"
@@ -10872,7 +11143,11 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 177
+=======
+      "DebugActionIndex": 172
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp",
@@ -10883,7 +11158,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 178
+=======
+      "DebugActionIndex": 173
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Core.dll.mvfrm",
@@ -11086,10 +11365,17 @@
         102,
         116,
         122,
+<<<<<<< HEAD
         178
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 179
+=======
+        173
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 174
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualStudio.Editor.AdditionalFile.txt",
@@ -11100,18 +11386,30 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualStudio.Editor.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 180
+=======
+      "DebugActionIndex": 175
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualStudio.Editor.rsp",
       "ActionType": "WriteTextFile",
+<<<<<<< HEAD
       "WriteTextFilePayload": "-target:library\n-out:\"Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualStudio.Editor.dll\"\n-refout:\"Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualStudio.Editor.ref.dll\"\n-define:UNITY_2021_3_18\n-define:UNITY_2021_3\n-define:UNITY_2021\n-define:UNITY_5_3_OR_NEWER\n-define:UNITY_5_4_OR_NEWER\n-define:UNITY_5_5_OR_NEWER\n-define:UNITY_5_6_OR_NEWER\n-define:UNITY_2017_1_OR_NEWER\n-define:UNITY_2017_2_OR_NEWER\n-define:UNITY_2017_3_OR_NEWER\n-define:UNITY_2017_4_OR_NEWER\n-define:UNITY_2018_1_OR_NEWER\n-define:UNITY_2018_2_OR_NEWER\n-define:UNITY_2018_3_OR_NEWER\n-define:UNITY_2018_4_OR_NEWER\n-define:UNITY_2019_1_OR_NEWER\n-define:UNITY_2019_2_OR_NEWER\n-define:UNITY_2019_3_OR_NEWER\n-define:UNITY_2019_4_OR_NEWER\n-define:UNITY_2020_1_OR_NEWER\n-define:UNITY_2020_2_OR_NEWER\n-define:UNITY_2020_3_OR_NEWER\n-define:UNITY_2021_1_OR_NEWER\n-define:UNITY_2021_2_OR_NEWER\n-define:UNITY_2021_3_OR_NEWER\n-define:PLATFORM_ARCH_64\n-define:UNITY_64\n-define:UNITY_INCLUDE_TESTS\n-define:ENABLE_AR\n-define:ENABLE_AUDIO\n-define:ENABLE_CACHING\n-define:ENABLE_CLOTH\n-define:ENABLE_MICROPHONE\n-define:ENABLE_MULTIPLE_DISPLAYS\n-define:ENABLE_PHYSICS\n-define:ENABLE_TEXTURE_STREAMING\n-define:ENABLE_VIRTUALTEXTURING\n-define:ENABLE_UNET\n-define:ENABLE_LZMA\n-define:ENABLE_UNITYEVENTS\n-define:ENABLE_VR\n-define:ENABLE_WEBCAM\n-define:ENABLE_UNITYWEBREQUEST\n-define:ENABLE_WWW\n-define:ENABLE_CLOUD_SERVICES\n-define:ENABLE_CLOUD_SERVICES_COLLAB\n-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS\n-define:ENABLE_CLOUD_SERVICES_ADS\n-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST\n-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING\n-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING\n-define:ENABLE_CLOUD_SERVICES_PURCHASING\n-define:ENABLE_CLOUD_SERVICES_ANALYTICS\n-define:ENABLE_CLOUD_SERVICES_UNET\n-define:ENABLE_CLOUD_SERVICES_BUILD\n-define:ENABLE_CLOUD_LICENSE\n-define:ENABLE_EDITOR_HUB_LICENSE\n-define:ENABLE_WEBSOCKET_CLIENT\n-define:ENABLE_DIRECTOR_AUDIO\n-define:ENABLE_DIRECTOR_TEXTURE\n-define:ENABLE_MANAGED_JOBS\n-define:ENABLE_MANAGED_TRANSFORM_JOBS\n-define:ENABLE_MANAGED_ANIMATION_JOBS\n-define:ENABLE_MANAGED_AUDIO_JOBS\n-define:ENABLE_MANAGED_UNITYTLS\n-define:INCLUDE_DYNAMIC_GI\n-define:ENABLE_SCRIPTING_GC_WBARRIERS\n-define:PLATFORM_SUPPORTS_MONO\n-define:RENDER_SOFTWARE_CURSOR\n-define:ENABLE_VIDEO\n-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING\n-define:PLATFORM_STANDALONE\n-define:TEXTCORE_1_0_OR_NEWER\n-define:PLATFORM_STANDALONE_OSX\n-define:UNITY_STANDALONE_OSX\n-define:UNITY_STANDALONE\n-define:ENABLE_GAMECENTER\n-define:ENABLE_RUNTIME_GI\n-define:ENABLE_MOVIES\n-define:ENABLE_NETWORK\n-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION\n-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT\n-define:ENABLE_CLUSTER_SYNC\n-define:ENABLE_CLUSTERINPUT\n-define:ENABLE_SPATIALTRACKING\n-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP\n-define:ENABLE_WEBSOCKET_HOST\n-define:ENABLE_MONO\n-define:NET_4_6\n-define:NET_UNITY_4_8\n-define:ENABLE_PROFILER\n-define:DEBUG\n-define:TRACE\n-define:UNITY_ASSERTIONS\n-define:UNITY_EDITOR\n-define:UNITY_EDITOR_64\n-define:UNITY_EDITOR_OSX\n-define:ENABLE_UNITY_COLLECTIONS_CHECKS\n-define:ENABLE_BURST_AOT\n-define:UNITY_TEAM_LICENSE\n-define:UNITY_PRO_LICENSE\n-define:ENABLE_CUSTOM_RENDER_TEXTURE\n-define:ENABLE_DIRECTOR\n-define:ENABLE_LOCALIZATION\n-define:ENABLE_SPRITES\n-define:ENABLE_TERRAIN\n-define:ENABLE_TILEMAP\n-define:ENABLE_TIMELINE\n-define:ENABLE_LEGACY_INPUT_MANAGER\n-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER\n-define:CSHARP_7_OR_LATER\n-define:CSHARP_7_3_OR_NEWER\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.GraphViewModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIServiceModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GIModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.NVIDIAModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VFXModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Concurrent.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.NonGeneric.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Specialized.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Annotations.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.EventBasedAsync.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Primitives.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.TypeConverter.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Console.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Data.Common.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Contracts.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Debug.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.FileVersionInfo.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Process.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.StackTrace.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TextWriterTraceListener.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Tools.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TraceSource.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Drawing.Primitives.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Dynamic.Runtime.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Calendars.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Extensions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Compression.ZipFile.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.DriveInfo.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Primitives.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Watcher.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.IsolatedStorage.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.MemoryMappedFiles.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Pipes.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.UnmanagedMemoryStream.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Expressions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Parallel.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Queryable.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Memory.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Http.Rtc.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NameResolution.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NetworkInformation.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Ping.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Primitives.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Requests.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Security.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Sockets.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebHeaderCollection.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.Client.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ObjectModel.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.DispatchProxy.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.ILGeneration.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.Lightweight.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Extensions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Primitives.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Reader.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.ResourceManager.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Writer.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.CompilerServices.VisualC.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Extensions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Handles.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Numerics.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Formatters.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Json.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Primitives.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Xml.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Claims.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Algorithms.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Csp.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Encoding.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Primitives.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.X509Certificates.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Principal.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.SecureString.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Duplex.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Http.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.NetTcp.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Primitives.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Security.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.Extensions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.RegularExpressions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Overlapped.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Extensions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Parallel.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Thread.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.ThreadPool.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Timer.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ValueTuple.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.ReaderWriter.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XDocument.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlDocument.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlSerializer.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.XDocument.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Microsoft.CSharp.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.Vectors.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll\"\n-r:\"/Users/kimsin-young/Documents/_project/Function development and code testing/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\"\n-r:\"Library/Bee/artifacts/200b0aEDbg.dag/UnityEditor.TestRunner.ref.dll\"\n-r:\"Library/Bee/artifacts/200b0aEDbg.dag/UnityEditor.UI.ref.dll\"\n-r:\"Library/Bee/artifacts/200b0aEDbg.dag/UnityEngine.TestRunner.ref.dll\"\n-r:\"Library/Bee/artifacts/200b0aEDbg.dag/UnityEngine.UI.ref.dll\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/AssemblyInfo.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/AsyncOperation.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Cli.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Discovery.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/FileUtility.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Image.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/KnownAssemblies.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Messaging/Deserializer.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Messaging/ExceptionEventArgs.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Messaging/Message.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Messaging/MessageEventArgs.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Messaging/MessageType.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Messaging/Messenger.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Messaging/Serializer.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Messaging/TcpClient.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Messaging/TcpListener.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Messaging/UdpSocket.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/ProcessRunner.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/ProjectGeneration/AssemblyNameProvider.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/ProjectGeneration/FileIOProvider.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/ProjectGeneration/GUIDProvider.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/ProjectGeneration/LegacyStyleProjectGeneration.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/ProjectGeneration/ProjectGeneration.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/ProjectGeneration/ProjectGenerationFlag.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/ProjectGeneration/ProjectProperties.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/ProjectGeneration/SdkStyleProjectGeneration.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/SimpleJSON.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Solution.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/SolutionParser.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/SolutionProjectEntry.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/SolutionProperties.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Symbols.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Testing/TestAdaptor.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Testing/TestResultAdaptor.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Testing/TestRunnerApiListener.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Testing/TestRunnerCallbacks.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Testing/TestStatusAdaptor.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/UnityInstallation.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/UsageUtility.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/VersionPair.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/VisualStudioCodeInstallation.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/VisualStudioEditor.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/VisualStudioForMacInstallation.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/VisualStudioForWindowsInstallation.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/VisualStudioInstallation.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/VisualStudioIntegration.cs\"\n-langversion:9.0\n\n/deterministic\n/optimize-\n/debug:portable\n/nologo\n/RuntimeMetadataVersion:v4.0.30319\n\n/nowarn:0169\n/nowarn:0649\n/nowarn:1701\n/nowarn:1702\n/utf8output\n/preferreduilang:en-US\n-warn:0\n\n/additionalfile:\"Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualStudio.Editor.AdditionalFile.txt\"",
+=======
+      "WriteTextFilePayload": "-target:library\n-out:\"Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualStudio.Editor.dll\"\n-refout:\"Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualStudio.Editor.ref.dll\"\n-define:UNITY_2021_3_18\n-define:UNITY_2021_3\n-define:UNITY_2021\n-define:UNITY_5_3_OR_NEWER\n-define:UNITY_5_4_OR_NEWER\n-define:UNITY_5_5_OR_NEWER\n-define:UNITY_5_6_OR_NEWER\n-define:UNITY_2017_1_OR_NEWER\n-define:UNITY_2017_2_OR_NEWER\n-define:UNITY_2017_3_OR_NEWER\n-define:UNITY_2017_4_OR_NEWER\n-define:UNITY_2018_1_OR_NEWER\n-define:UNITY_2018_2_OR_NEWER\n-define:UNITY_2018_3_OR_NEWER\n-define:UNITY_2018_4_OR_NEWER\n-define:UNITY_2019_1_OR_NEWER\n-define:UNITY_2019_2_OR_NEWER\n-define:UNITY_2019_3_OR_NEWER\n-define:UNITY_2019_4_OR_NEWER\n-define:UNITY_2020_1_OR_NEWER\n-define:UNITY_2020_2_OR_NEWER\n-define:UNITY_2020_3_OR_NEWER\n-define:UNITY_2021_1_OR_NEWER\n-define:UNITY_2021_2_OR_NEWER\n-define:UNITY_2021_3_OR_NEWER\n-define:PLATFORM_ARCH_64\n-define:UNITY_64\n-define:UNITY_INCLUDE_TESTS\n-define:ENABLE_AR\n-define:ENABLE_AUDIO\n-define:ENABLE_CACHING\n-define:ENABLE_CLOTH\n-define:ENABLE_MICROPHONE\n-define:ENABLE_MULTIPLE_DISPLAYS\n-define:ENABLE_PHYSICS\n-define:ENABLE_TEXTURE_STREAMING\n-define:ENABLE_VIRTUALTEXTURING\n-define:ENABLE_UNET\n-define:ENABLE_LZMA\n-define:ENABLE_UNITYEVENTS\n-define:ENABLE_VR\n-define:ENABLE_WEBCAM\n-define:ENABLE_UNITYWEBREQUEST\n-define:ENABLE_WWW\n-define:ENABLE_CLOUD_SERVICES\n-define:ENABLE_CLOUD_SERVICES_COLLAB\n-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS\n-define:ENABLE_CLOUD_SERVICES_ADS\n-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST\n-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING\n-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING\n-define:ENABLE_CLOUD_SERVICES_PURCHASING\n-define:ENABLE_CLOUD_SERVICES_ANALYTICS\n-define:ENABLE_CLOUD_SERVICES_UNET\n-define:ENABLE_CLOUD_SERVICES_BUILD\n-define:ENABLE_CLOUD_LICENSE\n-define:ENABLE_EDITOR_HUB_LICENSE\n-define:ENABLE_WEBSOCKET_CLIENT\n-define:ENABLE_DIRECTOR_AUDIO\n-define:ENABLE_DIRECTOR_TEXTURE\n-define:ENABLE_MANAGED_JOBS\n-define:ENABLE_MANAGED_TRANSFORM_JOBS\n-define:ENABLE_MANAGED_ANIMATION_JOBS\n-define:ENABLE_MANAGED_AUDIO_JOBS\n-define:ENABLE_MANAGED_UNITYTLS\n-define:INCLUDE_DYNAMIC_GI\n-define:ENABLE_SCRIPTING_GC_WBARRIERS\n-define:PLATFORM_SUPPORTS_MONO\n-define:RENDER_SOFTWARE_CURSOR\n-define:ENABLE_VIDEO\n-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING\n-define:PLATFORM_STANDALONE\n-define:TEXTCORE_1_0_OR_NEWER\n-define:PLATFORM_STANDALONE_OSX\n-define:UNITY_STANDALONE_OSX\n-define:UNITY_STANDALONE\n-define:ENABLE_GAMECENTER\n-define:ENABLE_RUNTIME_GI\n-define:ENABLE_MOVIES\n-define:ENABLE_NETWORK\n-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION\n-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT\n-define:ENABLE_CLUSTER_SYNC\n-define:ENABLE_CLUSTERINPUT\n-define:ENABLE_SPATIALTRACKING\n-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP\n-define:ENABLE_WEBSOCKET_HOST\n-define:ENABLE_MONO\n-define:NET_4_6\n-define:NET_UNITY_4_8\n-define:ENABLE_PROFILER\n-define:DEBUG\n-define:TRACE\n-define:UNITY_ASSERTIONS\n-define:UNITY_EDITOR\n-define:UNITY_EDITOR_64\n-define:UNITY_EDITOR_OSX\n-define:ENABLE_UNITY_COLLECTIONS_CHECKS\n-define:ENABLE_BURST_AOT\n-define:UNITY_TEAM_LICENSE\n-define:UNITY_PRO_LICENSE\n-define:ENABLE_CUSTOM_RENDER_TEXTURE\n-define:ENABLE_DIRECTOR\n-define:ENABLE_LOCALIZATION\n-define:ENABLE_SPRITES\n-define:ENABLE_TERRAIN\n-define:ENABLE_TILEMAP\n-define:ENABLE_TIMELINE\n-define:ENABLE_LEGACY_INPUT_MANAGER\n-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER\n-define:CSHARP_7_OR_LATER\n-define:CSHARP_7_3_OR_NEWER\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.GraphViewModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIServiceModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GIModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.NVIDIAModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VFXModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Concurrent.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.NonGeneric.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Specialized.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Annotations.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.EventBasedAsync.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Primitives.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.TypeConverter.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Console.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Data.Common.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Contracts.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Debug.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.FileVersionInfo.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Process.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.StackTrace.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TextWriterTraceListener.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Tools.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TraceSource.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Drawing.Primitives.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Dynamic.Runtime.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Calendars.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Extensions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Compression.ZipFile.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.DriveInfo.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Primitives.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Watcher.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.IsolatedStorage.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.MemoryMappedFiles.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Pipes.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.UnmanagedMemoryStream.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Expressions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Parallel.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Queryable.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Memory.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Http.Rtc.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NameResolution.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NetworkInformation.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Ping.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Primitives.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Requests.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Security.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Sockets.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebHeaderCollection.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.Client.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ObjectModel.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.DispatchProxy.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.ILGeneration.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.Lightweight.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Extensions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Primitives.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Reader.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.ResourceManager.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Writer.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.CompilerServices.VisualC.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Extensions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Handles.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Numerics.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Formatters.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Json.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Primitives.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Xml.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Claims.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Algorithms.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Csp.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Encoding.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Primitives.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.X509Certificates.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Principal.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.SecureString.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Duplex.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Http.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.NetTcp.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Primitives.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Security.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.Extensions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.RegularExpressions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Overlapped.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Extensions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Parallel.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Thread.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.ThreadPool.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Timer.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ValueTuple.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.ReaderWriter.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XDocument.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlDocument.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlSerializer.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.XDocument.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Microsoft.CSharp.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.Vectors.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll\"\n-r:\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll\"\n-r:\"/Users/kimsin-young/Documents/_project/Function development and code testing/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\"\n-r:\"Library/Bee/artifacts/200b0aEDbg.dag/UnityEditor.TestRunner.ref.dll\"\n-r:\"Library/Bee/artifacts/200b0aEDbg.dag/UnityEditor.UI.ref.dll\"\n-r:\"Library/Bee/artifacts/200b0aEDbg.dag/UnityEngine.TestRunner.ref.dll\"\n-r:\"Library/Bee/artifacts/200b0aEDbg.dag/UnityEngine.UI.ref.dll\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/AssemblyInfo.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/AsyncOperation.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Cli.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Discovery.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/FileUtility.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Image.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/KnownAssemblies.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/Deserializer.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/ExceptionEventArgs.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/Message.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/MessageEventArgs.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/MessageType.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/Messenger.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/Serializer.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/TcpClient.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/TcpListener.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/UdpSocket.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProcessRunner.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProjectGeneration/AssemblyNameProvider.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProjectGeneration/FileIOProvider.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProjectGeneration/GUIDProvider.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProjectGeneration/ProjectGeneration.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProjectGeneration/ProjectGenerationFlag.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProjectGeneration/ProjectProperties.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Solution.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/SolutionParser.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/SolutionProjectEntry.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/SolutionProperties.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Symbols.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Testing/TestAdaptor.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Testing/TestResultAdaptor.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Testing/TestRunnerApiListener.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Testing/TestRunnerCallbacks.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Testing/TestStatusAdaptor.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/UnityInstallation.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/UsageUtility.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/VersionPair.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/VisualStudioEditor.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/VisualStudioInstallation.cs\"\n\"Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/VisualStudioIntegration.cs\"\n-langversion:9.0\n\n/deterministic\n/optimize-\n/debug:portable\n/nologo\n/RuntimeMetadataVersion:v4.0.30319\n\n/nowarn:0169\n/nowarn:0649\n/nowarn:1701\n/nowarn:1702\n/utf8output\n/preferreduilang:en-US\n-warn:0\n\n/additionalfile:\"Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualStudio.Editor.AdditionalFile.txt\"",
+>>>>>>> 0f1af19 (Create project)
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualStudio.Editor.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 181
+=======
+      "DebugActionIndex": 176
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualStudio.Editor.dll (+2 others)",
@@ -11335,6 +11633,7 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/200b0aEDbg.dag/UnityEngine.TestRunner.ref.dll",
         "Library/Bee/artifacts/200b0aEDbg.dag/UnityEngine.UI.ref.dll",
+<<<<<<< HEAD
         "Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/AssemblyInfo.cs",
         "Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/AsyncOperation.cs",
         "Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Cli.cs",
@@ -11381,6 +11680,48 @@
         "Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/VisualStudioForWindowsInstallation.cs",
         "Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/VisualStudioInstallation.cs",
         "Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/VisualStudioIntegration.cs",
+=======
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/AssemblyInfo.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/AsyncOperation.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Cli.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Discovery.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/FileUtility.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Image.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/KnownAssemblies.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/Deserializer.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/ExceptionEventArgs.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/Message.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/MessageEventArgs.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/MessageType.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/Messenger.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/Serializer.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/TcpClient.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/TcpListener.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/UdpSocket.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProcessRunner.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProjectGeneration/AssemblyNameProvider.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProjectGeneration/FileIOProvider.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProjectGeneration/GUIDProvider.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProjectGeneration/ProjectGeneration.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProjectGeneration/ProjectGenerationFlag.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProjectGeneration/ProjectProperties.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Solution.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/SolutionParser.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/SolutionProjectEntry.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/SolutionProperties.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Symbols.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Testing/TestAdaptor.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Testing/TestResultAdaptor.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Testing/TestRunnerApiListener.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Testing/TestRunnerCallbacks.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Testing/TestStatusAdaptor.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/UnityInstallation.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/UsageUtility.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/VersionPair.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/VisualStudioEditor.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/VisualStudioInstallation.cs",
+        "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/VisualStudioIntegration.cs",
+>>>>>>> 0f1af19 (Create project)
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualStudio.Editor.rsp",
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualStudio.Editor.AdditionalFile.txt"
       ],
@@ -11394,8 +11735,13 @@
         96,
         107,
         114,
+<<<<<<< HEAD
         180,
         181
+=======
+        175,
+        176
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualStudio.Editor.rsp"
@@ -11407,7 +11753,11 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 182
+=======
+      "DebugActionIndex": 177
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualStudio.Editor.dll.mvfrm.rsp",
@@ -11418,7 +11768,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualStudio.Editor.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 183
+=======
+      "DebugActionIndex": 178
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualStudio.Editor.dll.mvfrm",
@@ -11615,10 +11969,17 @@
         115,
         116,
         122,
+<<<<<<< HEAD
         183
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 184
+=======
+        178
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 179
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.CollabProxy.Editor.AdditionalFile.txt",
@@ -11629,7 +11990,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.CollabProxy.Editor.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 185
+=======
+      "DebugActionIndex": 180
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.CollabProxy.Editor.rsp",
@@ -11640,7 +12005,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.CollabProxy.Editor.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 186
+=======
+      "DebugActionIndex": 181
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.CollabProxy.Editor.dll (+2 others)",
@@ -11889,8 +12258,13 @@
         107,
         114,
         132,
+<<<<<<< HEAD
         185,
         186
+=======
+        180,
+        181
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.CollabProxy.Editor.rsp"
@@ -11902,7 +12276,11 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 187
+=======
+      "DebugActionIndex": 182
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.PlasticSCM.Editor.ref.dll_7AED3F4F19DE4A51.mvfrm",
@@ -11918,7 +12296,11 @@
         132
       ],
       "AllowUnexpectedOutput": true,
+<<<<<<< HEAD
       "DebugActionIndex": 188
+=======
+      "DebugActionIndex": 183
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.CollabProxy.Editor.dll.mvfrm.rsp",
@@ -11929,7 +12311,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.CollabProxy.Editor.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 189
+=======
+      "DebugActionIndex": 184
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.CollabProxy.Editor.dll.mvfrm",
@@ -12139,6 +12525,7 @@
         115,
         116,
         122,
+<<<<<<< HEAD
         188,
         189
       ],
@@ -12655,6 +13042,13 @@
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 196
+=======
+        183,
+        184
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 185
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.AdditionalFile.txt",
@@ -12665,7 +13059,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 197
+=======
+      "DebugActionIndex": 186
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.rsp",
@@ -12676,7 +13074,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 198
+=======
+      "DebugActionIndex": 187
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.dll (+2 others)",
@@ -12962,11 +13364,19 @@
         96,
         107,
         114,
+<<<<<<< HEAD
         147,
         152,
         157,
         197,
         198
+=======
+        142,
+        147,
+        152,
+        186,
+        187
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.rsp"
@@ -12978,7 +13388,11 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 199
+=======
+      "DebugActionIndex": 188
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Settings.Editor.ref.dll_2FDAC0024455614B.mvfrm",
@@ -12991,10 +13405,17 @@
         "Library/Bee/artifacts/mvdfrm/Unity.Settings.Editor.ref.dll_2FDAC0024455614B.mvfrm"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         147
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 200
+=======
+        142
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 189
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll_4EE5AF58521881CE.mvfrm",
@@ -13007,10 +13428,17 @@
         "Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll_4EE5AF58521881CE.mvfrm"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         152
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 201
+=======
+        147
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 190
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll_AA73C4FB521D845B.mvfrm",
@@ -13023,10 +13451,17 @@
         "Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll_AA73C4FB521D845B.mvfrm"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         157
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 202
+=======
+        152
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 191
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.dll.mvfrm.rsp",
@@ -13037,7 +13472,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 203
+=======
+      "DebugActionIndex": 192
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.dll.mvfrm",
@@ -13237,6 +13676,7 @@
         115,
         116,
         122,
+<<<<<<< HEAD
         200,
         201,
         202,
@@ -13244,6 +13684,15 @@
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 204
+=======
+        189,
+        190,
+        191,
+        192
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 193
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.Editor.AdditionalFile.txt",
@@ -13254,7 +13703,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.Editor.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 205
+=======
+      "DebugActionIndex": 194
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.Editor.rsp",
@@ -13265,7 +13718,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.Editor.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 206
+=======
+      "DebugActionIndex": 195
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.Editor.dll (+2 others)",
@@ -13560,9 +14017,15 @@
         96,
         107,
         114,
+<<<<<<< HEAD
         162,
         205,
         206
+=======
+        157,
+        194,
+        195
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.Editor.rsp"
@@ -13574,7 +14037,11 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 207
+=======
+      "DebugActionIndex": 196
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.ref.dll_6F463A11191944B6.mvfrm",
@@ -13587,10 +14054,17 @@
         "Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.ref.dll_6F463A11191944B6.mvfrm"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         162
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 208
+=======
+        157
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 197
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.Editor.dll.mvfrm.rsp",
@@ -13601,7 +14075,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.Editor.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 209
+=======
+      "DebugActionIndex": 198
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.Editor.dll.mvfrm",
@@ -13811,11 +14289,19 @@
         115,
         116,
         122,
+<<<<<<< HEAD
         208,
         209
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 210
+=======
+        197,
+        198
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 199
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.Editor.AdditionalFile.txt",
@@ -13826,7 +14312,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.Editor.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 211
+=======
+      "DebugActionIndex": 200
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.Editor.rsp",
@@ -13837,7 +14327,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.Editor.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 212
+=======
+      "DebugActionIndex": 201
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.Editor.dll (+2 others)",
@@ -14351,9 +14845,15 @@
         96,
         107,
         114,
+<<<<<<< HEAD
         167,
         211,
         212
+=======
+        162,
+        200,
+        201
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.Editor.rsp"
@@ -14365,7 +14865,27 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 213
+=======
+      "DebugActionIndex": 202
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_D8EFE25D4F12F144.mvfrm",
+      "Action": "\"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_D8EFE25D4F12F144.mvfrm\" \"Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.ref.dll\"",
+      "Inputs": [
+        "Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.ref.dll",
+        "/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_D8EFE25D4F12F144.mvfrm"
+      ],
+      "ToBuildDependencies": [
+        162
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 203
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.Editor.dll.mvfrm.rsp",
@@ -14376,7 +14896,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.Editor.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 214
+=======
+      "DebugActionIndex": 204
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.Timeline.Editor.dll.mvfrm",
@@ -14586,11 +15110,19 @@
         115,
         116,
         122,
+<<<<<<< HEAD
         194,
         214
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 215
+=======
+        203,
+        204
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 205
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Core.Editor.AdditionalFile.txt",
@@ -14601,7 +15133,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Core.Editor.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 216
+=======
+      "DebugActionIndex": 206
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Core.Editor.rsp",
@@ -14612,7 +15148,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Core.Editor.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 217
+=======
+      "DebugActionIndex": 207
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Core.Editor.dll (+2 others)",
@@ -15329,9 +15869,15 @@
         96,
         107,
         114,
+<<<<<<< HEAD
         177,
         216,
         217
+=======
+        172,
+        206,
+        207
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Core.Editor.rsp"
@@ -15343,7 +15889,11 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 218
+=======
+      "DebugActionIndex": 208
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.ref.dll_6CCD00D226452669.mvfrm",
@@ -15356,10 +15906,17 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.ref.dll_6CCD00D226452669.mvfrm"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         177
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 219
+=======
+        172
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 209
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Core.Editor.dll.mvfrm.rsp",
@@ -15370,7 +15927,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Core.Editor.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 220
+=======
+      "DebugActionIndex": 210
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Core.Editor.dll.mvfrm",
@@ -15580,11 +16141,19 @@
         115,
         116,
         122,
+<<<<<<< HEAD
         219,
         220
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 221
+=======
+        209,
+        210
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 211
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Flow.AdditionalFile.txt",
@@ -15595,7 +16164,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Flow.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 222
+=======
+      "DebugActionIndex": 212
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Flow.rsp",
@@ -15606,7 +16179,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Flow.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 223
+=======
+      "DebugActionIndex": 213
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Flow.dll (+2 others)",
@@ -16246,9 +16823,15 @@
       "ToBuildDependencies": [
         96,
         114,
+<<<<<<< HEAD
         177,
         222,
         223
+=======
+        172,
+        212,
+        213
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Flow.rsp"
@@ -16260,7 +16843,11 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 224
+=======
+      "DebugActionIndex": 214
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Flow.dll.mvfrm.rsp",
@@ -16271,7 +16858,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Flow.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 225
+=======
+      "DebugActionIndex": 215
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Flow.dll.mvfrm",
@@ -16475,6 +17066,7 @@
         102,
         116,
         122,
+<<<<<<< HEAD
         219,
         225
       ],
@@ -17176,6 +17768,13 @@
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 234
+=======
+        209,
+        215
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 216
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Flow.Editor.AdditionalFile.txt",
@@ -17186,7 +17785,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Flow.Editor.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 235
+=======
+      "DebugActionIndex": 217
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Flow.Editor.rsp",
@@ -17197,7 +17800,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Flow.Editor.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 236
+=======
+      "DebugActionIndex": 218
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Flow.Editor.dll (+2 others)",
@@ -17614,11 +18221,19 @@
         96,
         107,
         114,
+<<<<<<< HEAD
         177,
         218,
         224,
         235,
         236
+=======
+        172,
+        208,
+        214,
+        217,
+        218
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Flow.Editor.rsp"
@@ -17630,7 +18245,11 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 237
+=======
+      "DebugActionIndex": 219
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.Editor.ref.dll_535D6CC019801AD8.mvfrm",
@@ -17643,10 +18262,17 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.Editor.ref.dll_535D6CC019801AD8.mvfrm"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         218
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 238
+=======
+        208
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 220
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.ref.dll_B3DDE128A84E9B18.mvfrm",
@@ -17659,10 +18285,17 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.ref.dll_B3DDE128A84E9B18.mvfrm"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         224
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 239
+=======
+        214
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 221
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp",
@@ -17673,7 +18306,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 240
+=======
+      "DebugActionIndex": 222
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Flow.Editor.dll.mvfrm",
@@ -17885,6 +18522,7 @@
         115,
         116,
         122,
+<<<<<<< HEAD
         219,
         238,
         239,
@@ -17892,6 +18530,15 @@
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 241
+=======
+        209,
+        220,
+        221,
+        222
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 223
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.State.AdditionalFile.txt",
@@ -17902,7 +18549,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.State.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 242
+=======
+      "DebugActionIndex": 224
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.State.rsp",
@@ -17913,7 +18564,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.State.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 243
+=======
+      "DebugActionIndex": 225
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.State.dll (+2 others)",
@@ -18183,10 +18838,17 @@
       "ToBuildDependencies": [
         96,
         114,
+<<<<<<< HEAD
         177,
         224,
         242,
         243
+=======
+        172,
+        214,
+        224,
+        225
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.State.rsp"
@@ -18198,7 +18860,11 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 244
+=======
+      "DebugActionIndex": 226
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.State.dll.mvfrm.rsp",
@@ -18209,7 +18875,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.State.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 245
+=======
+      "DebugActionIndex": 227
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.State.dll.mvfrm",
@@ -18414,12 +19084,21 @@
         102,
         116,
         122,
+<<<<<<< HEAD
         219,
         239,
         245
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 246
+=======
+        209,
+        221,
+        227
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 228
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.SettingsProvider.Editor.AdditionalFile.txt",
@@ -18430,7 +19109,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.SettingsProvider.Editor.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 247
+=======
+      "DebugActionIndex": 229
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp",
@@ -18441,7 +19124,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 248
+=======
+      "DebugActionIndex": 230
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.SettingsProvider.Editor.dll (+2 others)",
@@ -18701,6 +19388,7 @@
         96,
         107,
         114,
+<<<<<<< HEAD
         177,
         218,
         224,
@@ -18708,6 +19396,15 @@
         244,
         247,
         248
+=======
+        172,
+        208,
+        214,
+        219,
+        226,
+        229,
+        230
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp"
@@ -18719,7 +19416,11 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 249
+=======
+      "DebugActionIndex": 231
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.Editor.ref.dll_D08E556F285EA619.mvfrm",
@@ -18732,10 +19433,17 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.Editor.ref.dll_D08E556F285EA619.mvfrm"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         237
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 250
+=======
+        219
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 232
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.ref.dll_9E96D9AD02BBDD1D.mvfrm",
@@ -18748,10 +19456,17 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.ref.dll_9E96D9AD02BBDD1D.mvfrm"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         244
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 251
+=======
+        226
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 233
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm.rsp",
@@ -18762,7 +19477,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 252
+=======
+      "DebugActionIndex": 234
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm",
@@ -18976,6 +19695,7 @@
         115,
         116,
         122,
+<<<<<<< HEAD
         219,
         238,
         239,
@@ -18985,6 +19705,17 @@
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 253
+=======
+        209,
+        220,
+        221,
+        232,
+        233,
+        234
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 235
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.State.Editor.AdditionalFile.txt",
@@ -18995,7 +19726,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.State.Editor.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 254
+=======
+      "DebugActionIndex": 236
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.State.Editor.rsp",
@@ -19006,7 +19741,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.State.Editor.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 255
+=======
+      "DebugActionIndex": 237
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.State.Editor.dll (+2 others)",
@@ -19325,6 +20064,7 @@
         96,
         107,
         114,
+<<<<<<< HEAD
         177,
         218,
         224,
@@ -19332,6 +20072,15 @@
         244,
         254,
         255
+=======
+        172,
+        208,
+        214,
+        219,
+        226,
+        236,
+        237
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.State.Editor.rsp"
@@ -19343,7 +20092,11 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 256
+=======
+      "DebugActionIndex": 238
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.State.Editor.dll.mvfrm.rsp",
@@ -19354,7 +20107,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.State.Editor.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 257
+=======
+      "DebugActionIndex": 239
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.State.Editor.dll.mvfrm",
@@ -19568,6 +20325,7 @@
         115,
         116,
         122,
+<<<<<<< HEAD
         219,
         238,
         239,
@@ -19577,6 +20335,17 @@
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 258
+=======
+        209,
+        220,
+        221,
+        232,
+        233,
+        239
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 240
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Shared.Editor.AdditionalFile.txt",
@@ -19587,7 +20356,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Shared.Editor.AdditionalFile.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 259
+=======
+      "DebugActionIndex": 241
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Shared.Editor.rsp",
@@ -19598,7 +20371,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Shared.Editor.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 260
+=======
+      "DebugActionIndex": 242
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Shared.Editor.dll (+2 others)",
@@ -19851,6 +20628,7 @@
         96,
         107,
         114,
+<<<<<<< HEAD
         177,
         218,
         224,
@@ -19859,6 +20637,16 @@
         256,
         259,
         260
+=======
+        172,
+        208,
+        214,
+        219,
+        226,
+        238,
+        241,
+        242
+>>>>>>> 0f1af19 (Create project)
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Shared.Editor.rsp"
@@ -19870,7 +20658,11 @@
           "Value": "0"
         }
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 261
+=======
+      "DebugActionIndex": 243
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.Editor.ref.dll_482B82CBBB34CB64.mvfrm",
@@ -19883,10 +20675,17 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.Editor.ref.dll_482B82CBBB34CB64.mvfrm"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         256
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 262
+=======
+        238
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 244
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Shared.Editor.dll.mvfrm.rsp",
@@ -19897,7 +20696,11 @@
         "Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Shared.Editor.dll.mvfrm.rsp"
       ],
       "AllowUnwrittenOutputFiles": true,
+<<<<<<< HEAD
       "DebugActionIndex": 263
+=======
+      "DebugActionIndex": 245
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aEDbg.dag/Unity.VisualScripting.Shared.Editor.dll.mvfrm",
@@ -20112,6 +20915,7 @@
         115,
         116,
         122,
+<<<<<<< HEAD
         219,
         238,
         239,
@@ -20844,6 +21648,18 @@
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 279
+=======
+        209,
+        220,
+        221,
+        232,
+        233,
+        244,
+        245
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 246
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
@@ -20857,7 +21673,11 @@
       "ToBuildDependencies": [
         3
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 280
+=======
+      "DebugActionIndex": 247
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.pdb",
@@ -20871,7 +21691,11 @@
       "ToBuildDependencies": [
         3
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 281
+=======
+      "DebugActionIndex": 248
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.dll",
@@ -20885,7 +21709,11 @@
       "ToBuildDependencies": [
         107
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 282
+=======
+      "DebugActionIndex": 249
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.pdb",
@@ -20899,7 +21727,11 @@
       "ToBuildDependencies": [
         107
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 283
+=======
+      "DebugActionIndex": 250
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.dll",
@@ -20911,9 +21743,15 @@
         "Library/ScriptAssemblies/Unity.Rider.Editor.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         142
       ],
       "DebugActionIndex": 284
+=======
+        137
+      ],
+      "DebugActionIndex": 251
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.pdb",
@@ -20925,9 +21763,15 @@
         "Library/ScriptAssemblies/Unity.Rider.Editor.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         142
       ],
       "DebugActionIndex": 285
+=======
+        137
+      ],
+      "DebugActionIndex": 252
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.dll",
@@ -20939,9 +21783,15 @@
         "Library/ScriptAssemblies/Unity.VSCode.Editor.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         172
       ],
       "DebugActionIndex": 286
+=======
+        167
+      ],
+      "DebugActionIndex": 253
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.pdb",
@@ -20953,9 +21803,15 @@
         "Library/ScriptAssemblies/Unity.VSCode.Editor.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         172
       ],
       "DebugActionIndex": 287
+=======
+        167
+      ],
+      "DebugActionIndex": 254
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll",
@@ -20967,9 +21823,15 @@
         "Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         182
       ],
       "DebugActionIndex": 288
+=======
+        177
+      ],
+      "DebugActionIndex": 255
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb",
@@ -20981,9 +21843,15 @@
         "Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         182
       ],
       "DebugActionIndex": 289
+=======
+        177
+      ],
+      "DebugActionIndex": 256
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.UI.dll",
@@ -20997,7 +21865,11 @@
       "ToBuildDependencies": [
         96
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 290
+=======
+      "DebugActionIndex": 257
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.UI.pdb",
@@ -21011,7 +21883,11 @@
       "ToBuildDependencies": [
         96
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 291
+=======
+      "DebugActionIndex": 258
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.UI.dll",
@@ -21025,7 +21901,11 @@
       "ToBuildDependencies": [
         114
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 292
+=======
+      "DebugActionIndex": 259
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.UI.pdb",
@@ -21039,7 +21919,11 @@
       "ToBuildDependencies": [
         114
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 293
+=======
+      "DebugActionIndex": 260
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll",
@@ -21053,7 +21937,11 @@
       "ToBuildDependencies": [
         121
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 294
+=======
+      "DebugActionIndex": 261
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.pdb",
@@ -21067,7 +21955,11 @@
       "ToBuildDependencies": [
         121
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 295
+=======
+      "DebugActionIndex": 262
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll",
@@ -21081,7 +21973,11 @@
       "ToBuildDependencies": [
         127
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 296
+=======
+      "DebugActionIndex": 263
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.pdb",
@@ -21095,7 +21991,11 @@
       "ToBuildDependencies": [
         127
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 297
+=======
+      "DebugActionIndex": 264
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll",
@@ -21109,7 +22009,11 @@
       "ToBuildDependencies": [
         132
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 298
+=======
+      "DebugActionIndex": 265
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb",
@@ -21123,6 +22027,7 @@
       "ToBuildDependencies": [
         132
       ],
+<<<<<<< HEAD
       "DebugActionIndex": 299
     },
     {
@@ -21152,6 +22057,9 @@
         137
       ],
       "DebugActionIndex": 301
+=======
+      "DebugActionIndex": 266
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Settings.Editor.dll",
@@ -21163,9 +22071,15 @@
         "Library/ScriptAssemblies/Unity.Settings.Editor.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         147
       ],
       "DebugActionIndex": 302
+=======
+        142
+      ],
+      "DebugActionIndex": 267
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Settings.Editor.pdb",
@@ -21177,9 +22091,15 @@
         "Library/ScriptAssemblies/Unity.Settings.Editor.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         147
       ],
       "DebugActionIndex": 303
+=======
+        142
+      ],
+      "DebugActionIndex": 268
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll",
@@ -21191,9 +22111,15 @@
         "Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         152
       ],
       "DebugActionIndex": 304
+=======
+        147
+      ],
+      "DebugActionIndex": 269
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb",
@@ -21205,9 +22131,15 @@
         "Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         152
       ],
       "DebugActionIndex": 305
+=======
+        147
+      ],
+      "DebugActionIndex": 270
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll",
@@ -21219,9 +22151,15 @@
         "Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         157
       ],
       "DebugActionIndex": 306
+=======
+        152
+      ],
+      "DebugActionIndex": 271
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb",
@@ -21233,9 +22171,15 @@
         "Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         157
       ],
       "DebugActionIndex": 307
+=======
+        152
+      ],
+      "DebugActionIndex": 272
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.dll",
@@ -21247,9 +22191,15 @@
         "Library/ScriptAssemblies/Unity.TextMeshPro.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         162
       ],
       "DebugActionIndex": 308
+=======
+        157
+      ],
+      "DebugActionIndex": 273
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.pdb",
@@ -21261,9 +22211,15 @@
         "Library/ScriptAssemblies/Unity.TextMeshPro.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         162
       ],
       "DebugActionIndex": 309
+=======
+        157
+      ],
+      "DebugActionIndex": 274
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.dll",
@@ -21275,9 +22231,15 @@
         "Library/ScriptAssemblies/Unity.Timeline.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         167
       ],
       "DebugActionIndex": 310
+=======
+        162
+      ],
+      "DebugActionIndex": 275
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.pdb",
@@ -21289,9 +22251,15 @@
         "Library/ScriptAssemblies/Unity.Timeline.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         167
       ],
       "DebugActionIndex": 311
+=======
+        162
+      ],
+      "DebugActionIndex": 276
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
@@ -21303,9 +22271,15 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         177
       ],
       "DebugActionIndex": 312
+=======
+        172
+      ],
+      "DebugActionIndex": 277
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.pdb",
@@ -21317,9 +22291,15 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Core.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         177
       ],
       "DebugActionIndex": 313
+=======
+        172
+      ],
+      "DebugActionIndex": 278
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll",
@@ -21331,9 +22311,15 @@
         "Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         187
       ],
       "DebugActionIndex": 314
+=======
+        182
+      ],
+      "DebugActionIndex": 279
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb",
@@ -21345,6 +22331,7 @@
         "Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         187
       ],
       "DebugActionIndex": 315
@@ -21376,6 +22363,11 @@
         193
       ],
       "DebugActionIndex": 317
+=======
+        182
+      ],
+      "DebugActionIndex": 280
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll",
@@ -21387,9 +22379,15 @@
         "Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         199
       ],
       "DebugActionIndex": 318
+=======
+        188
+      ],
+      "DebugActionIndex": 281
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.pdb",
@@ -21401,9 +22399,15 @@
         "Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         199
       ],
       "DebugActionIndex": 319
+=======
+        188
+      ],
+      "DebugActionIndex": 282
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll",
@@ -21415,9 +22419,15 @@
         "Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         207
       ],
       "DebugActionIndex": 320
+=======
+        196
+      ],
+      "DebugActionIndex": 283
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb",
@@ -21429,9 +22439,15 @@
         "Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         207
       ],
       "DebugActionIndex": 321
+=======
+        196
+      ],
+      "DebugActionIndex": 284
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.dll",
@@ -21443,9 +22459,15 @@
         "Library/ScriptAssemblies/Unity.Timeline.Editor.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         213
       ],
       "DebugActionIndex": 322
+=======
+        202
+      ],
+      "DebugActionIndex": 285
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.pdb",
@@ -21457,9 +22479,15 @@
         "Library/ScriptAssemblies/Unity.Timeline.Editor.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         213
       ],
       "DebugActionIndex": 323
+=======
+        202
+      ],
+      "DebugActionIndex": 286
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll",
@@ -21471,9 +22499,15 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         218
       ],
       "DebugActionIndex": 324
+=======
+        208
+      ],
+      "DebugActionIndex": 287
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.pdb",
@@ -21485,9 +22519,15 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         218
       ],
       "DebugActionIndex": 325
+=======
+        208
+      ],
+      "DebugActionIndex": 288
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
@@ -21499,9 +22539,15 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         224
       ],
       "DebugActionIndex": 326
+=======
+        214
+      ],
+      "DebugActionIndex": 289
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.pdb",
@@ -21513,6 +22559,7 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Flow.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         224
       ],
       "DebugActionIndex": 327
@@ -21544,6 +22591,11 @@
         229
       ],
       "DebugActionIndex": 329
+=======
+        214
+      ],
+      "DebugActionIndex": 290
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll",
@@ -21555,9 +22607,15 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         237
       ],
       "DebugActionIndex": 330
+=======
+        219
+      ],
+      "DebugActionIndex": 291
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.pdb",
@@ -21569,9 +22627,15 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         237
       ],
       "DebugActionIndex": 331
+=======
+        219
+      ],
+      "DebugActionIndex": 292
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
@@ -21583,9 +22647,15 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.State.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         244
       ],
       "DebugActionIndex": 332
+=======
+        226
+      ],
+      "DebugActionIndex": 293
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.pdb",
@@ -21597,9 +22667,15 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.State.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         244
       ],
       "DebugActionIndex": 333
+=======
+        226
+      ],
+      "DebugActionIndex": 294
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll",
@@ -21611,9 +22687,15 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         249
       ],
       "DebugActionIndex": 334
+=======
+        231
+      ],
+      "DebugActionIndex": 295
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.pdb",
@@ -21625,9 +22707,15 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         249
       ],
       "DebugActionIndex": 335
+=======
+        231
+      ],
+      "DebugActionIndex": 296
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll",
@@ -21639,9 +22727,15 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         256
       ],
       "DebugActionIndex": 336
+=======
+        238
+      ],
+      "DebugActionIndex": 297
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.pdb",
@@ -21653,9 +22747,15 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         256
       ],
       "DebugActionIndex": 337
+=======
+        238
+      ],
+      "DebugActionIndex": 298
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll",
@@ -21667,9 +22767,15 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         261
       ],
       "DebugActionIndex": 338
+=======
+        243
+      ],
+      "DebugActionIndex": 299
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.pdb",
@@ -21681,6 +22787,7 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.pdb"
       ],
       "ToBuildDependencies": [
+<<<<<<< HEAD
         261
       ],
       "DebugActionIndex": 339
@@ -21712,6 +22819,11 @@
         267
       ],
       "DebugActionIndex": 341
+=======
+        243
+      ],
+      "DebugActionIndex": 300
+>>>>>>> 0f1af19 (Create project)
     }
   ],
   "FileSignatures": [
@@ -21844,7 +22956,11 @@
       "File": "Library/PackageCache/com.unity.ide.rider@3.0.18/Rider/Editor/csc.rsp"
     },
     {
+<<<<<<< HEAD
       "File": "Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/csc.rsp"
+=======
+      "File": "Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/csc.rsp"
+>>>>>>> 0f1af19 (Create project)
     },
     {
       "File": "Library/PackageCache/com.unity.ide.vscode@1.2.5/Editor/csc.rsp"
@@ -21853,6 +22969,7 @@
       "File": "Library/PackageCache/com.unity.performance.profile-analyzer@1.1.1/Editor/csc.rsp"
     },
     {
+<<<<<<< HEAD
       "File": "Library/PackageCache/com.unity.recorder@3.0.3/Editor/csc.rsp"
     },
     {
@@ -21862,6 +22979,8 @@
       "File": "Library/PackageCache/com.unity.recorder@3.0.3/Runtime/csc.rsp"
     },
     {
+=======
+>>>>>>> 0f1af19 (Create project)
       "File": "Library/PackageCache/com.unity.settings-manager@1.0.3/Editor/csc.rsp"
     },
     {

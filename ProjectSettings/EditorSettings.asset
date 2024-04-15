@@ -4,6 +4,10 @@
 EditorSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
+<<<<<<< HEAD
+=======
+  m_ExternalVersionControlSupport: Visible Meta Files
+>>>>>>> 0f1af19 (Create project)
   m_SerializationMode: 2
   m_LineEndingsForNewScripts: 0
   m_DefaultBehaviorMode: 0
@@ -11,13 +15,17 @@ EditorSettings:
   m_PrefabUIEnvironment: {fileID: 0}
   m_SpritePackerMode: 0
   m_SpritePackerPaddingPower: 1
+<<<<<<< HEAD
   m_Bc7TextureCompressor: 0
+=======
+>>>>>>> 0f1af19 (Create project)
   m_EtcTextureCompressorBehavior: 1
   m_EtcTextureFastCompressor: 1
   m_EtcTextureNormalCompressor: 2
   m_EtcTextureBestCompressor: 4
   m_ProjectGenerationIncludedExtensions: txt;xml;fnt;cd;asmdef;rsp;asmref
   m_ProjectGenerationRootNamespace: 
+<<<<<<< HEAD
   m_EnableTextureStreamingInEditMode: 1
   m_EnableTextureStreamingInPlayMode: 1
   m_AsyncShaderCompilation: 1
@@ -42,3 +50,15 @@ EditorSettings:
   m_CacheServerEnableTls: 0
   m_CacheServerValidationMode: 2
   m_CacheServerDownloadBatchSize: 128
+=======
+  m_CollabEditorSettings:
+    inProgressEnabled: 1
+  m_EnableTextureStreamingInEditMode: 1
+  m_EnableTextureStreamingInPlayMode: 1
+  m_AsyncShaderCompilation: 1
+  m_EnterPlayModeOptionsEnabled: 0
+  m_EnterPlayModeOptions: 3
+  m_ShowLightmapResolutionOverlay: 1
+  m_UseLegacyProbeSampleCount: 0
+  m_SerializeInlineMappingsOnOneLine: 1
+>>>>>>> 0f1af19 (Create project)

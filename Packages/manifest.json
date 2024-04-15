@@ -3,9 +3,14 @@
     "com.unity.collab-proxy": "2.0.0",
     "com.unity.feature.development": "1.0.1",
     "com.unity.ide.rider": "3.0.18",
+<<<<<<< HEAD
     "com.unity.ide.visualstudio": "2.0.22",
     "com.unity.ide.vscode": "1.2.5",
     "com.unity.recorder": "3.0.3",
+=======
+    "com.unity.ide.visualstudio": "2.0.17",
+    "com.unity.ide.vscode": "1.2.5",
+>>>>>>> 0f1af19 (Create project)
     "com.unity.test-framework": "1.1.31",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.6.4",
