@@ -6,6 +6,7 @@ public class GetSetTest : MonoBehaviour
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // getter 와 setter에 관하여
 =======
 =======
@@ -25,4 +26,7 @@ public class GetSetTest : MonoBehaviour
 >>>>>>> f639bdf (Enum의 관한 내용 정리)
 =======
 >>>>>>> f639bdf (Enum의 관한 내용 정리)
+=======
+    // getter 와 setter에 관하여
+>>>>>>> 12d02b7 (테스트 푸시)
 }
