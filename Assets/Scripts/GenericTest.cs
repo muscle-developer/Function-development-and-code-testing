@@ -1,7 +1,14 @@
 using UnityEngine;
 using System.Collections.Generic;
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 // Generic 테스트 코드
+=======
+>>>>>>> 0bcaa3b (Generic 과 None Generic의 차이 (자료구조))
+=======
+// Generic 테스트 코드
+>>>>>>> 55dab1b (Generic 스크립트 - 주석 추가)
 public class GenericTest : MonoBehaviour
 {
     void Start()
