@@ -157,10 +157,14 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IsActive: 0
 =======
   m_IsActive: 1
 >>>>>>> 0bcaa3b (Generic 과 None Generic의 차이 (자료구조))
+=======
+  m_IsActive: 0
+>>>>>>> e14a5ca ([자료구조] - 튜플에 관하여)
 --- !u!4 &303152959
 Transform:
   m_ObjectHideFlags: 0
@@ -202,28 +206,38 @@ GameObject:
   - component: {fileID: 683836233}
   m_Layer: 0
   m_Name: 'Tuple  Object  '
+<<<<<<< HEAD
 =======
   - component: {fileID: 188749623}
   - component: {fileID: 188749622}
   m_Layer: 0
   m_Name: Override Test
 >>>>>>> 774f32e (C#,자료구조 - 다형성(Override에 관하여))
+=======
+>>>>>>> e14a5ca ([자료구조] - 튜플에 관하여)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &683836233
 =======
 --- !u!114 &188749622
 >>>>>>> 774f32e (C#,자료구조 - 다형성(Override에 관하여))
+=======
+--- !u!114 &683836233
+>>>>>>> e14a5ca ([자료구조] - 튜플에 관하여)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e14a5ca ([자료구조] - 튜플에 관하여)
   m_GameObject: {fileID: 683836232}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -231,6 +245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &683836234
+<<<<<<< HEAD
 =======
   m_GameObject: {fileID: 188749621}
   m_Enabled: 1
@@ -240,11 +255,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!4 &188749623
 >>>>>>> 774f32e (C#,자료구조 - 다형성(Override에 관하여))
+=======
+>>>>>>> e14a5ca ([자료구조] - 튜플에 관하여)
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 683836232}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -254,10 +272,16 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 841.5, y: 745, z: 0}
 >>>>>>> 774f32e (C#,자료구조 - 다형성(Override에 관하여))
+=======
+  m_GameObject: {fileID: 683836232}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+>>>>>>> e14a5ca ([자료구조] - 튜플에 관하여)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_RootOrder: 8
 =======
@@ -276,6 +300,10 @@ Transform:
   m_Name: 
   m_EditorClassIdentifier: 
 >>>>>>> 0bcaa3b (Generic 과 None Generic의 차이 (자료구조))
+=======
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> e14a5ca ([자료구조] - 튜플에 관하여)
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
