@@ -76,6 +76,9 @@
       "url": "https://packages.unity.com"
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
     "com.unity.recorder": {
       "version": "3.0.3",
       "depth": 0,
@@ -85,8 +88,11 @@
       },
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
 =======
 >>>>>>> 0f1af19 (Create project)
+=======
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
     "com.unity.settings-manager": {
       "version": "1.0.3",
       "depth": 2,

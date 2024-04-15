@@ -8,6 +8,7 @@ m_ProjectFiles:
       serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       ticks: 638452335840000000
     m_Hash: 2945552077
 =======
@@ -18,6 +19,10 @@ m_ProjectFiles:
       ticks: 638447159800000000
     m_Hash: 894965298
 >>>>>>> 774f32e (C#,자료구조 - 다형성(Override에 관하여))
+=======
+      ticks: 638452335840000000
+    m_Hash: 2945552077
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
   m_LockFileStatus:
     m_FilePath: /Users/kimsin-young/Documents/_project/Function development and code
       testing/Packages/packages-lock.json
@@ -25,6 +30,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       ticks: 638452335840000000
@@ -37,6 +43,10 @@ m_ProjectFiles:
       ticks: 638447159800000000
     m_Hash: 3773418308
 >>>>>>> 774f32e (C#,자료구조 - 다형성(Override에 관하여))
+=======
+      ticks: 638452335840000000
+    m_Hash: 2544874023
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -140,9 +150,13 @@ m_ResolvedPackages:
     - 2.1.0
     - 2.2.0
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 2.3.1
 =======
 >>>>>>> 0f1af19 (Create project)
+=======
+    - 2.3.1
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
     compatible:
     - 2.0.0
     - 2.0.1
@@ -156,9 +170,13 @@ m_ResolvedPackages:
     - 2.1.0
     - 2.2.0
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 2.3.1
 =======
 >>>>>>> 0f1af19 (Create project)
+=======
+    - 2.3.1
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
     verified: 2.0.7
   dependencies: []
   resolvedDependencies: []
@@ -607,6 +625,9 @@ m_ResolvedPackages:
     version: 1.2.5
     nextVersion: 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
 - packageId: com.unity.recorder@3.0.3
   testable: 0
   isDirectDependency: 1
@@ -716,8 +737,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.3
     nextVersion: 
+<<<<<<< HEAD
 =======
 >>>>>>> 0f1af19 (Create project)
+=======
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
 - packageId: com.unity.test-framework@1.1.31
   testable: 0
   isDirectDependency: 1

@@ -1,6 +1,9 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
 ,{ "pid":12345, "tid":0, "ts":1709636786568665, "dur":337, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1709636786569005, "dur":57, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1709636786569069, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -1002,6 +1005,7 @@
 ,{ "pid":12345, "tid":10, "ts":1709636788557716, "dur":372104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":10, "ts":1709636788929821, "dur":275527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1709636789206641, "dur":673, "ph":"X", "name": "ProfilerWriteOutput" }
+<<<<<<< HEAD
 =======
 ,{ "pid":12345, "tid":0, "ts":1708947018863240, "dur":333, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1708947018863577, "dur":6702, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
@@ -3011,4 +3015,6 @@
 ,{ "pid":12345, "tid":10, "ts":1709119183332186, "dur":273453, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1709119183607077, "dur":635, "ph":"X", "name": "ProfilerWriteOutput" }
 >>>>>>> 774f32e (C#,자료구조 - 다형성(Override에 관하여))
+=======
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
 ,

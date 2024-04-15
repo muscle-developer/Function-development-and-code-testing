@@ -5,8 +5,11 @@ using UnityEngine;
 public class GetSetTest : MonoBehaviour
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     // getter 와 setter에 관하여
 =======
+=======
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
     // Start is called before the first frame update
     void Start()
     {
@@ -18,5 +21,8 @@ public class GetSetTest : MonoBehaviour
     {
         
     }
+<<<<<<< HEAD
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
+=======
 >>>>>>> f639bdf (Enum의 관한 내용 정리)
 }

@@ -3,7 +3,11 @@ using UnityEngine;
 public class EnumTest : MonoBehaviour
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     /* // 방향을 나타내는 Enum 정의
+=======
+    // 방향을 나타내는 Enum 정의
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
 =======
     // 방향을 나타내는 Enum 정의
 >>>>>>> f639bdf (Enum의 관한 내용 정리)
@@ -64,6 +68,7 @@ public class EnumTest : MonoBehaviour
         {
             transform.Translate(Vector3.right * speed * Time.deltaTime);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
     } */
 
@@ -138,6 +143,11 @@ public class EnumTest : MonoBehaviour
         // 현재 상태 갱신
         currentState = newState;
     }
+=======
+    }
+
+    
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
 =======
     }
 
