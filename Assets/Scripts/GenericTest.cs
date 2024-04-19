@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 using UnityEngine;
 using System.Collections.Generic;
 
@@ -37,4 +35,3 @@ public class MyGenericList<T>
         }
     }
 }
->>>>>>> c00c90ee65924e40e93a980262bd54b23bacf343
