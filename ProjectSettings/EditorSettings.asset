@@ -4,6 +4,13 @@
 EditorSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  m_ExternalVersionControlSupport: Visible Meta Files
+>>>>>>> 0f1af19 (Create project)
+=======
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
   m_SerializationMode: 2
   m_LineEndingsForNewScripts: 0
   m_DefaultBehaviorMode: 0
@@ -11,13 +18,22 @@ EditorSettings:
   m_PrefabUIEnvironment: {fileID: 0}
   m_SpritePackerMode: 0
   m_SpritePackerPaddingPower: 1
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_Bc7TextureCompressor: 0
+=======
+>>>>>>> 0f1af19 (Create project)
+=======
+  m_Bc7TextureCompressor: 0
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
   m_EtcTextureCompressorBehavior: 1
   m_EtcTextureFastCompressor: 1
   m_EtcTextureNormalCompressor: 2
   m_EtcTextureBestCompressor: 4
   m_ProjectGenerationIncludedExtensions: txt;xml;fnt;cd;asmdef;rsp;asmref
   m_ProjectGenerationRootNamespace: 
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_EnableTextureStreamingInEditMode: 1
   m_EnableTextureStreamingInPlayMode: 1
   m_AsyncShaderCompilation: 1
@@ -42,3 +58,36 @@ EditorSettings:
   m_CacheServerEnableTls: 0
   m_CacheServerValidationMode: 2
   m_CacheServerDownloadBatchSize: 128
+=======
+  m_CollabEditorSettings:
+    inProgressEnabled: 1
+=======
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
+  m_EnableTextureStreamingInEditMode: 1
+  m_EnableTextureStreamingInPlayMode: 1
+  m_AsyncShaderCompilation: 1
+  m_CachingShaderPreprocessor: 1
+  m_PrefabModeAllowAutoSave: 1
+  m_EnterPlayModeOptionsEnabled: 0
+  m_EnterPlayModeOptions: 3
+  m_GameObjectNamingDigits: 1
+  m_GameObjectNamingScheme: 0
+  m_AssetNamingUsesSpace: 1
+  m_UseLegacyProbeSampleCount: 0
+  m_SerializeInlineMappingsOnOneLine: 1
+<<<<<<< HEAD
+>>>>>>> 0f1af19 (Create project)
+=======
+  m_DisableCookiesInLightmapper: 0
+  m_AssetPipelineMode: 1
+  m_RefreshImportMode: 0
+  m_CacheServerMode: 0
+  m_CacheServerEndpoint: 
+  m_CacheServerNamespacePrefix: default
+  m_CacheServerEnableDownload: 1
+  m_CacheServerEnableUpload: 1
+  m_CacheServerEnableAuth: 0
+  m_CacheServerEnableTls: 0
+  m_CacheServerValidationMode: 2
+  m_CacheServerDownloadBatchSize: 128
+>>>>>>> f639bdf (Enum의 관한 내용 정리)
