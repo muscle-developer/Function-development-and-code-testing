@@ -1,13 +1,8 @@
 ﻿
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 774f32e (C#,자료구조 - 다형성(Override에 관하여))
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{3D64AF8D-BC35-0E81-E7CA-15C7F350830C}"
 EndProject
-<<<<<<< HEAD
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,27 +13,6 @@ Global
 		{3D64AF8D-BC35-0E81-E7CA-15C7F350830C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D64AF8D-BC35-0E81-E7CA-15C7F350830C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D64AF8D-BC35-0E81-E7CA-15C7F350830C}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-
-=======
->>>>>>> 774f32e (C#,자료구조 - 다형성(Override에 관하여))
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-<<<<<<< HEAD
-
->>>>>>> 0f1af19 (Create project)
-=======
-		{3D64AF8D-BC35-0E81-E7CA-15C7F350830C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D64AF8D-BC35-0E81-E7CA-15C7F350830C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D64AF8D-BC35-0E81-E7CA-15C7F350830C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D64AF8D-BC35-0E81-E7CA-15C7F350830C}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> 774f32e (C#,자료구조 - 다형성(Override에 관하여))
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
