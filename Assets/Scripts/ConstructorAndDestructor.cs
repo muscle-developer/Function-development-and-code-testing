@@ -37,10 +37,44 @@ public class Player
         playerLevel = 1;
     }
 
-    // 소멸자
+    // 소멸자 (C#)
+    // 아래 함수는 가비지 컬렉터에 의해 파괴됨
     // ~Player()
     // {
     //     Debug.Log($"Player 객체 {playerName} 파괴됨");
     // }
+
+    // 소멸자 (Unity)
+    private void OnDestroy()
+    {
+        // 게임 오브젝트가 파괴되기 전에 호출됩니다.
+        // 여기에 리소스 해제나 후처리 작업을 수행할 수 있습니다.
+        Debug.Log($"Player 객체 {playerName} 파괴됨");
+
+        // 예: 리소스 해제
+        // Destroy(someObject);
+    }
+
+    public class DestroyExample : MonoBehaviour
+    {
+        private void Start()
+        {
+            Debug.Log("DestroyExample script has started.");
+        }
+
+        private void OnDestroy()
+        {
+            Debug.Log("DestroyExample script is being destroyed!");
+
+            // 파괴되기 전에 후처리 작업 수행 예시
+            CleanupResources();
+        }
+
+        private void CleanupResources()
+        {
+            // 여기에 리소스 해제 등의 후처리 작업을 수행할 수 있습니다.
+            Debug.Log("Cleaning up resources...");
+        }
+    }
 }
 
