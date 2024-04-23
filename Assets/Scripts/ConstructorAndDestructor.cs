@@ -15,6 +15,39 @@ public class ConstructorAndDestructor : MonoBehaviour
         // 생성된 Player 객체의 정보 확인
         Debug.Log($"myPlayer: {myPlayer.playerName} 레벨 {myPlayer.playerLevel}");
         Debug.Log($"guestPlayer: {guestPlayer.playerName} 레벨 {guestPlayer.playerLevel}");
+
+        // 게임 오브젝트가 파괴되기 전에 호출될 함수 등록
+        OnDestroyEvent.onDestroy += ShowDestroyMessage;
+    }
+
+    // 소멸자 (Unity)
+    // 게임 오브젝트가 파괴될 때 호출되는 함수(게임 오브젝트가 파괴되기 전에 호출)
+    private void OnDestroy()
+    {
+        // 이벤트 등록 해제
+        OnDestroyEvent.onDestroy -= ShowDestroyMessage;
+    }
+
+    // 파괴될 때 호출할 함수
+    private void ShowDestroyMessage()
+    {
+        Debug.Log("게임 오브젝트가 파괴되었습니다!");
+    }
+}
+
+// 게임 오브젝트 파괴 이벤트를 정의하는 클래스
+public static class OnDestroyEvent
+{
+    // 파괴될 때 호출할 이벤트
+    public static event System.Action onDestroy;
+
+    // OnDestroy() 메서드 호출 시 이벤트 발생
+    public static void TriggerOnDestroy()
+    {
+        if (onDestroy != null)
+        {
+            onDestroy(); // 이벤트 호출
+        }
     }
 }
 
@@ -39,42 +72,11 @@ public class Player
 
     // 소멸자 (C#)
     // 아래 함수는 가비지 컬렉터에 의해 파괴됨
-    // ~Player()
-    // {
-    //     Debug.Log($"Player 객체 {playerName} 파괴됨");
-    // }
-
-    // 소멸자 (Unity)
-    private void OnDestroy()
+    ~Player()
     {
-        // 게임 오브젝트가 파괴되기 전에 호출됩니다.
-        // 여기에 리소스 해제나 후처리 작업을 수행할 수 있습니다.
         Debug.Log($"Player 객체 {playerName} 파괴됨");
-
-        // 예: 리소스 해제
-        // Destroy(someObject);
     }
 
-    public class DestroyExample : MonoBehaviour
-    {
-        private void Start()
-        {
-            Debug.Log("DestroyExample script has started.");
-        }
-
-        private void OnDestroy()
-        {
-            Debug.Log("DestroyExample script is being destroyed!");
-
-            // 파괴되기 전에 후처리 작업 수행 예시
-            CleanupResources();
-        }
-
-        private void CleanupResources()
-        {
-            // 여기에 리소스 해제 등의 후처리 작업을 수행할 수 있습니다.
-            Debug.Log("Cleaning up resources...");
-        }
-    }
 }
+
 
