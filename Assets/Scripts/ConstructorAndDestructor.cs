@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ConstructorAndDestructor : MonoBehaviour
 {
-    void Start ()
+ /*   void Start ()
     {
         // 매개변수를 전달하여 Player 객체 생성
         Player myPlayer = new Player("John", 5);
@@ -76,7 +76,7 @@ public class Player
     {
         Debug.Log($"Player 객체 {playerName} 파괴됨");
     }
-
+    */
 }
 
 
