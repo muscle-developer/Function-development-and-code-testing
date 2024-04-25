@@ -9,6 +9,7 @@ public class MemoryAllocation : MonoBehaviour
     }
 }
 
+// 값 형식의 예제
 class ProgramValue
 {
     static void Main()
@@ -23,6 +24,7 @@ class ProgramValue
     }
 }
 
+// 참조 형식의 예제
 class Person
 {
     public string Name { get; set; }
@@ -32,23 +34,25 @@ class ProgramReference
 {
     static void Main()
     {
-        // // person3 = null;  // 널(Null) 값
+        Person person1, person2, person3;
 
-        // // Person 객체 생성 및 초기화
-        // person1 = new Person();
-        // person1.Name = "엘리스";
+        person3 = null;  // 널(Null) 값
 
-        // // person1이 참조하는 객체를 person2도 참조
-        // person2 = person1;
+        // Person 객체 생성 및 초기화
+        person1 = new Person();
+        person1.Name = "엘리스";
 
-        // // 결과 출력
-        // Debug.Log($"person1 Name: {person1.Name}, person2 Name: {person2.Name}");
+        // person1이 참조하는 객체를 person2도 참조
+        person2 = person1;
 
-        // // person1의 객체의 속성 변경
-        // person1.Name = "존슨";
+        // 결과 출력
+        Debug.Log($"person1 Name: {person1.Name}, person2 Name: {person2.Name}");
 
-        // // 변경된 결과 출력
-        // Debug.Log($"person1 Name: {person1.Name}, person2 Name: {person2.Name}");
+        // person1의 객체의 속성 변경
+        person1.Name = "존슨";
+
+        // 변경된 결과 출력
+        Debug.Log($"person1 Name: {person1.Name}, person2 Name: {person2.Name}");
     }
 }
 
