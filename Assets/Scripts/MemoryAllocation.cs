@@ -5,7 +5,25 @@ public class MemoryAllocation : MonoBehaviour
 {
     void Start ()
     {
+        Person person1, person2, person3;
 
+        person3 = null;  // 널(Null) 값
+
+        // Person 객체 생성 및 초기화
+        person1 = new Person();
+        person1.Name = "엘리스";
+
+        // person1이 참조하는 객체를 person2도 참조
+        person2 = person1;
+
+        // 결과 출력
+        Debug.Log($"person1 Name: {person1.Name}, person2 Name: {person2.Name}");
+
+        // person1의 객체의 속성 변경
+        person1.Name = "존슨";
+
+        // 변경된 결과 출력
+        Debug.Log($"person1 Name: {person1.Name}, person2 Name: {person2.Name}");
     }
 }
 
