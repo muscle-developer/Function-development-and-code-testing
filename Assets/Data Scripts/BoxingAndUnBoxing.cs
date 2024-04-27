@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class BoxingAndUnBoxing : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
-        
-    }
+        // 박싱
+        int number = 10;
+        object boxedNumber = number; // 박싱 발생
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+        // 언박싱
+        object boxedObject = 123;
+        int unboxedNumber = (int)boxedNumber; // 언박싱 발생
+    }    
 }
