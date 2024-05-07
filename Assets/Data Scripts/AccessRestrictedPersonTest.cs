@@ -2,21 +2,25 @@ using UnityEngine;
 
 public class AccessRestrictedPersonTest : MonoBehaviour
 {
+    private int a = 1;
+    private int b = 2;
 
     void Start()
     {
         Program();
-        NumberProgram();
+        NumberProgram(b, a);
     }
 
     public void Program()
-    {
-        Debug.Log("프로그램 실행을 위한 메서드 : Return이 필요없음!!");
+    { 
+        // Debug.Log("a의 값:" + a + "\n" + "b의 값:" + b);
+        Debug.Log($"a의 값: {a}\n b의 값: {b}");
     }
 
-    public int NumberProgram()
+    public int NumberProgram(int numberA, int numberB)
     {   
-        Debug.Log("프로그램 실행을 위한 메서드 : Return이 필요하다!!");
-        return 0;    
+        // Debug.Log("Number A의 값:" + numberA + "\n" + "Number B의 값:" + numberB);
+        Debug.Log($"Number A의 값: {numberA}\n Number B의 값: {numberB}");
+        return numberA + numberB;    
     }
 }
