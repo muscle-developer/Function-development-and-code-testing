@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 683647894}
   - component: {fileID: 683647893}
   m_Layer: 0
-  m_Name: Access Restricted Person Test
+  m_Name: Method
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
