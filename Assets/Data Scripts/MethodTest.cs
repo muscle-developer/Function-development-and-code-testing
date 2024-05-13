@@ -2,7 +2,7 @@ using Unity.VisualScripting;
 using UnityEditor.IMGUI.Controls;
 using UnityEngine;
 
-public class AccessRestrictedPersonTest : MonoBehaviour
+public class MethodTest : MonoBehaviour
 {
     private bool isFruit = false;
 
