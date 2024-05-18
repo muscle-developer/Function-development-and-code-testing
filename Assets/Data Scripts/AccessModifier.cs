@@ -52,3 +52,41 @@ public class PublicPlayer : MonoBehaviour
         }
     }
 }
+
+public class ProtectedPlayer : MonoBehaviour
+{
+    protected int health = 200;
+
+    // Protected 메서드, 해당 클래스와 파생 클래스에서만 접근 가능
+    protected void TakeDamage(int damage)
+    {
+        health -= damage;
+        if (health < 0)
+        {
+            health = 0;
+        }
+        Debug.Log("Health after damage: " + health);
+    }
+
+    // Public 메서드, health 값을 외부에서 읽을 수 있도록 함
+    public int GetHealth()
+    {
+        return health;
+    }
+}
+
+public class Warrior : ProtectedPlayer
+{
+    // Public 메서드, 다른 클래스에서 접근 가능
+    public void ApplyDamage(int damage)
+    {
+        // 상속받은 protected 메서드 호출
+        TakeDamage(damage);
+    }
+
+    // Public 메서드, health 값을 설정할 수 있도록 함
+    public void SetHealth(int newHealth)
+    {
+        health = newHealth;
+    }
+}
