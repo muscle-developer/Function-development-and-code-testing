@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+#region Public 접근 제한자
 public class AccessModifier : MonoBehaviour
 {
     public PublicPlayer player;
@@ -36,7 +37,6 @@ public class AccessModifier : MonoBehaviour
         }
     }
 }
-
 public class PublicPlayer : MonoBehaviour
 {
     // Public 변수, 모든 클래스에서 접근 가능
@@ -52,7 +52,9 @@ public class PublicPlayer : MonoBehaviour
         }
     }
 }
+#endregion
 
+#region Protcted 접근 제한자
 public class ProtectedPlayer : MonoBehaviour
 {
     protected int health = 200;
@@ -74,7 +76,6 @@ public class ProtectedPlayer : MonoBehaviour
         return health;
     }
 }
-
 public class Warrior : ProtectedPlayer
 {
     // Public 메서드, 다른 클래스에서 접근 가능
@@ -90,3 +91,29 @@ public class Warrior : ProtectedPlayer
         health = newHealth;
     }
 }
+#endregion
+
+#region Internal 접근 제한자
+internal class InternalPlayer : MonoBehaviour
+{
+    // Internal 변수, 같은 어셈블리 내에서 접근 가능
+    internal int health = 100;
+
+    // Internal 메서드, 같은 어셈블리 내에서 접근 가능
+    internal void TakeDamage(int damage)
+    {
+        health -= damage;
+        if (health < 0)
+        {
+            health = 0;
+        }
+        Debug.Log("Health after damage: " + health);
+    }
+
+    // Public 메서드, health 값을 외부에서 읽을 수 있도록 함
+    public int GetHealth()
+    {
+        return health;
+    }
+}
+#endregion
