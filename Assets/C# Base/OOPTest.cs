@@ -4,15 +4,6 @@ using UnityEngine;
 
 public class OOPTest : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    // 캡슐화
+    // 상속
 }
