@@ -54,6 +54,27 @@ public class OOPTest : MonoBehaviour
 #endregion
 
 #region 추상화 정의
+    public abstract class Animal
+    {
+        public abstract void MakeSound();
+    }
+
+    public class Dog : Animal
+    {
+        public override void MakeSound()
+        {
+            Debug.Log("멍멍!");
+        }
+    }
+
+    public class Cat : Animal
+    {
+        public override void MakeSound()
+        {
+            Debug.Log("야옹!");
+        }
+    }
+
 #endregion
 
 #region 
