@@ -77,6 +77,6 @@ public class OOPTest : MonoBehaviour
 
 #endregion
 
-#region 
+#region 상속 정의
 #endregion
 }
