@@ -53,6 +53,9 @@ public class OOPTest : MonoBehaviour
     }
 #endregion
 
+#region 캡슐화 정의
+#endregion
+
 #region 추상화 정의
     public abstract class Animal
     {
@@ -95,5 +98,8 @@ public class OOPTest : MonoBehaviour
             Console.WriteLine($"{Name} says Woof!");
         }
     }
+#endregion
+
+#region 다형성 정의
 #endregion
 }
