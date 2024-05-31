@@ -78,5 +78,22 @@ public class OOPTest : MonoBehaviour
 #endregion
 
 #region 상속 정의
+    public class Animal
+    {
+        public string Name { get; set; }
+
+        public void Eat()
+        {
+            Console.WriteLine($"{Name} is eating.");
+        }
+    }
+
+    public class Dog : Animal
+    {
+        public void Bark()
+        {
+            Console.WriteLine($"{Name} says Woof!");
+        }
+    }
 #endregion
 }
