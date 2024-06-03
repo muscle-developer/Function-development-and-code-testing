@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class OOPTest : MonoBehaviour
 {
-
-
 }
 
 // 클래스 정의
@@ -63,7 +61,41 @@ public class ClassTest : MonoBehaviour
 // 캡슐화 정의
 public class EncapsulationClass : MonoBehaviour
 {
+    public class BankAccount
+    {
+        // private 필드
+        private decimal balance;
 
+        // public 속성
+        public decimal Balance
+        {
+            get { return balance; }
+            private set { balance = value; }
+        }
+
+        // 생성자
+        public BankAccount(decimal initialBalance)
+        {
+            balance = initialBalance;
+        }
+
+        // 메서드
+        public void Deposit(decimal amount)
+        {
+            if (amount > 0)
+            {
+                balance += amount;
+            }
+        }
+
+        public void Withdraw(decimal amount)
+        {
+            if (amount > 0 && amount <= balance)
+            {
+                balance -= amount;
+            }
+        }
+    }
 }
 
 // 추상화 정의
