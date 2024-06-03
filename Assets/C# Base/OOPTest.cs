@@ -6,103 +6,7 @@ using UnityEngine;
 public class OOPTest : MonoBehaviour
 {
 
-#region 추상화 정의
-    public abstract class Animal
-    {
-        public abstract void MakeSound();
-    }
 
-    public class Dog : Animal
-    {
-        public override void MakeSound()
-        {
-            Debug.Log("멍멍!");
-        }
-    }
-
-    public class Cat : Animal
-    {
-        public override void MakeSound()
-        {
-            Debug.Log("야옹!");
-        }
-    }
-
-#endregion
-
-#region 상속 정의
-    public class Animal2
-    {
-        public string Name { get; set; }
-
-        public void Eat()
-        {
-            Debug.Log($"{Name} 먹는다.");
-        }
-    }
-
-    public class Dog2 : Animal2
-    {
-        public void Bark()
-        {
-            Debug.Log($"{Name} 짖는다!");
-        }
-    }
-#endregion
-
-#region 다형성 정의
-public class Animal
-{
-    public virtual void MakeSound()
-    {
-        Console.WriteLine("Some generic animal sound");
-    }
-}
-
-public class Dog : Animal
-{
-    public override void MakeSound()
-    {
-        Console.WriteLine("Woof!");
-    }
-}
-
-public class Cat : Animal
-{
-    public override void MakeSound()
-    {
-        Console.WriteLine("Meow!");
-    }
-}
-
-// 메서드 오버로딩 예제
-public class MathOperations
-{
-    public int Add(int a, int b)
-    {
-        return a + b;
-    }
-
-    public double Add(double a, double b)
-    {
-        return a + b;
-    }
-}
-
-// 다형성 사용 예제
-class Program
-{
-    static void Main(string[] args)
-    {
-        Animal myDog = new Dog();
-        Animal myCat = new Cat();
-
-        myDog.MakeSound();  // Woof!
-        myCat.MakeSound();  // Meow!
-    }
-}
-
-#endregion
 }
 
 // 클래스 정의
@@ -162,3 +66,77 @@ public class EncapsulationClass : MonoBehaviour
 
 }
 
+// 추상화 정의
+public class AbstractionClass : MonoBehaviour
+{
+    public abstract class Animal
+    {
+        public abstract void MakeSound();
+    }
+
+    public class Dog : Animal
+    {
+        public override void MakeSound()
+        {
+            Debug.Log("멍멍!");
+        }
+    }
+
+    public class Cat : Animal
+    {
+        public override void MakeSound()
+        {
+            Debug.Log("야옹!");
+        }
+    }
+}
+
+// 상속 정의
+public class InheritanceClass : MonoBehaviour
+{
+    public class Animal
+    {
+        public string Name { get; set; }
+
+        public void Eat()
+        {
+            Debug.Log($"{Name} 먹는다.");
+        }
+    }
+
+    public class Dog : Animal
+    {
+        public void Bark()
+        {
+            Debug.Log($"{Name} 짖는다!");
+        }
+    }
+}
+
+// 다형성 정의
+public class PolymorphismClass : MonoBehaviour
+{
+    public class Animal
+    {
+        public virtual void MakeSound()
+        {
+            Debug.Log("각 타입에 맞게 소리를 낸다.");
+        }
+    }
+
+    public class Dog : Animal
+    {
+        public override void MakeSound()
+        {
+            Debug.Log("멍멍 소리를 내며 짖는다!");
+        }
+    }
+
+    public class Cat : Animal
+    {
+        public override void MakeSound()
+        {
+            Debug.Log("야옹 소리를 내며 운다!");
+        }
+    }
+}
