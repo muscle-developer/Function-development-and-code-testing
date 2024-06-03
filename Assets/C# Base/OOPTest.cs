@@ -81,21 +81,21 @@ public class OOPTest : MonoBehaviour
 #endregion
 
 #region 상속 정의
-    public class Animal
+    public class Animal2
     {
         public string Name { get; set; }
 
         public void Eat()
         {
-            Console.WriteLine($"{Name} is eating.");
+            Debug.Log($"{Name} 먹는다.");
         }
     }
 
-    public class Dog : Animal
+    public class Dog2 : Animal2
     {
         public void Bark()
         {
-            Console.WriteLine($"{Name} says Woof!");
+            Debug.Log($"{Name} 짖는다!");
         }
     }
 #endregion
