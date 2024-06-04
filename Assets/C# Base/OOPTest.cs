@@ -73,6 +73,9 @@ public class EncapsulationClass : MonoBehaviour
             private set { balance = value; }
         }
 
+        // protected 속성
+        protected decimal Balance2;
+
         // 생성자
         public BankAccount(decimal initialBalance)
         {
