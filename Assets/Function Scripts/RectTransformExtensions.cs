@@ -1,18 +1,25 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class RectTransformExtensions : MonoBehaviour
+// UI RectTransform을 쉽게 확장,축소 하기위한 스크립트
+public static class RectTransformExtensions
 {
-    // Start is called before the first frame update
-    void Start()
+    public static void SetLeft(this RectTransform rt, float left)
     {
-        
+        rt.offsetMin = new Vector2(left, rt.offsetMin.y);
     }
 
-    // Update is called once per frame
-    void Update()
+    public static void SetRight(this RectTransform rt, float right)
     {
-        
+        rt.offsetMax = new Vector2(-right, rt.offsetMax.y);
+    }
+
+    public static void SetTop(this RectTransform rt, float top)
+    {
+        rt.offsetMax = new Vector2(rt.offsetMax.x, -top);
+    }
+
+    public static void SetBottom(this RectTransform rt, float bottom)
+    {
+        rt.offsetMin = new Vector2(rt.offsetMin.x, bottom);
     }
 }
