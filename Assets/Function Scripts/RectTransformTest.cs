@@ -6,8 +6,24 @@ public class RectTransformTest : MonoBehaviour
 {
     [SerializeField]
     private RectTransform rectTransform;
-    public void Start()
+
+    public void Update()
     {
-        rectTransform.SetLeft(100);
-    }    
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            rectTransform.SetLeft(rectTransform.offsetMin.x + 100);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            rectTransform.SetRight(100);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            rectTransform.SetTop(100);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            rectTransform.SetBottom(100);
+        }
+    }
 }
