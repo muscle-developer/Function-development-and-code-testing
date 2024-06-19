@@ -25,5 +25,9 @@ public class RectTransformTest : MonoBehaviour
         {
             rectTransform.SetBottom(100);
         }
+        else if (Input.GetKeyDown(KeyCode.R))
+        {
+            rectTransform.Reset();
+        }
     }
 }
