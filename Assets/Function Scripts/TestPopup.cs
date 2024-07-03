@@ -2,17 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestPopup : MonoBehaviour
+public class TestPopup : UIPopup
 {
-    // Start is called before the first frame update
-    void Start()
+    public override void Open()
     {
-        
+        base.Open();
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void Close()
     {
-        
+        base.Close();
     }
 }

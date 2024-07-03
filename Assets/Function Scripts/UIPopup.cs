@@ -18,14 +18,14 @@ public class UIPopup : MonoBehaviour
 		
 		isOpening = true;
 
-        if(addBackground)
-		{
-			AddBackground();
+        // if(addBackground)
+		// {
+		// 	AddBackground();
 
-			var image = popupBack.GetComponent<Image>();
-			if (image != null)
-				image.color = new Color(image.color.r, image.color.g, image.color.b, 150f / 255f);
-		}
+		// 	var image = popupBack.GetComponent<Image>();
+		// 	if (image != null)
+		// 		image.color = new Color(image.color.r, image.color.g, image.color.b, 150f / 255f);
+		// }
     }
 
     public virtual void Refresh()
@@ -47,31 +47,32 @@ public class UIPopup : MonoBehaviour
 			return;
 
 		isClosing = true;
+		this.gameObject.SetActive(false);
 
-        if(addBackground)
-		{
-			if(popupBack == null)
-			{
-				AddBackground();
-			}
+        // if(addBackground)
+		// {
+		// 	if(popupBack == null)
+		// 	{
+		// 		AddBackground();
+		// 	}
 			
-			var image = popupBack.GetComponent<Image>();
-			if (image != null)
-				image.color = new Color(image.color.r, image.color.g, image.color.b, 0f);
-		}
+		// 	var image = popupBack.GetComponent<Image>();
+		// 	if (image != null)
+		// 		image.color = new Color(image.color.r, image.color.g, image.color.b, 0f);
+		// }
     }
 
-    protected virtual void AddBackground()
-	{
-		if(popupBack == null)
-		{
-			popupBack = Instantiate<Transform>(Resources.Load<Transform>("Popup Back")).gameObject;
-			popupBack.transform.SetParent(this.transform.parent, false);
-			popupBack.transform.SetSiblingIndex(transform.GetSiblingIndex());
-			if(allowCloseByBackgroundClick)
-				popupBack.GetComponent<Button>().onClick.AddListener(Close);
-		}
+    // protected virtual void AddBackground()
+	// {
+	// 	if(popupBack == null)
+	// 	{
+	// 		popupBack = Instantiate<Transform>(Resources.Load<Transform>("Popup Back")).gameObject;
+	// 		popupBack.transform.SetParent(this.transform.parent, false);
+	// 		popupBack.transform.SetSiblingIndex(transform.GetSiblingIndex());
+	// 		if(allowCloseByBackgroundClick)
+	// 			popupBack.GetComponent<Button>().onClick.AddListener(Close);
+	// 	}
 
-		popupBack.gameObject.SetActive(true);
-    }
+	// 	popupBack.gameObject.SetActive(true);
+    // }
 }
