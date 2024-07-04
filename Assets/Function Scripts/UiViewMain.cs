@@ -1,18 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UiViewMain : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    private Button testOpenPopupButton;
+    [SerializeField]
+    private TestPopup testPopup;
 
-    // Update is called once per frame
-    void Update()
+
+    public void TestOpenPopupButtonClikced()
     {
-        
+        if (testOpenPopupButton != null)
+            testOpenPopupButton.gameObject.SetActive(true);
+
+        testPopup.Open();
     }
 }
