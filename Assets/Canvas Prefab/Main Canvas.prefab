@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 1794752822417887205}
   - component: {fileID: 1794752822417887204}
   - component: {fileID: 1794752822417887227}
+  - component: {fileID: 3575350537319837881}
   m_Layer: 5
   m_Name: Main Canvas
   m_TagString: Untagged
@@ -170,6 +171,20 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &3575350537319837881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794752822417887225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5884220cdb6f4a27980c4bfb17c7bdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  testOpenPopupButton: {fileID: 2157665908860718034}
+  testPopup: {fileID: 0}
 --- !u!1 &8362849877953838159
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,9 +307,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TestPopup, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 3575350537319837881}
+        m_TargetAssemblyTypeName: UiViewMain, Assembly-CSharp
+        m_MethodName: TestOpenPopupButtonClikced
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
