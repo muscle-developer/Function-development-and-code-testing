@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class OutgameController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    // public static OutgameController Instance;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    // private void Awake()
+	// {
+	// 	OutgameController.Instance = this;
+	// }
+
+    // public void ShowGenericInfo(string text)
+    // {
+    //     uiPopupGenericInfo.OpenWithValues(text);
+    // }
 }
