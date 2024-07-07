@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class OutgameController : MonoBehaviour
 {
-    // public static OutgameController Instance;
+    public static OutgameController Instance;
 
-    // private void Awake()
-	// {
-	// 	OutgameController.Instance = this;
-	// }
-
-    // public void ShowGenericInfo(string text)
-    // {
-    //     uiPopupGenericInfo.OpenWithValues(text);
-    // }
+    private void Awake()
+	{
+		OutgameController.Instance = this;
+	}
 }
