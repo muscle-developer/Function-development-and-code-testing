@@ -184,7 +184,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   testOpenPopupButton: {fileID: 2157665908860718034}
-  testPopup: {fileID: 0}
 --- !u!1 &8362849877953838159
 GameObject:
   m_ObjectHideFlags: 0
@@ -309,7 +308,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3575350537319837881}
         m_TargetAssemblyTypeName: UiViewMain, Assembly-CSharp
-        m_MethodName: TestOpenPopupButtonClikced
+        m_MethodName: OpenTestPopupButtonClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
