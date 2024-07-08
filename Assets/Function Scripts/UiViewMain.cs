@@ -7,15 +7,9 @@ public class UiViewMain : MonoBehaviour
 {
     [SerializeField]
     private Button testOpenPopupButton;
-    [SerializeField]
-    private TestPopup testPopup;
 
-
-    public void TestOpenPopupButtonClikced()
+    public void OpenTestPopupButtonClicked()
     {
-        if (testOpenPopupButton != null)
-            testOpenPopupButton.gameObject.SetActive(true);
-
-        testPopup.Open();
+        OutgameController.Instance.OpenTestPopup();
     }
 }
