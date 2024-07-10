@@ -30,4 +30,20 @@ public class DontDestroyOnLoad : MonoBehaviour
         // 씬 매니저 이벤트 등록 해제
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
+
+
+#if UNITY_EDITOR
+    [UnityEditor.InitializeOnLoadMethod]
+    private static void OnEditorPlayModeChanged()
+    {
+        if (UnityEditor.EditorApplication.isPlayingOrWillChangePlaymode && !UnityEditor.EditorApplication.isPlaying)
+        {
+            var dontDestroyObjects = Object.FindObjectsOfType<DontDestroyOnLoad>();
+            foreach (var obj in dontDestroyObjects)
+            {
+                DestroyImmediate(obj.gameObject);
+            }
+        }
+    }
+#endif
 }
