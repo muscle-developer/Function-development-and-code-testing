@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DontDestroyOnLoad : MonoBehaviour
 {
@@ -6,17 +7,27 @@ public class DontDestroyOnLoad : MonoBehaviour
 
     private void Awake()
     {
-        // 중복된 인스턴스가 있는지 확인
         if (instance == null)
         {
-            // 인스턴스가 없으면 이 오브젝트를 인스턴스로 설정
             instance = this;
             DontDestroyOnLoad(gameObject);
+            SceneManager.sceneLoaded += OnSceneLoaded;
         }
         else
         {
-            // 이미 인스턴스가 있으면 새로운 오브젝트를 파괴
             Destroy(gameObject);
         }
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // 씬 로드 시 초기화가 필요하면 이곳에 코드를 추가
+        Debug.Log("New scene loaded: " + scene.name);
+    }
+
+    private void OnDestroy()
+    {
+        // 씬 매니저 이벤트 등록 해제
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 }
