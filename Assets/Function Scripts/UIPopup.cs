@@ -5,9 +5,14 @@ using System;
 
 public class UIPopup : MonoBehaviour
 {
+    [SerializeField]
+    private CanvasGroup canvasGroup;
+    private Coroutine uiAnimationCoroutine;
+
     public virtual void Open()
     {
         this.gameObject.SetActive(true);
+        StartCoroutine(FadeInCoroutine());
     }
 
     public virtual void Refresh()
@@ -18,7 +23,7 @@ public class UIPopup : MonoBehaviour
 
     public virtual void Close()
 	{
-        ClosePopup();
+        StartCoroutine(FadeOutCoroutine());
 	}
 
     // 닫기 기능
@@ -29,5 +34,38 @@ public class UIPopup : MonoBehaviour
 			return;
 
 		this.gameObject.SetActive(false);
+    }
+
+    private IEnumerator FadeInCoroutine()
+    {
+        float duration = 0.5f;
+        float elapsedTime = 0f;
+        canvasGroup.alpha = 0f;
+
+        while (elapsedTime < duration)
+        {
+            elapsedTime += Time.deltaTime;
+            canvasGroup.alpha = Mathf.Clamp01(elapsedTime / duration);
+            yield return null;
+        }
+
+        canvasGroup.alpha = 1f;
+    }
+
+    private IEnumerator FadeOutCoroutine()
+    {
+        float duration = 0.5f;
+        float elapsedTime = 0f;
+        canvasGroup.alpha = 1f;
+
+        while (elapsedTime < duration)
+        {
+            elapsedTime += Time.deltaTime;
+            canvasGroup.alpha = Mathf.Clamp01(1f - (elapsedTime / duration));
+            yield return null;
+        }
+
+        canvasGroup.alpha = 0f;
+        ClosePopup();
     }
 }
