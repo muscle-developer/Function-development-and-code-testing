@@ -7,6 +7,10 @@ public class UIPopup : MonoBehaviour
 {
     private CanvasGroup canvasGroup;
     private Coroutine uiAnimationCoroutine = null;
+    public enum UIAnimationType {NONE, SLIDE, SCALE, ROTATE};
+    
+    [SerializeField]
+	public UIAnimationType animationType = UIAnimationType.NONE;
 
     // 만들어지는 팝업에 캔버스 그룹을 추가해줘서 애니효과가 작동되도록
     public virtual void Awake()
@@ -17,6 +21,15 @@ public class UIPopup : MonoBehaviour
     public virtual void Open()
     {
         this.gameObject.SetActive(true);
+
+        // if(animationType == PopupAnimationType.TRANSITION || animationType == PopupAnimationType.TRANSITION_THEN_ALPHA)
+		// 	animationCoroutine = StartCoroutine(RunPopupOpenTransionCoroutine(foreSkip));
+		// else if(animationType == PopupAnimationType.ALPHA)
+		// 	animationCoroutine = StartCoroutine(RunPopupOpenAlphaCoroutine(foreSkip));
+		// else if(animationType == PopupAnimationType.SPREAD)
+		// 	animationCoroutine = StartCoroutine(RunPopupOpenCoroutine(foreSkip));
+		// else
+		// 	animationCoroutine = StartCoroutine(RunPopupOpenCoroutine(true));
 
         uiAnimationCoroutine = StartCoroutine(FadeInCoroutine());
     }
