@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class TestPopup : UIPopup
 {
+    public override void Awake()
+    {
+        base.Awake();
+    }
+
     public override void Open()
     {
         base.Open();

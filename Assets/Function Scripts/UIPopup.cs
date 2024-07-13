@@ -8,6 +8,7 @@ public class UIPopup : MonoBehaviour
     private CanvasGroup canvasGroup;
     private Coroutine uiAnimationCoroutine = null;
 
+    // 만들어지는 팝업에 캔버스 그룹을 추가해줘서 애니효과가 작동되도록
     public virtual void Awake()
     {
         canvasGroup = gameObject.AddComponent<CanvasGroup>();
