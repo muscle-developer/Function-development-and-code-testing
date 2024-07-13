@@ -115,13 +115,15 @@ public class UIPopup : MonoBehaviour
     {
         float duration = 0.5f;
         float elapsedTime = 0f;
-        Vector2 startPosition = new Vector2(originalPosition.x, -rectTransform.rect.height);
+        // Y축 좌표는 위로 갈수록 양의 값이고, 아래로 갈수록 음의 값이기때문에 따라서, -rectTransform.rect.height를 사용하여 팝업이 화면 아래쪽으로 완전히 내려가도록 설정
+        Vector2 startPosition = new Vector2(originalPosition.x, -rectTransform.rect.height); 
 
         rectTransform.anchoredPosition = startPosition;
 
         while (elapsedTime < duration)
         {
             elapsedTime += Time.deltaTime;
+            // 아래서 시작(startPosition) -> 원래 위치(originalPosition = (0,0))값으로 이동
             rectTransform.anchoredPosition = Vector2.Lerp(startPosition, originalPosition, elapsedTime / duration);
             yield return null;
         }
