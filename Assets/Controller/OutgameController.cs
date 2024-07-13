@@ -8,7 +8,7 @@ public class OutgameController : MonoBehaviour
 
     [Header("UI Popup")]
     [SerializeField]
-    private TestPopup testPopup;
+    private List<TestPopup> testPopupList;
 
     private void Awake()
 	{
@@ -18,9 +18,33 @@ public class OutgameController : MonoBehaviour
 
     public void OpenTestPopup()
     {
-        if (testPopup != null)
-            testPopup.gameObject.SetActive(true);
+        if (testPopupList[0] != null)
+            testPopupList[0].gameObject.SetActive(true);
             
-        testPopup.Open();
+        testPopupList[0].Open();
+    }
+
+    public void OpenSlideTestPopup()
+    {
+        if (testPopupList[1] != null)
+            testPopupList[1].gameObject.SetActive(true);
+            
+        testPopupList[1].Open();
+    }
+
+    public void OpenScaleTestPopup()
+    {
+        if (testPopupList[2] != null)
+            testPopupList[2].gameObject.SetActive(true);
+            
+        testPopupList[2].Open();
+    }
+
+    public void OpenRotateTestPopup()
+    {
+        if (testPopupList[3] != null)
+            testPopupList[3].gameObject.SetActive(true);
+            
+        testPopupList[3].Open();
     }
 }

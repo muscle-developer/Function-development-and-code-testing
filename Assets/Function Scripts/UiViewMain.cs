@@ -12,4 +12,19 @@ public class UiViewMain : MonoBehaviour
     {
         OutgameController.Instance.OpenTestPopup();
     }
+
+    public void OpenSlideTestPopupButtonClicked()
+    {
+        OutgameController.Instance.OpenSlideTestPopup();
+    }
+
+    public void OpenScaleTestPopupButtonClicked()
+    {
+        OutgameController.Instance.OpenScaleTestPopup();
+    }
+
+    public void OpenRotateTestPopupButtonClicked()
+    {
+        OutgameController.Instance.OpenRotateTestPopup();
+    }
 }
