@@ -124,7 +124,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3575350537319837881}
         m_TargetAssemblyTypeName: UiViewMain, Assembly-CSharp
-        m_MethodName: OpenTestPopupButtonClicked
+        m_MethodName: OpenScaleTestPopupButtonClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -258,7 +258,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3575350537319837881}
         m_TargetAssemblyTypeName: UiViewMain, Assembly-CSharp
-        m_MethodName: OpenTestPopupButtonClicked
+        m_MethodName: OpenSlideTestPopupButtonClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -392,7 +392,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3575350537319837881}
         m_TargetAssemblyTypeName: UiViewMain, Assembly-CSharp
-        m_MethodName: OpenTestPopupButtonClicked
+        m_MethodName: OpenRotateTestPopupButtonClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -481,7 +481,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uD31D\uC5C5 \uC5F4\uAE30"
+  m_Text: "Slide \n\uD31D\uC5C5 \uC5F4\uAE30"
 --- !u!1 &1566321992245875687
 GameObject:
   m_ObjectHideFlags: 0
@@ -748,7 +748,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uD31D\uC5C5 \uC5F4\uAE30"
+  m_Text: "Rotate\n\uD31D\uC5C5 \uC5F4\uAE30"
 --- !u!1 &7653780327099125299
 GameObject:
   m_ObjectHideFlags: 0
@@ -828,7 +828,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uD31D\uC5C5 \uC5F4\uAE30"
+  m_Text: "Scale \n\uD31D\uC5C5 \uC5F4\uAE30"
 --- !u!1 &8362849877953838159
 GameObject:
   m_ObjectHideFlags: 0
