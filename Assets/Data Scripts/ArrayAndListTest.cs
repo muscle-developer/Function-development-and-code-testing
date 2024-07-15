@@ -70,3 +70,20 @@ public class ListTest : ArrayAndListTest
         }
     }   
 }
+
+public class ListAndArrayListTest : MonoBehaviour
+{
+    List<int> intList = new List<int>();
+    ArrayList arrayList = new ArrayList();
+
+    private void Start()
+    {
+        // 해당 타입인 int만 받을 수 있으므로 오류가 나는 모습
+        intList.Add(1); // 올바름
+        // intList.Add("Hello"); // 컴파일 오류
+
+        // Boxing 발생으로 성능저하
+        arrayList.Add(1); // 올바름
+        arrayList.Add("Hello"); // 올바름 (컴파일 오류 없음)
+    }
+}
