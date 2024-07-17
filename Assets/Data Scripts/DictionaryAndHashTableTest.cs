@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class DictionaryAndHashTableTest : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public class DictionaryTest
     {
-        
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public class HashTableTest
     {
         
-    }
+    }   
 }
