@@ -45,5 +45,33 @@ public class DictionaryTest
 
 public class HashTableTest
 {
+    // Hashtable 사용 예제를 실행하는 메서드.
+    public void RunTest()
+    {
+        // 키와 값이 object 타입인 Hashtable을 생성.
+        Hashtable hashtable = new Hashtable();
 
+        // Hashtable에 키-값 쌍을 추가.
+        hashtable.Add(1, "One");
+        hashtable[2] = "Two";
+        hashtable.Add(3, "Three");
+
+        // Hashtable의 모든 키-값 쌍을 출력.
+        Debug.Log("Hashtable Test:");
+        foreach (DictionaryEntry item in hashtable)
+        {
+            Debug.Log($"Key: {item.Key}, Value: {item.Value}");
+        }
+
+        // 키가 2인 값을 가져와서 출력.
+        if (hashtable.ContainsKey(2))
+        {
+            string value = (string)hashtable[2];
+            Debug.Log($"Key 2 has value: {value}");
+        }
+        else
+        {
+            Debug.Log("Key 2 not found.");
+        }
+    }
 }   
