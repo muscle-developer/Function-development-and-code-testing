@@ -18,4 +18,9 @@ public class TestPopup : UIPopup
     {
         base.Close();
     }
+
+    private void TestFunction()
+    {
+        
+    }
 }
