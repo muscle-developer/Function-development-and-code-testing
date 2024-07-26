@@ -11,11 +11,11 @@ public class TestPopup : UIPopup
 	[SerializeField]
 	private List<Sprite> arrowImageList; 
 	[SerializeField]
-	private TMP_Text guildNoticeText;
+	private TMP_Text noticeText;
 	[SerializeField]
-	private RectTransform guildConfigureParentTransform;
+	private RectTransform configureParentTransform;
 	[SerializeField]
-	private RectTransform guildMemberParentTransform;
+	private RectTransform noticeParentTransform;
     public override void Awake()
     {
         base.Awake();
@@ -35,17 +35,17 @@ public class TestPopup : UIPopup
 	{
 		if(arrowToggle.isOn)
 		{
-			guildConfigureParentTransform.SetBottom(-450f);
-			guildMemberParentTransform.SetTop(450f);
+			configureParentTransform.SetBottom(-450f);
+			noticeParentTransform.SetTop(450f);
 			arrowToggle.image.sprite = arrowImageList[0];
-			guildNoticeText.overflowMode = TextOverflowModes.Overflow;
+			noticeText.overflowMode = TextOverflowModes.Overflow;
 		}
 		else 
 		{
-			guildConfigureParentTransform.SetBottom(-220f);
-			guildMemberParentTransform.SetTop(220f);
+			configureParentTransform.SetBottom(-220f);
+			noticeParentTransform.SetTop(220f);
 			arrowToggle.image.sprite = arrowImageList[1];
-			guildNoticeText.overflowMode = TextOverflowModes.Ellipsis;
+			noticeText.overflowMode = TextOverflowModes.Ellipsis;
 		}
 	}
 }
