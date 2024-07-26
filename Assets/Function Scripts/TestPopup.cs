@@ -21,6 +21,11 @@ public class TestPopup : UIPopup
         base.Awake();
     }
 
+	public void Update()
+	{
+		CheckNoticeLimitText(noticeText.text);
+	}
+
     public override void Open()
     {
         base.Open();
@@ -47,5 +52,15 @@ public class TestPopup : UIPopup
 			arrowToggle.image.sprite = arrowImageList[1];
 			noticeText.overflowMode = TextOverflowModes.Ellipsis;
 		}
+	}
+
+	private bool CheckNoticeLimitText(string notice)
+	{
+		bool isViolating = false;
+
+		if(notice.Length > 150)
+            isViolating = true;
+
+		return isViolating;
 	}
 }
