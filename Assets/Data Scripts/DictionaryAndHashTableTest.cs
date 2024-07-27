@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class DictionaryAndHashTableTest : MonoBehaviour
 {
+    void Start()
+    {
+        // 테스트를 위한 클래스 생성
+        DictionaryTest dictionaryTest = new DictionaryTest();
+        HashTableTest hashTableTest = new HashTableTest();
+        
+        // 테스트 함수 실행
+        dictionaryTest.RunTest();
+        hashTableTest.RunTest();
+    }
 
 }
 
@@ -32,7 +42,7 @@ public class DictionaryTest
         }
         else
         {
-            Debug.Log("Key 2 찾을 수 없다.");
+            Debug.Log("Key 2 찾을 수 없습니다.");
         }
 
         // 키값이 3이 있는지 찾기 - ContainsKey (Key 검색)
@@ -67,11 +77,11 @@ public class HashTableTest
         if (hashtable.ContainsKey(2))
         {
             string value = (string)hashtable[2];
-            Debug.Log($"Key 2 has value: {value}");
+            Debug.Log($"Key 2 가지고 있는 값: {value}");
         }
         else
         {
-            Debug.Log("Key 2 not found.");
+            Debug.Log("Key 2 값을 찾을 수 없습니다.");
         }
     }
 }   
