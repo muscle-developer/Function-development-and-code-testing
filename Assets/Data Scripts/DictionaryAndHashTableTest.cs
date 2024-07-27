@@ -61,10 +61,10 @@ public class HashTableTest
         // 키와 값이 object 타입인 Hashtable을 생성.
         Hashtable hashtable = new Hashtable();
 
-        // Hashtable에 키-값 쌍을 추가.
-        hashtable.Add(1, "One");
-        hashtable[2] = "Two";
-        hashtable.Add(3, "Three");
+        // 다양한 타입을 저장할 수 있지만, 저장할 때 주의가 필요하다.
+        hashtable.Add(1, "One");    // 키: int, 값: string
+        hashtable.Add("Two", 2);    // 키: string, 값: int
+        hashtable.Add(3, 3.14);     // 키: int, 값: double  <---- (컴파일 오류 없음, 런타임 오류 발생 가능성 있음)
 
         // Hashtable의 모든 키-값 쌍을 출력.
         Debug.Log("Hashtable Test:");
@@ -73,11 +73,13 @@ public class HashTableTest
             Debug.Log($"Key: {item.Key}, Value: {item.Value}");
         }
 
-        // 키가 2인 값을 가져와서 출력.
+        // 키가 2인 값을 가져와서 출력. 타입을 명시적으로 변환하여 안전하게 처리.
         if (hashtable.ContainsKey(2))
         {
-            string value = (string)hashtable[2];
-            Debug.Log($"Key 2 가지고 있는 값: {value}");
+            // 객체를 int로 캐스팅하고, 다시 문자열로 변환
+            // Hashtable에서 int 값을 저장할 때는 적절한 타입으로 변환해야 함  (언박싱 필요)
+            int value = (int)hashtable[2];
+            Debug.Log($"Key 2가 가지고 있는 값: {value}");
         }
         else
         {
