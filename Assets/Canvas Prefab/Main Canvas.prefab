@@ -695,7 +695,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Rotate\n\uD31D\uC5C5 \uC5F4\uAE30"
+  m_Text: "\uC808\uC804\uBAA8\uB4DC\n\uD31D\uC5C5 \uC5F4\uAE30"
 --- !u!1 &1566321992245875687
 GameObject:
   m_ObjectHideFlags: 0

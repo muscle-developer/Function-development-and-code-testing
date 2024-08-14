@@ -27,4 +27,9 @@ public class UiViewMain : MonoBehaviour
     {
         OutgameController.Instance.OpenRotateTestPopup();
     }
+
+    public void OpenPowerSavingButtonClicked()
+    {
+        OutgameController.Instance.OpenPowerSavingPopup();
+    }
 }
