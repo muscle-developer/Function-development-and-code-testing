@@ -121,8 +121,8 @@ public class UIViewPowerSaving : MonoBehaviour
 
         // SoundManager.Instance.MuteAll();
 
-        // UIManager.Instance.HideCanvas("Main Canvas");
-        // UIManager.Instance.ShowCanvas("Power Saving Canvas");
+        UIManager.Instance.HideCanvas("Main Canvas");
+        UIManager.Instance.ShowCanvas("Power Saving Canvas");
 
         originalCullingMask = mainCamera.cullingMask;
         mainCamera.cullingMask = 0;
@@ -237,8 +237,8 @@ public class UIViewPowerSaving : MonoBehaviour
 
 		// SoundManager.Instance.UnmuteAll();
 
-        // UIManager.Instance.ShowCanvas("Main Canvas");
-        // UIManager.Instance.HideCanvas("Power Saving Canvas");
+        UIManager.Instance.ShowCanvas("Main Canvas");
+        UIManager.Instance.HideCanvas("Power Saving Canvas");
 
         // if(previouslyConnected)
         //     ChatManager.Instance.Connect();
