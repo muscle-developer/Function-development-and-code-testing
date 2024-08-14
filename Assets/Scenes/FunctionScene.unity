@@ -172,6 +172,7 @@ MonoBehaviour:
   - {fileID: 1784112553}
   - {fileID: 1753535041}
   - {fileID: 1138477735}
+  uiViewPowerSaving: {fileID: 878469398}
 --- !u!1 &170614211
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,6 +493,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3652915886707373038, guid: badaa6c9c2f634e63a9fe0d2a3497a0b, type: 3}
   m_PrefabInstance: {fileID: 878469396}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &878469398 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7485035839102032522, guid: badaa6c9c2f634e63a9fe0d2a3497a0b, type: 3}
+  m_PrefabInstance: {fileID: 878469396}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bba5000982fb4e2eae12d08b57ce7b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1138477735 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 612506227731460389, guid: 8d289366b6b4e4a1a8e15c72777238d1, type: 3}
@@ -851,6 +863,10 @@ PrefabInstance:
     - target: {fileID: 1794752822417887225, guid: 1c9fa6d94970040bdb903960a91bf4be, type: 3}
       propertyPath: m_Name
       value: Main Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1794752822417887225, guid: 1c9fa6d94970040bdb903960a91bf4be, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1794752822417887226, guid: 1c9fa6d94970040bdb903960a91bf4be, type: 3}
       propertyPath: m_Pivot.x

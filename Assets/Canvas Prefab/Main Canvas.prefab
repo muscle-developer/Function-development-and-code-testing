@@ -606,7 +606,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3575350537319837881}
         m_TargetAssemblyTypeName: UiViewMain, Assembly-CSharp
-        m_MethodName: OpenRotateTestPopupButtonClicked
+        m_MethodName: OpenPowerSavingButtonClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
