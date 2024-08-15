@@ -1642,10 +1642,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 0}
   closeInfoText: {fileID: 4302957918597185857}
-  batterySpriteList: []
-  batteryInfoIcon: {fileID: 0}
-  batteryGaugeImage: {fileID: 0}
-  batteryInfoText: {fileID: 0}
+  batterySpriteList:
+  - {fileID: 21300000, guid: 0931666ee256ec948a221b54cc9e7f38, type: 3}
+  - {fileID: 21300000, guid: 642b95aaf47b7804d860580a6a20a2f4, type: 3}
+  - {fileID: 21300000, guid: 76d1352014371e34eb31fa2e246b1c89, type: 3}
+  batteryInfoIcon: {fileID: 2734638035994044909}
+  batteryGaugeImage: {fileID: 4194701018249079902}
+  batteryInfoText: {fileID: 310679547512543755}
   wifiSignalSpriteList: []
   wifiSignalInfoIcon: {fileID: 0}
   mobileDataText: {fileID: 0}
