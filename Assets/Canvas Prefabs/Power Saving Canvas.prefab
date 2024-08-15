@@ -1649,7 +1649,9 @@ MonoBehaviour:
   batteryInfoIcon: {fileID: 2734638035994044909}
   batteryGaugeImage: {fileID: 4194701018249079902}
   batteryInfoText: {fileID: 310679547512543755}
-  wifiSignalSpriteList: []
+  wifiSignalSpriteList:
+  - {fileID: 21300000, guid: 567cb9b14bb594a4b8f7860cf5c8cc6e, type: 3}
+  - {fileID: 21300000, guid: 839504a4df2c7b842ac07c6d34d5dbf0, type: 3}
   wifiSignalInfoIcon: {fileID: 0}
   mobileDataText: {fileID: 0}
   offSlider: {fileID: 0}
