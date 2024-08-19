@@ -79,14 +79,8 @@ public class UIViewPowerSaving : MonoBehaviour
     private TMP_Text cubeAcheiveText;
     [SerializeField]
     private TMP_Text expAcheiveText;
-    // [SerializeField]
-    // private TMP_Text weaponAcheiveText;
-    // [SerializeField]
-    // private TMP_Text classAcheiveText;
     [SerializeField]
     private TMP_Text powerSavingTime;
-    // [SerializeField]
-	// private ThumbnailSequence thumbnailSequence;
     private bool isOn = false;
     public bool IsOn{
         get{
@@ -117,7 +111,7 @@ public class UIViewPowerSaving : MonoBehaviour
 
         // ChatManager.Instance.Disconnect();
 
-        // SoundManager.Instance.MuteAll();
+        SoundManager.Instance.MuteAll();
 
         UIManager.Instance.HideCanvas("Main Canvas");
         UIManager.Instance.ShowCanvas("Power Saving Canvas");
