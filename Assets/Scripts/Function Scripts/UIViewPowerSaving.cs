@@ -85,8 +85,6 @@ public class UIViewPowerSaving : MonoBehaviour
     // private TMP_Text classAcheiveText;
     [SerializeField]
     private TMP_Text powerSavingTime;
-    [SerializeField]
-	private Image logo;
     // [SerializeField]
 	// private ThumbnailSequence thumbnailSequence;
     private bool isOn = false;
