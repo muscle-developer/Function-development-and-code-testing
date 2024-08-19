@@ -160,8 +160,6 @@ public class UIViewPowerSaving : MonoBehaviour
 
         if(this.offCount <= 0)
             FinishPowerSavingMode();
-        // else
-            // closeInfoText.text = string.Format(LanguageManager.Instance.GetTextData(LanguageDataType.UI, "button_power_saving_mode_release"), offCount);
     }
 
     public void OnSliderValueChanged(float value)
