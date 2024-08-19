@@ -1643,18 +1643,18 @@ MonoBehaviour:
   mainCamera: {fileID: 0}
   closeInfoText: {fileID: 4302957918597185857}
   batterySpriteList:
-  - {fileID: 21300000, guid: 0931666ee256ec948a221b54cc9e7f38, type: 3}
   - {fileID: 21300000, guid: 642b95aaf47b7804d860580a6a20a2f4, type: 3}
+  - {fileID: 21300000, guid: 0931666ee256ec948a221b54cc9e7f38, type: 3}
   - {fileID: 21300000, guid: 76d1352014371e34eb31fa2e246b1c89, type: 3}
   batteryInfoIcon: {fileID: 2734638035994044909}
   batteryGaugeImage: {fileID: 4194701018249079902}
   batteryInfoText: {fileID: 310679547512543755}
   wifiSignalSpriteList:
+  - {fileID: 21300000, guid: 3fd2fb94f536745cabd71f0a707cc959, type: 3}
   - {fileID: 21300000, guid: 567cb9b14bb594a4b8f7860cf5c8cc6e, type: 3}
-  - {fileID: 21300000, guid: 839504a4df2c7b842ac07c6d34d5dbf0, type: 3}
-  wifiSignalInfoIcon: {fileID: 0}
-  mobileDataText: {fileID: 0}
-  offSlider: {fileID: 0}
+  wifiSignalInfoIcon: {fileID: 8347412800525794470}
+  mobileDataText: {fileID: 6099822961522577479}
+  offSlider: {fileID: 6922708617744535737}
   offCount: 3
   cubeAmount: 0
   weaponAmount: 0
@@ -1663,14 +1663,14 @@ MonoBehaviour:
   currentMin: 0
   currentTimeSec: 0
   playTime: 0
-  profileNicknameText: {fileID: 0}
-  stageText: {fileID: 0}
-  goldAcheiveText: {fileID: 0}
-  enchantStoneAcheiveText: {fileID: 0}
-  nebulaStoneAcheiveText: {fileID: 0}
-  cubeAcheiveText: {fileID: 0}
-  expAcheiveText: {fileID: 0}
-  powerSavingTime: {fileID: 0}
+  profileNicknameText: {fileID: 2736113483572358108}
+  stageText: {fileID: 1667253240746299153}
+  goldAcheiveText: {fileID: 7489177037431793809}
+  enchantStoneAcheiveText: {fileID: 2680205980599601713}
+  nebulaStoneAcheiveText: {fileID: 6580223384568268097}
+  cubeAcheiveText: {fileID: 6116664766513815160}
+  expAcheiveText: {fileID: 320067503615022366}
+  powerSavingTime: {fileID: 7846011325578133349}
   logo: {fileID: 0}
 --- !u!1 &3652915887250361175
 GameObject:
