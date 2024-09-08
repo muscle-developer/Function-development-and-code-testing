@@ -1671,7 +1671,6 @@ MonoBehaviour:
   cubeAcheiveText: {fileID: 6116664766513815160}
   expAcheiveText: {fileID: 320067503615022366}
   powerSavingTime: {fileID: 7846011325578133349}
-  logo: {fileID: 0}
 --- !u!1 &3652915887250361175
 GameObject:
   m_ObjectHideFlags: 0
