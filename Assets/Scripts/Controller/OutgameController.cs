@@ -18,6 +18,36 @@ public class OutgameController : MonoBehaviour
         Instance = this;
 	}
 
+    void Start()
+    {
+        StartCoroutine(LogicOnEverySecondCoroutine());
+    }
+
+    private IEnumerator LogicOnEverySecondCoroutine()
+    {
+        var lastTime = (int)Time.realtimeSinceStartup;
+        while(true)
+        {
+            var currentTime = (int)Time.realtimeSinceStartup;
+
+            if(currentTime - lastTime >= 1)
+            {
+                // Check battery and internet connection
+                if(uiViewPowerSaving.IsOn)
+                {
+                    uiViewPowerSaving.RefreshTimeInfo();
+                    uiViewPowerSaving.RefreshBatteryInfo();
+                    uiViewPowerSaving.RefreshWifiInfo();
+                    uiViewPowerSaving.RefreshProfileInfo();
+                }
+
+                lastTime = currentTime;
+            }
+
+            yield return null;
+        }
+    }
+
     public void OpenTestPopup()
     {
         if (testPopupList[0] != null)
