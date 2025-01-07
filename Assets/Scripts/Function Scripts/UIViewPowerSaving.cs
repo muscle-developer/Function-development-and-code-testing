@@ -136,20 +136,6 @@ public class UIViewPowerSaving : MonoBehaviour
     // 절전모드 열릴 때 값들 초기화
     private void Reset()
     {
-        // goldAmount = 0;
-        // this.goldAcheiveText.text = string.Format(LanguageManager.Instance.NumberToString(goldAmount));
-        // enchantStoneAmount = 0;
-        // this.enchantStoneAcheiveText.text = string.Format(LanguageManager.Instance.NumberToString(enchantStoneAmount));
-        // nebulaStoneAmount = 0;
-        // this.nebulaStoneAcheiveText.text = string.Format(LanguageManager.Instance.NumberToString(nebulaStoneAmount));
-        // cubeAmount = 0;
-        // this.cubeAcheiveText.text = string.Format(LanguageManager.Instance.NumberToString(cubeAmount));
-        // expAmount = 0;
-        // this.expAcheiveText.text = string.Format(LanguageManager.Instance.NumberToString(expAmount));
-        // weaponAmount = 0;
-        // this.weaponAcheiveText.text = weaponAmount.ToString();
-        // classAmount = 0;
-        // this.classAcheiveText.text = classAmount.ToString();
         playTime = 0;
         powerSavingTime.text = string.Format("{0:D2}", playTime);   
     }
