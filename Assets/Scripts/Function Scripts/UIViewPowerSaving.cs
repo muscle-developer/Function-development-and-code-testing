@@ -37,21 +37,6 @@ public class UIViewPowerSaving : MonoBehaviour
     [SerializeField]
     private int offCount = 3;
 
-    // [Title("Left Side")]
-    [SerializeField]
-    private BigInteger goldAmount;
-    [SerializeField]
-    private BigInteger enchantStoneAmount;
-    [SerializeField]
-    private BigInteger nebulaStoneAmount;
-    [SerializeField]
-    private int cubeAmount;
-    [SerializeField]
-    private BigInteger expAmount;
-    [SerializeField]
-    private int weaponAmount;
-    [SerializeField]
-    private int classAmount;
     [SerializeField]
     private int currentHours;
     [SerializeField]
@@ -65,20 +50,8 @@ public class UIViewPowerSaving : MonoBehaviour
     // [Title("Right Side")]
     [SerializeField]
     private TMP_Text profileNicknameText;
-    [SerializeField]
     // private UIBar hpBar;
     // [SerializeField]
-    private TMP_Text stageText;
-    [SerializeField]
-    private TMP_Text goldAcheiveText;
-    [SerializeField]
-    private TMP_Text enchantStoneAcheiveText;
-    [SerializeField]
-    private TMP_Text nebulaStoneAcheiveText;
-    [SerializeField]
-    private TMP_Text cubeAcheiveText;
-    [SerializeField]
-    private TMP_Text expAcheiveText;
     [SerializeField]
     private TMP_Text powerSavingTime;
     private bool isOn = false;
@@ -101,11 +74,6 @@ public class UIViewPowerSaving : MonoBehaviour
         this.offCount = 3;
         this.offSlider.value = 0f;
         this.isLocked = true;
-
-        // if(OptionManager.Instance.Language == OptionManager.LanguageModeType.ko)
-		// 	logo.sprite = logoList[0];
-		// else
-		// 	logo.sprite = logoList[1];
 
         // previouslyConnected = ChatManager.Instance.IsConnected;
 
