@@ -1137,7 +1137,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 7485035839102032522}
         m_TargetAssemblyTypeName: UIViewPowerSaving, Assembly-CSharp
         m_MethodName: OnSliderValueChanged
         m_Mode: 0
@@ -1166,7 +1166,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 7485035839102032522}
           m_TargetAssemblyTypeName: UIViewPowerSaving, Assembly-CSharp
           m_MethodName: OnPointerUp
           m_Mode: 1
@@ -1182,7 +1182,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 7485035839102032522}
           m_TargetAssemblyTypeName: UIViewPowerSaving, Assembly-CSharp
           m_MethodName: OnPointerDown
           m_Mode: 1
@@ -1656,20 +1656,11 @@ MonoBehaviour:
   mobileDataText: {fileID: 6099822961522577479}
   offSlider: {fileID: 6922708617744535737}
   offCount: 3
-  cubeAmount: 0
-  weaponAmount: 0
-  classAmount: 0
   currentHours: 0
   currentMin: 0
   currentTimeSec: 0
   playTime: 0
   profileNicknameText: {fileID: 2736113483572358108}
-  stageText: {fileID: 1667253240746299153}
-  goldAcheiveText: {fileID: 7489177037431793809}
-  enchantStoneAcheiveText: {fileID: 2680205980599601713}
-  nebulaStoneAcheiveText: {fileID: 6580223384568268097}
-  cubeAcheiveText: {fileID: 6116664766513815160}
-  expAcheiveText: {fileID: 320067503615022366}
   powerSavingTime: {fileID: 7846011325578133349}
 --- !u!1 &3652915887250361175
 GameObject:
