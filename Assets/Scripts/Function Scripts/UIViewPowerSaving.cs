@@ -174,8 +174,6 @@ public class UIViewPowerSaving : MonoBehaviour
     {
         this.isOn = false;
 
-        // thumbnailSequence.StopAnimation();
-
 		// SoundManager.Instance.UnmuteAll();
 
         UIManager.Instance.ShowCanvas("Main Canvas");
