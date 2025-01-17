@@ -11,8 +11,6 @@ public class UIViewPowerSaving : MonoBehaviour
     private Camera mainCamera;
 
     [SerializeField]
-    private TMP_Text closeInfoText;
-    [SerializeField]
     private List<Sprite> batterySpriteList;
     [SerializeField]
     private Image batteryInfoIcon;
