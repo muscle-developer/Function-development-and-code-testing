@@ -43,8 +43,6 @@ public class UIViewPowerSaving : MonoBehaviour
     [SerializeField]
     private int playTime;
     
-
-    // [Title("Right Side")]
     [SerializeField]
     private TMP_Text profileNicknameText;
     // private UIBar hpBar;
