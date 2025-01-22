@@ -45,8 +45,7 @@ public class UIViewPowerSaving : MonoBehaviour
     
     [SerializeField]
     private TMP_Text profileNicknameText;
-    // private UIBar hpBar;
-    // [SerializeField]
+
     [SerializeField]
     private TMP_Text powerSavingTime;
     private bool isOn = false;
