@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class IngameController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public static IngameController Instance;
 
-    // Update is called once per frame
-    void Update()
+
+    void Awake()
     {
-        
+        Instance = this;
     }
 }
