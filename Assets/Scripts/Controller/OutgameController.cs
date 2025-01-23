@@ -38,7 +38,6 @@ public class OutgameController : MonoBehaviour
                     uiViewPowerSaving.RefreshTimeInfo();
                     uiViewPowerSaving.RefreshBatteryInfo();
                     uiViewPowerSaving.RefreshWifiInfo();
-                    uiViewPowerSaving.RefreshProfileInfo();
                 }
 
                 lastTime = currentTime;

@@ -32,9 +32,6 @@ public class UIViewPowerSaving : MonoBehaviour
     public Coroutine resetCoroutine;
 
     [SerializeField]
-    private int offCount = 3;
-
-    [SerializeField]
     private int currentHours;
     [SerializeField]
     private int currentMin;
@@ -42,9 +39,6 @@ public class UIViewPowerSaving : MonoBehaviour
     private int currentTimeSec;
     [SerializeField]
     private int playTime;
-    
-    [SerializeField]
-    private TMP_Text profileNicknameText;
 
     [SerializeField]
     private TMP_Text powerSavingTime;
@@ -57,21 +51,14 @@ public class UIViewPowerSaving : MonoBehaviour
 
     private int originalCullingMask;
 
-    private bool previouslyConnected = false;
-
     public void StartPowerSavingMode()
     {
         if(this.isOn)
             return;
             
         this.isOn = true;
-        this.offCount = 3;
         this.offSlider.value = 0f;
         this.isLocked = true;
-
-        // previouslyConnected = ChatManager.Instance.IsConnected;
-
-        // ChatManager.Instance.Disconnect();
 
         SoundManager.Instance.MuteAll();
 
@@ -80,18 +67,12 @@ public class UIViewPowerSaving : MonoBehaviour
 
         originalCullingMask = mainCamera.cullingMask;
         mainCamera.cullingMask = 0;
-        //postProcessLayer.enabled = false;
-
-        // closeInfoText.text = string.Format(LanguageManager.Instance.GetTextData(LanguageDataType.UI, "button_power_saving_mode_release"), offCount);
-
-        // thumbnailSequence.PlayAnimation();
 
         Reset();
 
         RefreshTimeInfo();
         RefreshBatteryInfo();
         RefreshWifiInfo();
-        RefreshProfileInfo();
         UpdateLockState();
     }
 
@@ -102,13 +83,13 @@ public class UIViewPowerSaving : MonoBehaviour
         powerSavingTime.text = string.Format("{0:D2}", playTime);   
     }
 
-    public void TouchScreen()
-    {
-        this.offCount = this.offCount - 1;
+    // public void TouchScreen()
+    // {
+    //     this.offCount = this.offCount - 1;
 
-        if(this.offCount <= 0)
-            FinishPowerSavingMode();
-    }
+    //     if(this.offCount <= 0)
+    //         FinishPowerSavingMode();
+    // }
 
     public void OnSliderValueChanged(float value)
     {
@@ -171,13 +152,8 @@ public class UIViewPowerSaving : MonoBehaviour
     {
         this.isOn = false;
 
-		// SoundManager.Instance.UnmuteAll();
-
         UIManager.Instance.ShowCanvas("Main Canvas");
         UIManager.Instance.HideCanvas("Power Saving Canvas");
-
-        // if(previouslyConnected)
-        //     ChatManager.Instance.Connect();
 
         mainCamera.cullingMask = originalCullingMask;
     }
@@ -253,72 +229,4 @@ public class UIViewPowerSaving : MonoBehaviour
         powerSavingTime.text = string.Format("{0:D2} : {1:D2} : {2:D2}", currentHours, currentMin, currentTimeSec);
     }
 
-    // 프로필 갱신
-    public void RefreshProfileInfo()
-    {
-        // 프로필 닉네임과 랭킹
-        // var userData = ServerNetworkManager.Instance.UserData;
-        // var rankColor = InterSceneManager.Instance.GetColorForRank(userData.RankingPosition);
-
-        // var ranking = "?";
-        // if (userData.RankingPosition != 0)
-        // {
-        //     if (OptionManager.Instance.Language != OptionManager.LanguageModeType.en)
-        //         ranking = userData.RankingPosition.ToString();
-        //     else
-        //         ranking = ChatManager.AddOrdinal(userData.RankingPosition);
-        // }
-        // this.profileNicknameText.text = string.Format(LanguageManager.Instance.GetTextData(LanguageDataType.UI, "ranking_format"), ranking, rankColor) + " " + ServerNetworkManager.Instance.UserData.Nickname;
-        
-        // 프로필 hp
-        // var localCharacter = BaseIngameController.Instance.LocalPlayerCharacterIdentity;
-        // hpBar.Refresh(localCharacter.LeftHPRatio, localCharacter.HP, localCharacter.MaxHP);
-
-        // 프로필 stage
-        // int currentStageProgress = ServerNetworkManager.Instance.UserData.SelectedStageProgress;
-        // int currentChapterIndex = (currentStageProgress - 1) / ServerNetworkManager.Instance.Setting.MaxStageInChapter + 1;
-        // int currentStageIndex = (currentStageProgress - 1) % ServerNetworkManager.Instance.Setting.MaxStageInChapter + 1;
-
-        // string chapterStageInfo = currentChapterIndex + "-" + currentStageIndex;
-        // stageText.text = chapterStageInfo;
-    }
-
-    // 플레이 중 획득한 것들을 띄우는 함수(골드, exp, 무기, 등등..)
-    public void IncrementBounty(BigInteger gold, BigInteger enchantStone, BigInteger nebulaStone, int cube, BigInteger exp, bool didFindItem, bool receivedWeapon, bool receivedClass)
-    {
-        // 몬스터 처치시 획득하는 골드 
-        // goldAmount += gold;
-        // goldAcheiveText.text = LanguageManager.Instance.GetTextData(LanguageDataType.ENTITY, "gold") + "\n" +
-        // string.Format(LanguageManager.Instance.NumberToString(goldAmount));
-
-        // enchantStoneAmount += enchantStone;
-        // enchantStoneAcheiveText.text = LanguageManager.Instance.GetTextData(LanguageDataType.ENTITY, "enchant_stone") + "\n" +
-        // string.Format(LanguageManager.Instance.NumberToString(enchantStoneAmount));
-
-        // nebulaStoneAmount += nebulaStone;
-        // nebulaStoneAcheiveText.text = LanguageManager.Instance.GetTextData(LanguageDataType.UI, "button_tab_nebula") + "\n" +
-        // string.Format(LanguageManager.Instance.NumberToString(nebulaStoneAmount));
-
-        // cubeAmount += cube;
-        // cubeAcheiveText.text = LanguageManager.Instance.GetTextData(LanguageDataType.UI, "button_tab_inventory_cube") + "\n" +
-        // string.Format(LanguageManager.Instance.NumberToString(cubeAmount));
-
-        // expAmount += exp;
-        // expAcheiveText.text = LanguageManager.Instance.GetTextData(LanguageDataType.ENTITY, "exp") + "\n" +
-        // string.Format(LanguageManager.Instance.NumberToString(expAmount));
-    
-        // if(didFindItem)
-        // {
-        //     if(receivedWeapon)
-        //     {
-        //         weaponAmount += 1;
-        //         weaponAcheiveText.text = weaponAmount.ToString();
-        //     }
-        //     else if(receivedClass)
-        //     {
-        //         classAmount += 1;
-        //         classAcheiveText.text = classAmount.ToString();
-        //     }
-        // }
-    }
 }

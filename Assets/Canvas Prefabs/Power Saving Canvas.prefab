@@ -206,7 +206,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &462887223600051624
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1211,7 +1211,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5664794988561775257
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1641,7 +1641,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 0}
-  closeInfoText: {fileID: 4302957918597185857}
   batterySpriteList:
   - {fileID: 21300000, guid: 642b95aaf47b7804d860580a6a20a2f4, type: 3}
   - {fileID: 21300000, guid: 0931666ee256ec948a221b54cc9e7f38, type: 3}
@@ -1655,12 +1654,10 @@ MonoBehaviour:
   wifiSignalInfoIcon: {fileID: 8347412800525794470}
   mobileDataText: {fileID: 6099822961522577479}
   offSlider: {fileID: 6922708617744535737}
-  offCount: 3
   currentHours: 0
   currentMin: 0
   currentTimeSec: 0
   playTime: 0
-  profileNicknameText: {fileID: 2736113483572358108}
   powerSavingTime: {fileID: 7846011325578133349}
 --- !u!1 &3652915887250361175
 GameObject:
@@ -1923,7 +1920,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6099822961522577479
 RectTransform:
   m_ObjectHideFlags: 0
