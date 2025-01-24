@@ -25,27 +25,32 @@ public class OutgameController : MonoBehaviour
 
     private IEnumerator LogicOnEverySecondCoroutine()
     {
+        // 앱이 시작된 후 경과된 실시간(초)을 정수로 저장
         var lastTime = (int)Time.realtimeSinceStartup;
-        while(true)
+
+        while (true) // 무한 루프를 실행
         {
+            // 현재 경과된 실시간(초)을 정수로 저장
             var currentTime = (int)Time.realtimeSinceStartup;
 
-            if(currentTime - lastTime >= 1)
+            // 현재 시간과 마지막 시간의 차이가 1초 이상인지 확인
+            if (currentTime - lastTime >= 1)
             {
-                // Check battery and internet connection
-                if(uiViewPowerSaving.IsOn)
+                // 절전 모드가 활성화되어 있는 경우 시간 정보를 갱신
+                if (uiViewPowerSaving.IsOn)
                 {
                     uiViewPowerSaving.RefreshTimeInfo();
-                    uiViewPowerSaving.RefreshBatteryInfo();
-                    uiViewPowerSaving.RefreshWifiInfo();
                 }
 
+                // 마지막 시간 값을 현재 시간으로 업데이트
                 lastTime = currentTime;
             }
 
+            // 다음 프레임까지 대기
             yield return null;
         }
     }
+
 
     public void OpenTestPopup()
     {
