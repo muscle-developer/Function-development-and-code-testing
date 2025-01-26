@@ -18,4 +18,9 @@ public class SoundManager : MonoBehaviour
 	{
 		AudioListener.volume = 0f;
 	}
+
+	public void ResetAll()
+	{
+		AudioListener.volume = 1f;
+	}
 }
