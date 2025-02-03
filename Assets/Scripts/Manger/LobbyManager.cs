@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class LobbyManager : MonoBehaviour
 {
+    public static LobbyManager Instance;
 
+    void Awake()
+    {
+        Instance = this;
+    }
 }
 
