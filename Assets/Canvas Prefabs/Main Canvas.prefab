@@ -884,6 +884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5884220cdb6f4a27980c4bfb17c7bdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nickNameText: {fileID: 7085679039734455013}
   testOpenPopupButton: {fileID: 2157665908860718034}
 --- !u!1 &3336640456102852103
 GameObject:
