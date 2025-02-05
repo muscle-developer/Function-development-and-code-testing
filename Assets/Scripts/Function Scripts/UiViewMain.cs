@@ -13,7 +13,7 @@ public class UiViewMain : MonoBehaviour
     void Start()
     {
         nickname = PlayerPrefs.GetString("Nickname", "Player");
-        nickNameText.text = nickname;
+        nickNameText.text = "닉네임 : " + nickname;
     }
 
     [SerializeField]
