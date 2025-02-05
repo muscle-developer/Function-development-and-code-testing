@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 using UnityEngine.UI;
 using TMPro;
+using System.Text.RegularExpressions;
 
 public class LobbyManager : MonoBehaviour
 {
@@ -15,13 +16,6 @@ public class LobbyManager : MonoBehaviour
     private TMP_InputField input_Nickname; // 닉네임을 입력받는 입력 필드
     [SerializeField]
     private Button createButton; // 게임 시작 버튼
-    [SerializeField]
-    private TMP_Text nickNameText; // 화면에 표시할 닉네임
-
-    [SerializeField]
-    private GameObject nickNameCreatePopup; // 닉네임 생성 팝업
-    [SerializeField]
-    private GameObject nickNamePanel;    // 닉네임 표시 UI
 
     private Coroutine co = null; // 현재 실행 중인 코루틴을 저장하는 변수 (중복 실행 방지)
     public bool deleteData; // PlayerPrefs 데이터를 초기화할지 여부
@@ -41,13 +35,38 @@ public class LobbyManager : MonoBehaviour
         // 페이드 아웃 효과를 시작
         fadeImage.gameObject.SetActive(true);
         StartCoroutine(FadeOut());
+        createButton.interactable = false;
     }
 
     // 닉네임 입력 필드의 값이 변경될 때 호출
     public void OnInputFieldValueChanged()
     {
-        // 닉네임이 입력된 경우에만 시작 버튼 활성화
-        createButton.interactable = input_Nickname.text.Length > 0;
+        bool isViolating = false;
+
+        foreach(var tmp in input_Nickname.text)
+        {
+            if(!char.IsLetterOrDigit(tmp) && char.IsWhiteSpace(tmp))
+				isViolating = true;   
+        }
+
+		// 이모지와 특수문자 제거
+		string inputString = input_Nickname.text;
+		string outputString = Regex.Replace(inputString, @"[^\w\s]", ""); 
+		if(outputString.Length <= 1 || outputString != inputString)
+		{
+			isViolating = true;
+		}
+
+		if(input_Nickname.text.Length <= 1)
+			isViolating = true;
+
+		if(input_Nickname.text == "")
+			isViolating = true;
+
+		if(isViolating)
+            createButton.interactable = false;
+        else
+            createButton.interactable = true;
     }
 
     // 게임 시작 버튼 클릭 시 호출
