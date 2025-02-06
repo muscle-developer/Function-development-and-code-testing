@@ -17,7 +17,7 @@ public class UiViewMain : MonoBehaviour
     }
 
     [SerializeField]
-    private Button testOpenPopupButton;
+    private Button pressedOpenPopupButton;
 
     public void OpenTestPopupButtonClicked()
     {
@@ -42,5 +42,10 @@ public class UiViewMain : MonoBehaviour
     public void OpenPowerSavingButtonClicked()
     {
         OutgameController.Instance.OpenPowerSavingPopup();
+    }
+
+    public void OpenPressedPopupButtonClicked()
+    {
+        OutgameController.Instance.OpenPressedPopup();
     }
 }

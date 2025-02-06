@@ -11,6 +11,8 @@ public class OutgameController : MonoBehaviour
     private List<TestPopup> testPopupList;
     [SerializeField]
     private UIViewPowerSaving uiViewPowerSaving;
+    [SerializeField]
+    private PressedPopup uiPressedPopup;
 
     private void Awake()
 	{
@@ -87,5 +89,10 @@ public class OutgameController : MonoBehaviour
     public void OpenPowerSavingPopup()
     {
         uiViewPowerSaving.StartPowerSavingMode();   
+    }
+
+    public void OpenPressedPopup()
+    {
+        uiPressedPopup.Open();   
     }
 }
