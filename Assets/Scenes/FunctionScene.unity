@@ -173,6 +173,7 @@ MonoBehaviour:
   - {fileID: 1753535041}
   - {fileID: 1138477735}
   uiViewPowerSaving: {fileID: 878469398}
+  uiPressedPopup: {fileID: 1572906581}
 --- !u!1 &170614211
 GameObject:
   m_ObjectHideFlags: 0
@@ -681,6 +682,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8291127540388439620, guid: 8d289366b6b4e4a1a8e15c72777238d1, type: 3}
   m_PrefabInstance: {fileID: 8291127538996098837}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1572906581 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6162299610504100357, guid: 8d289366b6b4e4a1a8e15c72777238d1, type: 3}
+  m_PrefabInstance: {fileID: 8291127538996098837}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f587c0ce7174de38ca1a35859cad9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1716929732
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,6 +1048,10 @@ PrefabInstance:
     - target: {fileID: 713608209895553274, guid: 8d289366b6b4e4a1a8e15c72777238d1, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033944457476169624, guid: 8d289366b6b4e4a1a8e15c72777238d1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.3518066
       objectReference: {fileID: 0}
     - target: {fileID: 8291127539272348507, guid: 8d289366b6b4e4a1a8e15c72777238d1, type: 3}
       propertyPath: m_IsActive
