@@ -35,7 +35,7 @@ public class LobbyManager : MonoBehaviour
         // 페이드 아웃 효과를 시작
         fadeImage.gameObject.SetActive(true);
         StartCoroutine(FadeOut());
-        createButton.interactable = false;
+        createButton.interactable = false; // 닉네임 생성 버튼 비활성화
     }
 
     // 닉네임 입력 필드의 값이 변경될 때 호출
