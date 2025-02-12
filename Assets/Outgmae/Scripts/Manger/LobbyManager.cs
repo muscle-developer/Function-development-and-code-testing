@@ -1,4 +1,3 @@
-
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
@@ -74,7 +73,7 @@ public class LobbyManager : MonoBehaviour
     {
         if (co == null) // 코루틴 중복 실행 방지
         {
-            co = StartCoroutine(SceneTrans("FunctionScene")); // 씬 전환 코루틴 실행
+            co = StartCoroutine(SceneTrans("OutgameScene")); // 씬 전환 코루틴 실행
         }
     }
 
