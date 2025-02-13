@@ -40,32 +40,39 @@ public class LobbyManager : MonoBehaviour
     // 닉네임 입력 필드의 값이 변경될 때 호출
     public void OnInputFieldValueChanged()
     {
+        // 닉네임이 규칙을 위반했는지를 저장하는 변수
         bool isViolating = false;
 
+        // 닉네임의 각 문자에 대해 검사
         foreach(var tmp in input_Nickname.text)
         {
+            // 문자가 알파벳, 숫자, 또는 공백이 아닌 경우 위반으로 간주
             if(!char.IsLetterOrDigit(tmp) && char.IsWhiteSpace(tmp))
-				isViolating = true;   
+                isViolating = true;   
         }
 
-		// 이모지와 특수문자 제거
-		string inputString = input_Nickname.text;
-		string outputString = Regex.Replace(inputString, @"[^\w\s]", ""); 
-		if(outputString.Length <= 1 || outputString != inputString)
-		{
-			isViolating = true;
-		}
+        // 입력된 문자열에서 이모지와 특수문자 제거
+        string inputString = input_Nickname.text;
+        string outputString = Regex.Replace(inputString, @"[^\w\s]", ""); // \w는 알파벳, 숫자, 밑줄을 의미하고 \s는 공백 문자
+        // 특수문자가 제거된 문자열 길이가 1 이하이거나 원본 문자열과 다르면 위반 처리
+        if(outputString.Length <= 1 || outputString != inputString)
+        {
+            isViolating = true;
+        }
 
-		if(input_Nickname.text.Length <= 1)
-			isViolating = true;
+        // 입력된 닉네임이 1자 이하일 경우 위반 처리
+        if(input_Nickname.text.Length <= 1)
+            isViolating = true;
 
-		if(input_Nickname.text == "")
-			isViolating = true;
+        // 입력 필드가 비어있는 경우 위반 처리
+        if(input_Nickname.text == "")
+            isViolating = true;
 
-		if(isViolating)
-            createButton.interactable = false;
+        // 위반이 있으면 버튼 비활성화, 없으면 활성화
+        if(isViolating)
+            createButton.interactable = false; // 유효하지 않으면 버튼 비활성화
         else
-            createButton.interactable = true;
+            createButton.interactable = true;  // 유효하면 버튼 활성화
     }
 
     // 게임 시작 버튼 클릭 시 호출
