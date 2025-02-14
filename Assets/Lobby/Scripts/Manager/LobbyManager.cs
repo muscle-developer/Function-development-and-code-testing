@@ -37,6 +37,8 @@ public class LobbyManager : MonoBehaviour
         createButton.interactable = false; // 닉네임 생성 버튼 비활성화
     }
 
+    // 금칙어 추가 (구글 시트 반영 해야함)
+
     // 닉네임 입력 필드의 값이 변경될 때 호출
     public void OnInputFieldValueChanged()
     {
