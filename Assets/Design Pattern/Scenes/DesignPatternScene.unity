@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 921903968}
   - component: {fileID: 921903967}
   m_Layer: 0
-  m_Name: Singleton
+  m_Name: Singleton Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
