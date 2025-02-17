@@ -4,6 +4,7 @@ using System.Collections;
 using UnityEngine.UI;
 using TMPro;
 using System.Text.RegularExpressions;
+using UnityEditor.IMGUI.Controls;
 
 public class LobbyManager : MonoBehaviour
 {
@@ -15,6 +16,10 @@ public class LobbyManager : MonoBehaviour
     private TMP_InputField input_Nickname; // 닉네임을 입력받는 입력 필드
     [SerializeField]
     private Button createButton; // 게임 시작 버튼
+
+    [Header("구글 시트")]
+    [SerializeField]
+    private GoogleSheetsLoader googleSheetsLoader; // Google Sheets 데이터 로드 스크립트
 
     private Coroutine co = null; // 현재 실행 중인 코루틴을 저장하는 변수 (중복 실행 방지)
     public bool deleteData; // PlayerPrefs 데이터를 초기화할지 여부
@@ -36,8 +41,6 @@ public class LobbyManager : MonoBehaviour
         StartCoroutine(FadeOut());
         createButton.interactable = false; // 닉네임 생성 버튼 비활성화
     }
-
-    // 금칙어 추가 (구글 시트 반영 해야함)
 
     // 닉네임 입력 필드의 값이 변경될 때 호출
     public void OnInputFieldValueChanged()
@@ -63,11 +66,11 @@ public class LobbyManager : MonoBehaviour
         }
 
         // 입력된 닉네임이 1자 이하일 경우 위반 처리
-        if(input_Nickname.text.Length <= 1)
+        if(input_Nickname.text.Length <= 1 || input_Nickname.text == "")
             isViolating = true;
 
-        // 입력 필드가 비어있는 경우 위반 처리
-        if(input_Nickname.text == "")
+        // 추가: 금지어 필터 적용
+        if (googleSheetsLoader.IsBannedWord(input_Nickname.text))
             isViolating = true;
 
         // 위반이 있으면 버튼 비활성화, 없으면 활성화
