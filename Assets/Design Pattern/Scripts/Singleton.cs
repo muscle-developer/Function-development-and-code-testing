@@ -5,6 +5,7 @@ public class Singleton : MonoBehaviour
     // 전역적으로 접근 가능한 유일한 인스턴스
     private static Singleton instance;
 
+    // 하나의 싱글턴만 사용하기 위해 (중복 되지 않게)
     public static Singleton Instance
     {
         get { return instance; }
