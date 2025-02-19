@@ -102,33 +102,17 @@ public class OutgameController : MonoBehaviour
         uiPressedPopup.Open();   
     }
 
-    public bool CheckText(string text)
-	{
-		if(filterlist == null)
-        {
-            filterlist = new List<string>();
-            foreach(var tmp in filterTextList)
-            {
-                filterlist = filterlist.Union(tmp.text.Split(new string[] {"\n", "\r\n"}, StringSplitOptions.RemoveEmptyEntries)).ToList();
-            }
-        }
+    // public bool CheckText(string text)
+	// {
+	// 	if(filterlist == null)
+    //     {
+    //         filterlist = new List<string>();
+    //         foreach(var tmp in filterTextList)
+    //         {
+    //             filterlist = filterlist.Union(tmp.text.Split(new string[] {"\n", "\r\n"}, StringSplitOptions.RemoveEmptyEntries)).ToList();
+    //         }
+    //     }
 
-        text = text.ToLowerInvariant();
-		
-		foreach (var tmp in filterlist)
-		{
-            if(HasNonASCIIChars(tmp) || HasNonASCIIChars(text))
-			{
-                if(text.Contains(tmp.ToLowerInvariant()))
-                    return false;
-            }
-			else
-			{
-                if(text == tmp)
-                    return false;
-                else if(text.Contains((" " + tmp + " ").ToLowerInvariant()))
-                    return false;
-            }
-		}
-    }
+    //     text = text.ToLowerInvariant();
+    // }
 }
