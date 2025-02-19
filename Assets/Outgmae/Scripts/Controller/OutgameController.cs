@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 public class OutgameController : MonoBehaviour
 {
@@ -14,6 +17,10 @@ public class OutgameController : MonoBehaviour
     [SerializeField]
     private PressedPopup uiPressedPopup;
 
+    [Header("Text")]
+    [SerializeField]
+	private List<TextAsset> filterTextList = null;
+    private List<string> filterlist = null;
     private void Awake()
 	{
         // 싱글톤 패턴 구현
@@ -52,7 +59,6 @@ public class OutgameController : MonoBehaviour
             yield return null;
         }
     }
-
 
     public void OpenTestPopup()
     {
@@ -94,5 +100,35 @@ public class OutgameController : MonoBehaviour
     public void OpenPressedPopup()
     {
         uiPressedPopup.Open();   
+    }
+
+    public bool CheckText(string text)
+	{
+		if(filterlist == null)
+        {
+            filterlist = new List<string>();
+            foreach(var tmp in filterTextList)
+            {
+                filterlist = filterlist.Union(tmp.text.Split(new string[] {"\n", "\r\n"}, StringSplitOptions.RemoveEmptyEntries)).ToList();
+            }
+        }
+
+        text = text.ToLowerInvariant();
+		
+		foreach (var tmp in filterlist)
+		{
+            if(HasNonASCIIChars(tmp) || HasNonASCIIChars(text))
+			{
+                if(text.Contains(tmp.ToLowerInvariant()))
+                    return false;
+            }
+			else
+			{
+                if(text == tmp)
+                    return false;
+                else if(text.Contains((" " + tmp + " ").ToLowerInvariant()))
+                    return false;
+            }
+		}
     }
 }
