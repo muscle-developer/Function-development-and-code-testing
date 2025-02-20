@@ -8,7 +8,21 @@ public class Singleton : MonoBehaviour
     // 하나의 싱글턴만 사용하기 위해 (중복 되지 않게)
     public static Singleton Instance
     {
-        get { return instance; }
+        get {
+                // 인스턴스가 없으면 새로 생성
+                if (instance == null)
+                {
+                    instance = FindObjectOfType<Singleton>();
+
+                    // 씬에 싱글톤이 없으면 새로 생성
+                    if (instance == null)
+                    {
+                        GameObject singletonObject = new GameObject("Singleton");
+                        instance = singletonObject.AddComponent<Singleton>();
+                    }
+                }
+                return instance; 
+            }
         private set { instance = value; }
     }
 
