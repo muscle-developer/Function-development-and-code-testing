@@ -4,7 +4,6 @@ using System.Collections;
 using UnityEngine.UI;
 using TMPro;
 using System.Text.RegularExpressions;
-using UnityEditor.IMGUI.Controls;
 
 public class LobbyManager : MonoBehaviour
 {
@@ -69,8 +68,12 @@ public class LobbyManager : MonoBehaviour
         if(input_Nickname.text.Length <= 1 || input_Nickname.text == "")
             isViolating = true;
 
-        // 추가: 금지어 필터 적용
-        if (googleSheetsLoader.IsBannedWord(input_Nickname.text))
+        // 구글 시트 URL로 받아올 때: 금지어 필터 적용
+        // if (googleSheetsLoader.IsBannedWord(input_Nickname.text))
+        //     isViolating = true;
+
+        // txt파일로 받아올 떄 : 금지어 필터 적용
+        if (OutgameController.Instance.CheckBlockText(input_Nickname.text))
             isViolating = true;
 
         // 위반이 있으면 버튼 비활성화, 없으면 활성화
