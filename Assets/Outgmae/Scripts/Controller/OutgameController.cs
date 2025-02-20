@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.Linq;
-using System.Text.RegularExpressions;
+using UnityEngine.SceneManagement;
 
 public class OutgameController : MonoBehaviour
 {
@@ -17,10 +17,11 @@ public class OutgameController : MonoBehaviour
     [SerializeField]
     private PressedPopup uiPressedPopup;
 
-    [Header("Text")]
+    [Header("Block Text")]
     [SerializeField]
-	private List<TextAsset> filterTextList = null;
-    private List<string> filterlist = null;
+	private List<TextAsset> filterTextList = null; // 필터링할 단어들이 포함된 TextAsset 리스트
+    private List<string> filterlist = null; // 필터링할 단어들을 저장하는 문자열 리스트
+
     private void Awake()
 	{
         // 싱글톤 패턴 구현
@@ -29,7 +30,10 @@ public class OutgameController : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(LogicOnEverySecondCoroutine());
+        if(SceneManager.GetActiveScene().name != "LobbyScene")
+        {
+            StartCoroutine(LogicOnEverySecondCoroutine());
+        }
     }
 
     private IEnumerator LogicOnEverySecondCoroutine()
@@ -102,17 +106,33 @@ public class OutgameController : MonoBehaviour
         uiPressedPopup.Open();   
     }
 
-    // public bool CheckText(string text)
-	// {
-	// 	if(filterlist == null)
-    //     {
-    //         filterlist = new List<string>();
-    //         foreach(var tmp in filterTextList)
-    //         {
-    //             filterlist = filterlist.Union(tmp.text.Split(new string[] {"\n", "\r\n"}, StringSplitOptions.RemoveEmptyEntries)).ToList();
-    //         }
-    //     }
+    public bool CheckBlockText(string text)
+    {
+        // 필터링할 단어들을 저장하는 문자열 리스트가 아직 초기화되지 않았다면
+        if (filterlist == null)
+        {
+            filterlist = new List<string>(); // 새로운 리스트 생성
 
-    //     text = text.ToLowerInvariant();
-    // }
+            // filterTextList에 포함된 각 TextAsset을 순회하며 필터링 단어들을 추가
+            foreach (var tmp in filterTextList)
+            {
+                // 현재 리스트와 새로운 리스트를 합친 후 중복 제거하여 filterlist에 저장
+                filterlist = filterlist.Union(tmp.text.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.RemoveEmptyEntries)).ToList();
+            }
+        }
+
+        // 입력된 텍스트를 소문자로 변환하여 비교
+        text = text.ToLowerInvariant();
+
+        // 필터링 리스트에 있는 단어가 포함되어 있는지 확인
+        foreach (var bannedWord in filterlist)
+        {
+            if (text.Contains(bannedWord.ToLowerInvariant()))
+            {
+                return true; // 금지어가 포함된 경우 true 반환
+            }
+        }
+
+        return false; // 금지어가 포함되지 않은 경우 false 반환
+    }
 }
