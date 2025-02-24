@@ -1,8 +1,16 @@
 using UnityEngine;
 using TMPro;
 
-public class UIManagerObserver : MonoBehaviour
+public class UIManagerObserver : MonoBehaviour, IObserver
 {
+    // 인터페이스 사용
+    public void OnNotify(int score)
+    {
+        Debug.Log($"UI 업데이트: 점수 {score}");
+    }
+
+    // 델리게이트, 액션 이벤트 사용
+
     [SerializeField]
     private TMP_Text uiScoreText;
 
