@@ -1017,7 +1017,7 @@ PrefabInstance:
     - target: {fileID: 3575350537319837881, guid: 1c9fa6d94970040bdb903960a91bf4be, type: 3}
       propertyPath: testPopup
       value: 
-      objectReference: {fileID: 1936854091}
+      objectReference: {fileID: 2787768424966388878, guid: 5f107d8dabb8043b193523a161695ee2, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c9fa6d94970040bdb903960a91bf4be, type: 3}
 --- !u!1001 &8291127538996098837
