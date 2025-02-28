@@ -22,6 +22,7 @@ public class GunPool : MonoBehaviour
 
     private void Shoot()
     {
+        // 풀에서 오브젝트 가져오기
         GameObject bullet = PoolManager.Instance.GetObjectFromPool("Bullet");
 
         if (bullet != null)
