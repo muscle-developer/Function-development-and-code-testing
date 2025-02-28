@@ -24,6 +24,7 @@ public class BulletPool : MonoBehaviour
 
     private void ReturnToPool()
     {
-        PoolManager.Instance.ReturnObjectToPool("Bullet", gameObject);
+        // 오브젝트 풀로 반환하기
+        PoolManager.Instance.ReturnObjectToPool("Bullet", this.gameObject);
     }
 }
