@@ -6,17 +6,13 @@ using Newtonsoft.Json; // Newtonsoft를 사용하기 위해 네임스페이스 �
 public class NewtonsoftJsonExample : MonoBehaviour
 {
     void Start()
-    {
-        // JsonTest jTest = new JsonTest(); // JsonTest 클래스의 인스턴스를 생성
-        // string jsonData = JsonConvert.SerializeObject(jTest);   // JsonTest 인스턴스를 JSON 문자열로 변환(직렬화)
-        // Debug.Log(jsonData); // 변환된 JSON 문자열을 Unity 콘솔에 출력
+    {        
+        JsonTest jTest = new JsonTest(); // JsonTest 클래스의 인스턴스를 생성
+        string jsonData = JsonConvert.SerializeObject(jTest);   // JsonTest 인스턴스를 JSON 문자열로 변환(직렬화)
+        Debug.Log(jsonData); // 변환된 JSON 문자열을 Unity 콘솔에 출력
 
-        // JsonTest jsonTest1 = JsonConvert.DeserializeObject<JsonTest>(jsonData); // JSON 문자열을 다시 JsonTest 객체로 변환(역직렬화)
-        // jsonTest1.Print();  // 역직렬화된 객체의 데이터를 출력
-
-        GameObject obj = new GameObject();
-        obj.AddComponent<NewtonsoftTestMono>();
-        Debug.Log(JsonConvert.SerializeObject(obj.GetComponent<NewtonsoftTestMono>()));
+        JsonTest jsonTest1 = JsonConvert.DeserializeObject<JsonTest>(jsonData); // JSON 문자열을 다시 JsonTest 객체로 변환(역직렬화)
+        jsonTest1.Print();  // 역직렬화된 객체의 데이터를 출력
     }
 
 
