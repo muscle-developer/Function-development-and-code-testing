@@ -14,9 +14,9 @@ public class NewtonsoftJsonExample : MonoBehaviour
         JsonTest jsonTest1 = JsonConvert.DeserializeObject<JsonTest>(jsonData); // JSON 문자열을 다시 JsonTest 객체로 변환(역직렬화)
         jsonTest1.Print();  // 역직렬화된 객체의 데이터를 출력
     }
+}
 
-
-    // JSON 변환을 테스트할 클래스
+// JSON 변환을 테스트할 클래스
     public class JsonTest
     {
         public int i;
@@ -70,8 +70,9 @@ public class NewtonsoftJsonExample : MonoBehaviour
             }
 
             Debug.Log("iVector = " + iVector.x + "," + iVector.y);
-        }
+        }   
 
+        [System.Serializable]
         // 2차원 정수 벡터를 나타내는 클래스
         public class IntVector2
         {
@@ -86,4 +87,3 @@ public class NewtonsoftJsonExample : MonoBehaviour
             }
         }
     }
-}
