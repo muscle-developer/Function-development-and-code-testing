@@ -101,7 +101,6 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
--define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -338,6 +337,7 @@
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/UnityEngine.UI.ref.dll"
+-analyzer:"Assets/Outgame/Plugins/Newtonsoft.Json.dll"
 "Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/Editor/Analytics/CoverageAnalytics.cs"
 "Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/Editor/Analytics/CoverageAnalyticsEnums.cs"
 "Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/Editor/Analytics/CoverageAnalyticsEvent.cs"

@@ -36,9 +36,4 @@ public class JsonUtilityExample : MonoBehaviour
     }
 }
 
-public class JsonVectorTest
-{   
-    public Vector3 vector3 = new Vector3(1, 2, 3);
-} 
-
 
