@@ -17,8 +17,10 @@ public class JsonFileManager : MonoBehaviour
 
     void Start()
     {
-        // filePath = Path.Combine(Application.persistentDataPath, "playerData.json"); // 저장할 경로 설정
-        filePath = Path.Combine(Application.dataPath, "Outgame", "Scripts", "Json", "playerData.json");
+        // 게임의 데이터를 저장하는 경로, 유저의 기기에서 Documents나 AppData 폴더 안에 위치 - Application.persistentDataPath
+        // filePath = Path.Combine(Application.persistentDataPath, "playerData.json"); 
+        // Unity의 Assets 폴더 위치 - Application.dataPath
+        filePath = Path.Combine(Application.dataPath, "Outgame", "Scripts", "Json", "playerData.json"); 
         Debug.Log("Persistent Data Path: " + Application.persistentDataPath);
 
         // 예시 데이터 생성
