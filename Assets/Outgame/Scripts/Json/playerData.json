@@ -1,0 +1,11 @@
+{
+    "name": "Player",
+    "age": 25,
+    "level": 1,
+    "isDead": false,
+    "items": [
+        "Apple",
+        "Sword",
+        "Shield"
+    ]
+}
