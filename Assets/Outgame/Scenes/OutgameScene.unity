@@ -279,8 +279,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 221873049}
-  - component: {fileID: 221873048}
   - component: {fileID: 221873050}
+  - component: {fileID: 221873048}
+  - component: {fileID: 221873051}
   m_Layer: 0
   m_Name: Aspect Ratio Modifier
   m_TagString: Untagged
@@ -302,8 +303,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   safezonePadding: 80
   infoImage: {fileID: 2023742774}
-  hpBar: {fileID: 2107943729}
-  nickNameImage: {fileID: 477662577}
+  profileInfoImage: {fileID: 1026299913}
 --- !u!224 &221873049
 RectTransform:
   m_ObjectHideFlags: 0
@@ -345,6 +345,30 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &221873051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221873046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f47d7798bbe124f05a0fbfd0c2e32e75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasScalers:
+  - {fileID: 2012066790}
+  safezoneHeight: 80
+  safeZonePortraitUIList:
+  - {fileID: 1911139374}
+  - {fileID: 878469397}
+  safeZoneReversePortraitUIList: []
+  safezoneWidth: 80
+  safeZoneAdjustedUIList:
+  - {fileID: 1911139374}
+  - {fileID: 878469397}
+  safeZoneReverseAdjustedUIList: []
 --- !u!1001 &476283550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -402,11 +426,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10b433b057cf74606aeaa5928936c546, type: 3}
---- !u!224 &477662577 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 3817826837900625746, guid: 1c9fa6d94970040bdb903960a91bf4be, type: 3}
-  m_PrefabInstance: {fileID: 1794752821584765908}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &645845126
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,6 +755,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bba5000982fb4e2eae12d08b57ce7b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!224 &1026299913 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 678283649926595112, guid: 1c9fa6d94970040bdb903960a91bf4be, type: 3}
+  m_PrefabInstance: {fileID: 1794752821584765908}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1183781281
 GameObject:
   m_ObjectHideFlags: 0
@@ -1043,11 +1067,6 @@ CanvasGroup:
 --- !u!224 &2023742774 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1723273491059699666, guid: 1c9fa6d94970040bdb903960a91bf4be, type: 3}
-  m_PrefabInstance: {fileID: 1794752821584765908}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &2107943729 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 3279868855630938923, guid: 1c9fa6d94970040bdb903960a91bf4be, type: 3}
   m_PrefabInstance: {fileID: 1794752821584765908}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1794752821584765908
