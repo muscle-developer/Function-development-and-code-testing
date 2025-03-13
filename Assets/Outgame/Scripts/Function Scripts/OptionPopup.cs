@@ -1,10 +1,14 @@
+using System;
 using UnityEngine;
 using TMPro;
+using System.Collections;
+using System.Linq;
+using System.Collections.Generic;
 
 public class OptionPopup : UIPopup
 {
     [SerializeField]
-	private TMP_Dropdown langugateDropDown;
+	private TMP_Dropdown languageDropDown;
 
     public override void Open()
     {
@@ -19,32 +23,32 @@ public class OptionPopup : UIPopup
 
     // public void Refresh()
     // {
-    //     this.langugateDropDown.ClearOptions();
+    //     this.languageDropDown.ClearOptions();
     //     foreach(var tmp in Enum.GetValues(typeof(OptionManager.LanguageModeType)))
 	// 	{
 	// 		var stringToUse = tmp.ToString();
 
 	// 		if(stringToUse == "zh_cht")
 	// 		{
-	// 			this.langugateDropDown.options.Add(new TMP_Dropdown.OptionData("繁體中文"));
+	// 			this.languageDropDown.options.Add(new TMP_Dropdown.OptionData("繁體中文"));
 	// 		}
 	// 		else if(stringToUse == "zh_chs")
 	// 		{
-	// 			this.langugateDropDown.options.Add(new TMP_Dropdown.OptionData("简体中文"));
+	// 			this.languageDropDown.options.Add(new TMP_Dropdown.OptionData("简体中文"));
 	// 		}
 	// 		else if(stringToUse == "th")
 	// 		{
-	// 			this.langugateDropDown.options.Add(new TMP_Dropdown.OptionData("Thai"));
+	// 			this.languageDropDown.options.Add(new TMP_Dropdown.OptionData("Thai"));
 	// 		}
 	// 		else
 	// 		{
 	// 			var textTouse = new CultureInfo(stringToUse).NativeName;
 	// 			var tmp2 = new TMP_Dropdown.OptionData(textTouse.First().ToString().ToUpperInvariant() + textTouse.Substring(1));
-	// 			this.langugateDropDown.options.Add(tmp2);
+	// 			this.languageDropDown.options.Add(tmp2);
 	// 		}
 	// 	}
-	// 	this.langugateDropDown.value = (int)OptionManager.Instance.Language;
-	// 	this.langugateDropDown.RefreshShownValue();
+	// 	this.languageDropDown.value = (int)OptionManager.Instance.Language;
+	// 	this.languageDropDown.RefreshShownValue();
     // }
 
     // public void OnLangguageDropDown(int id)

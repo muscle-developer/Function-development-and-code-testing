@@ -2403,7 +2403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationType: 0
-  langugateDropDown: {fileID: 3481011516184318497}
+  languageDropDown: {fileID: 3481011516184318497}
 --- !u!1 &7623140961408246000
 GameObject:
   m_ObjectHideFlags: 0
