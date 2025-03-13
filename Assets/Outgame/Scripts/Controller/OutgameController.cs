@@ -16,7 +16,8 @@ public class OutgameController : MonoBehaviour
     private UIViewPowerSaving uiViewPowerSaving;
     [SerializeField]
     private PressedPopup uiPressedPopup;
-
+    [SerializeField]
+    private OptionPopup uiOptionPopup;
     [Header("Block Text")]
     [SerializeField]
 	private List<TextAsset> filterTextList = null; // 필터링할 단어들이 포함된 TextAsset 리스트
@@ -104,6 +105,11 @@ public class OutgameController : MonoBehaviour
     public void OpenPressedPopup()
     {
         uiPressedPopup.Open();   
+    }
+
+    public void OpenOptionPopup()
+    {
+        uiOptionPopup.Open();
     }
 
     public bool CheckBlockText(string text)
