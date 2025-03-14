@@ -1,0 +1,58 @@
+{
+  "UI": [
+    {
+      "Id": "common_start",
+      "Korean": "시작",
+      "English": "Start",
+      "Japanese": "スタート"
+    },
+    {
+      "Id": "common_end",
+      "Korean": "종료",
+      "English": "End",
+      "Japanese": "終了"
+    },
+    {
+      "Id": "common_option",
+      "Korean": "옵션",
+      "English": "Option",
+      "Japanese": "オプション"
+    },
+    {
+      "Id": "common_nickName",
+      "Korean": "닉네임",
+      "English": "Nickname",
+      "Japanese": "ニックネーム"
+    },
+    {
+      "Id": "common_info",
+      "Korean": "정보",
+      "English": "Info",
+      "Japanese": "情報"
+    },
+    {
+      "Id": "common_language",
+      "Korean": "언어",
+      "English": "Language",
+      "Japanese": "言語"
+    },
+    {
+      "Id": "common_korea",
+      "Korean": "한국어",
+      "English": "Korea",
+      "Japanese": "韓国語"
+    },
+    {
+      "Id": "common_english",
+      "Korean": "영어",
+      "English": "English",
+      "Japanese": "英語"
+    },
+    {
+      "Id": "common_japanese",
+      "Korean": "일본어",
+      "English": "Japanese",
+      "Japanese": "日本語"
+    }
+  ]
+}
