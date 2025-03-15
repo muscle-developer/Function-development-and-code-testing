@@ -1,18 +1,18 @@
 using System;
 using UnityEngine;
 using TMPro;
-using System.Collections;
-using System.Linq;
 using System.Collections.Generic;
 
 public class OptionPopup : UIPopup
 {
     [SerializeField]
 	private TMP_Dropdown languageDropdown;
+    private int index = 0;
 
     public override void Open()
     {
         base.Open();
+        Refresh();
     }
 
     public override void Close()
@@ -23,6 +23,27 @@ public class OptionPopup : UIPopup
      public override void Refresh()
      {
         languageDropdown.ClearOptions();
+        
+        languageDropdown.AddOptions(new List<string> { "한국어", "English", "日本語" });
+
+        if (index >= 0 && index < languageDropdown.options.Count)
+        {
+            switch (index)
+            {
+                case 0:
+                    languageDropdown.options[0].text = "한국어";
+                break;
+                case 1: 
+                    languageDropdown.options[1].text = "English";
+                break;
+                case 2: 
+                    languageDropdown.options[2].text = "日本語";
+                break;
+                default:
+                    languageDropdown.options[0].text = "한국어";
+                break;
+            }
+        }
      }
 
     public void OnLanguageChange(int index)
