@@ -31,6 +31,9 @@ public class OutgameController : MonoBehaviour
 
     void Start()
     {
+        if (uiOptionPopup != null)
+            uiOptionPopup.Refresh();
+
         if(SceneManager.GetActiveScene().name != "LobbyScene")
         {
             StartCoroutine(LogicOnEverySecondCoroutine());
