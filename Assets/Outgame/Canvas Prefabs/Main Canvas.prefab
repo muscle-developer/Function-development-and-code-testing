@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 5673032242809265109}
   - component: {fileID: 7405042069339855514}
   m_Layer: 5
-  m_Name: 'Nick Name Text '
+  m_Name: common_nickName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -988,7 +988,7 @@ GameObject:
   - component: {fileID: 8773455655732073958}
   - component: {fileID: 8464956080787953801}
   m_Layer: 5
-  m_Name: 'Option Text '
+  m_Name: common_optionpopup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
