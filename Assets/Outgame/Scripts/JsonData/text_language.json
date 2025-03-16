@@ -53,6 +53,12 @@
       "Korean": "일본어",
       "English": "Japanese",
       "Japanese": "日本語"
+    },
+    {
+      "Id": "common_optionpopup",
+      "Korean": "옵션 팝업",
+      "English": "Option Popup",
+      "Japanese": "オプションポップアップ"
     }
   ]
 }
