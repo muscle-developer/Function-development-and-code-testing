@@ -1540,8 +1540,9 @@ GameObject:
   - component: {fileID: 1978750600740413907}
   - component: {fileID: 8433503841897574013}
   - component: {fileID: 90501631395905610}
+  - component: {fileID: 4283205031730707476}
   m_Layer: 0
-  m_Name: common_language
+  m_Name: Language Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1664,6 +1665,19 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &4283205031730707476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6091715121703957096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d42a1a3e05244a2a377e35d75c9c69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: common_language
 --- !u!1 &6395898275775235936
 GameObject:
   m_ObjectHideFlags: 0
