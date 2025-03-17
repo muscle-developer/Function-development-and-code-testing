@@ -20,9 +20,9 @@
     },
     {
       "Id": "common_nickName",
-      "Korean": "닉네임",
-      "English": "Nickname",
-      "Japanese": "ニックネーム"
+      "Korean": "닉네임 : {0}",
+      "English": "Nickname : {0}",
+      "Japanese": "ニックネーム :  {0}"
     },
     {
       "Id": "common_info",
