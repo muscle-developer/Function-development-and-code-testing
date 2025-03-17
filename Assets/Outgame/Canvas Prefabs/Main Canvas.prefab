@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 5673032242809265109}
   - component: {fileID: 7405042069339855514}
   m_Layer: 5
-  m_Name: common_nickName
+  m_Name: NickName Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -852,8 +852,9 @@ GameObject:
   - component: {fileID: 4440836146190263757}
   - component: {fileID: 8790970790468776349}
   - component: {fileID: 5299307862765630557}
+  - component: {fileID: 760036257197911129}
   m_Layer: 5
-  m_Name: common_info
+  m_Name: Info Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -976,6 +977,19 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &760036257197911129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7672597994734299161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d42a1a3e05244a2a377e35d75c9c69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: common_info
 --- !u!1 &7679428043379884217
 GameObject:
   m_ObjectHideFlags: 0
@@ -987,8 +1001,9 @@ GameObject:
   - component: {fileID: 2866211788311451364}
   - component: {fileID: 8773455655732073958}
   - component: {fileID: 8464956080787953801}
+  - component: {fileID: 6594334453591416599}
   m_Layer: 5
-  m_Name: common_optionpopup
+  m_Name: Optionpopup Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1111,6 +1126,19 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &6594334453591416599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7679428043379884217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d42a1a3e05244a2a377e35d75c9c69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: common_optionpopup
 --- !u!1 &7963228682714296662
 GameObject:
   m_ObjectHideFlags: 0
