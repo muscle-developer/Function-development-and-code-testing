@@ -11,7 +11,9 @@ public class UiViewMain : MonoBehaviour
     void Start()
     {
         nickname = PlayerPrefs.GetString("Nickname", "Player");
-        nickNameText.text = LanguageManager.Instance.GetTextData("common_nickName") + nickname;
+        var textLocalizer = nickNameText.gameObject.AddComponent<TextLocalizer>();
+        textLocalizer.key = "common_nickName"; // 키 설정
+        textLocalizer.SetFormatArgument(nickname); // 닉네임 전달
     }
 
     [SerializeField]
