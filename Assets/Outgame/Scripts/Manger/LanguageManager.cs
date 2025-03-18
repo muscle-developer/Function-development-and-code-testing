@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
 // JSON 데이터 구조를 매핑하기 위한 클래스
 [System.Serializable]
@@ -22,34 +21,55 @@ public class LanguageData
 public class LanguageManager : MonoBehaviour
 {
     // 싱글톤 패턴을 위한 인스턴스 변수
-    public static LanguageManager Instance;
-
-    // UI 텍스트 요소들을 담을 배열 (Inspector에서 할당)
-    public TextMeshProUGUI[] textElements;
+    private static LanguageManager instance;
+    public static LanguageManager Instance
+    {
+        get
+        {
+            if (instance == null)
+            {
+                instance = FindObjectOfType<LanguageManager>();
+                if (instance == null)
+                {
+                    GameObject obj = new GameObject("LanguageManager");
+                    instance = obj.AddComponent<LanguageManager>();
+                    DontDestroyOnLoad(obj);
+                }
+            }
+            return instance;
+        }
+    }
 
     // 현재 선택된 언어의 텍스트 데이터를 저장할 딕셔너리
     private Dictionary<string, string> currentLanguageData = new Dictionary<string, string>();
 
-    // JSON 캐싱 추가
+    // JSON 캐싱 추가 (불러온 언어 데이터를 캐시하여 성능 향상)
     private LanguageData cachedLanguageData;
+
+    // 언어 변경 이벤트 선언 (언어가 변경될 때 발생)
+    public static event System.Action OnLanguageChanged;
 
     private void Awake()
     {
         // 싱글톤 패턴 적용 (LanguageManager 인스턴스가 하나만 존재하도록)
         if (Instance == null)
         {
-            Instance = this;
+            instance = this;
             DontDestroyOnLoad(gameObject); // 씬 전환 시에도 유지되도록 설정
         }
         else
         {
             Destroy(gameObject); // 중복된 인스턴스는 삭제
         }
+
+        // 기본 언어 설정
+        LoadLanguage("ko");
     }
 
     // 선택된 언어 데이터 로딩 및 적용
     public void LoadLanguage(string languageCode)
     {
+        // 캐시된 언어 데이터가 없다면, 리소스에서 JSON 파일을 불러와서 파싱
         if (cachedLanguageData == null)
         {
             TextAsset jsonFile = Resources.Load<TextAsset>("Text Sheets/text_language");
@@ -64,6 +84,7 @@ public class LanguageManager : MonoBehaviour
         {
             string textValue = item.Korean; // 기본값: 한국어
 
+            // 선택된 언어 코드에 맞는 텍스트 값 설정
              switch (languageCode)
             {
                 case "en":
@@ -74,18 +95,23 @@ public class LanguageManager : MonoBehaviour
                 break;
             }
             
+            // 각 텍스트 ID에 맞는 언어 데이터를 딕셔너리에 저장
             currentLanguageData[item.Id] = textValue;
         }
+
+        // 언어 변경 이벤트 발생
+        OnLanguageChanged?.Invoke();
     }
 
-    public string GetTextData(string key, bool askTag = false)
+    // 주어진 키에 해당하는 텍스트를 반환
+    public string GetTextData(string key)
     {
+        // 딕셔너리에 해당 키가 존재하면 텍스트를 반환
         if (currentLanguageData.ContainsKey(key))
         {
             return currentLanguageData[key];
         }
 
-        Debug.LogWarning($"Key '{key}' not found in language data.");
-        return key; // 키 자체를 반환 (디버깅용)
+        return key; // 키 자체를 반환
 	}
 }
