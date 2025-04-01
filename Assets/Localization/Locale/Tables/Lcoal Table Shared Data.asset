@@ -14,7 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: Lcoal Table
   m_TableCollectionNameGuidString: 1e1f68de68943487c9c30c70c67aeb5a
-  m_Entries: []
+  m_Entries:
+  - m_Id: 1471004270592
+    m_Key: UI-language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10228618747904
+    m_Key: UI-ko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10520772993024
+    m_Key: UI-en
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10618575773696
+    m_Key: UI-ja
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

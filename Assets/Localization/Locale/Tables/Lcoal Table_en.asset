@@ -17,7 +17,23 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 1e1f68de68943487c9c30c70c67aeb5a, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 1471004270592
+    m_Localized: "Language Settings\n\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10228618747904
+    m_Localized: Korean
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10520772993024
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10618575773696
+    m_Localized: Japanese
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
