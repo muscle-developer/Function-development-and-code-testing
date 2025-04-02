@@ -7,9 +7,9 @@ public class LocaleManager : MonoBehaviour
 {
     bool isChanging;
 
-    private void ChangeLocale(int index)
+    public void ChangeLocale(int index)
     {   
-        if(!isChanging)
+        if(isChanging)
             return;
 
         StartCoroutine(ChangeCorountine(index));
