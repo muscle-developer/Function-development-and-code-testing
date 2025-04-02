@@ -31,6 +31,10 @@ MonoBehaviour:
     m_Key: UI-ja
     m_Metadata:
       m_Items: []
+  - m_Id: 362109673136128
+    m_Key: UI-Info
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
