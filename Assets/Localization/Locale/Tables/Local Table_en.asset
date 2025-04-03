@@ -10,32 +10,40 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: Lcoal Table_ja
+  m_Name: Local Table_en
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: ja
+    m_Code: en
   m_SharedData: {fileID: 11400000, guid: 1e1f68de68943487c9c30c70c67aeb5a, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
   - m_Id: 1471004270592
-    m_Localized: "\u8A00\u8A9E\u8A2D\u5B9A"
+    m_Localized: "Language Settings\n\t"
     m_Metadata:
       m_Items: []
   - m_Id: 10228618747904
-    m_Localized: "\u97D3\u56FD\u8A9E"
+    m_Localized: Korean
     m_Metadata:
       m_Items: []
   - m_Id: 10520772993024
-    m_Localized: "\u82F1\u8A9E"
+    m_Localized: English
     m_Metadata:
       m_Items: []
   - m_Id: 10618575773696
-    m_Localized: "\u65E5\u672C\u8A9E"
+    m_Localized: Japanese
     m_Metadata:
       m_Items: []
   - m_Id: 362109673136128
-    m_Localized: "\u60C5\u5831"
+    m_Localized: Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 708451524141056
+    m_Localized: Hello. I am a chatbot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 708826587193344
+    m_Localized: How can I help you?
     m_Metadata:
       m_Items: []
   references:

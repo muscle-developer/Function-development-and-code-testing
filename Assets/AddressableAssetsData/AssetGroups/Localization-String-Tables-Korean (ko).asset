@@ -18,7 +18,7 @@ MonoBehaviour:
   m_GUID: 5f31710d5cf784206a7654c597c01ffb
   m_SerializeEntries:
   - m_GUID: 88a1e12be613749c0af94ecefde9c06b
-    m_Address: Lcoal Table_ko
+    m_Address: Local Table_ko
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ko

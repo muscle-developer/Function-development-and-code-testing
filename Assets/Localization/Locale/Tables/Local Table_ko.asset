@@ -10,32 +10,40 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: Lcoal Table_en
+  m_Name: Local Table_ko
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: en
+    m_Code: ko
   m_SharedData: {fileID: 11400000, guid: 1e1f68de68943487c9c30c70c67aeb5a, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
   - m_Id: 1471004270592
-    m_Localized: "Language Settings\n\t"
+    m_Localized: "\uC5B8\uC5B4 \uC124\uC815"
     m_Metadata:
       m_Items: []
   - m_Id: 10228618747904
-    m_Localized: Korean
+    m_Localized: "\uD55C\uAD6D\uC5B4"
     m_Metadata:
       m_Items: []
   - m_Id: 10520772993024
-    m_Localized: English
+    m_Localized: "\uC601\uC5B4"
     m_Metadata:
       m_Items: []
   - m_Id: 10618575773696
-    m_Localized: Japanese
+    m_Localized: "\uC77C\uBCF8"
     m_Metadata:
       m_Items: []
   - m_Id: 362109673136128
-    m_Localized: Info
+    m_Localized: "\uC815\uBCF4"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 708451524141056
+    m_Localized: "\uC548\uB155\uD558\uC138\uC694. \uC800\uB294 \uCC57\uBD07 \uC785\uB2C8\uB2E4."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 708826587193344
+    m_Localized: "\uBB34\uC5C7\uC744 \uB3C4\uC640 \uB4DC\uB9B4\uAE4C\uC694?"
     m_Metadata:
       m_Items: []
   references:
