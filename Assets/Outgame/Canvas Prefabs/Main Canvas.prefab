@@ -647,7 +647,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1723273491059699666
 RectTransform:
   m_ObjectHideFlags: 0
@@ -990,6 +990,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: common_info
+  formatArgument: 
 --- !u!1 &7679428043379884217
 GameObject:
   m_ObjectHideFlags: 0
@@ -1139,6 +1140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: common_optionpopup
+  formatArgument: 
 --- !u!1 &7963228682714296662
 GameObject:
   m_ObjectHideFlags: 0
