@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class VariableReferenceTest : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
-        
+        int myNumber = 10;
+        AddFive(ref myNumber);
+        Debug.Log(myNumber); // 출력: 15
     }
 
-    // Update is called once per frame
-    void Update()
+    public void AddFive(ref int number)
     {
-        
+        number += 5;
     }
+    
+    // 테스트 커밋
+//     int testA;
+// TestRef(ref testA); // testA 컴파일 에러 발생.
+
+// void TestRef(ref int a)
+// {
+//    a = 10;
+// }
 }
