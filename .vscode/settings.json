@@ -52,5 +52,5 @@
         "Temp/": true
     },
     "dotnet.preferCSharpExtension": true,
-    "dotnet.defaultSolution": "Function development and code testing.sln"
+    "dotnet.defaultSolution": "Function-Project.sln"
 }
