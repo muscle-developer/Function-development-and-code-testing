@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Localization.Plugins.XLIFF.V12;
 using UnityEngine;
 
 public class EventTest : MonoBehaviour
@@ -26,6 +27,15 @@ public class EventTest : MonoBehaviour
 
         // 이벤트 다시 실행
         eventExample.InvokeEvent(3, 5);
+
+        // 액션 케이스
+        ActionExample actionExample = new ActionExample();
+        actionExample.onCalculateAction = actionExample.PlayerInfo;
+        actionExample.onCalculateAction(80, 100);
+
+        // 액션 람다식 사용
+        actionExample.onCalculateAction = (hp, mp) => Debug.Log("HP: " + hp + ", MP: " + mp);
+        actionExample.onCalculateAction(80, 100);  // HP: 80 출력
     }
 }
 
@@ -89,6 +99,20 @@ public class EventExample
     public int Multiply(int a, int b)
     {
         return a * b;
+    }
+}
+#endregion
+
+#region 액션 사용
+public class ActionExample
+{
+    // Action 선언
+    public System.Action<int, int> onCalculateAction;
+
+    public void PlayerInfo(int hp, int mp)
+    {
+        Debug.Log("HP: " + hp);
+        Debug.Log("MP:" + mp);
     }
 }
 #endregion
