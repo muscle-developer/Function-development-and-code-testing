@@ -36,6 +36,23 @@ public class EventTest : MonoBehaviour
         // 액션 람다식 사용
         actionExample.onCalculateAction = (hp, mp) => Debug.Log("HP: " + hp + ", MP: " + mp);
         actionExample.onCalculateAction(80, 100);  // HP: 80 출력
+
+        // Fun 케이스
+        FuncExample funcExample = new FuncExample();
+        funcExample.onCalculateFun = funcExample.Add;
+        int addResult = funcExample.onCalculateFun(3, 5);
+        Debug.Log(addResult);
+
+        funcExample.onCalculateFun = funcExample.Multiply;
+        int multiplyResult = funcExample.onCalculateFun(3, 5);
+        Debug.Log(multiplyResult);
+
+        // Fun 람다식 사용
+        funcExample.onCalculateFun = (a, b) => a + b;
+        Debug.Log(funcExample.onCalculateFun(3, 5)); // 8
+
+        funcExample.onCalculateFun = (a, b) => a * b;
+        Debug.Log(funcExample.onCalculateFun(3, 5)); // 15
     }
 }
 
@@ -113,6 +130,24 @@ public class ActionExample
     {
         Debug.Log("HP: " + hp);
         Debug.Log("MP:" + mp);
+    }
+}
+#endregion
+
+#region Fun사용
+public class FuncExample : MonoBehaviour
+{
+    // Func 선언
+    public System.Func<int, int, int> onCalculateFun;  //(int 2개 입력 받고 마지막 int를 반환)
+
+    public int Add(int a, int b)
+    {
+        return a + b;
+    }
+
+    public int Multiply(int a, int b)
+    {
+        return a * b;
     }
 }
 #endregion
