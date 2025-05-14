@@ -33,6 +33,7 @@ public class UniTaskTest : MonoBehaviour
     }
 }
 
+#region UniTaskVoid 와 UniTask
 public class UniTaskAsyncTest : MonoBehaviour
 {
     private Button button;
@@ -66,3 +67,4 @@ public class UniTaskAsyncTest : MonoBehaviour
         Debug.Log("버튼 클릭 후 1초 지남");
     }
 }
+#endregion
