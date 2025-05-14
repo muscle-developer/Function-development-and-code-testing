@@ -23,7 +23,7 @@ public class UniTaskTest : MonoBehaviour
         Debug.Log("코루틴 오브젝트 3초뒤 꺼짐");
     }
 
-    public async UniTask Wait1SecondAsync()
+    public async UniTaskVoid Wait1SecondAsync()
     {
         await UniTask.Delay(TimeSpan.FromSeconds(3));
         uniTaskObj.SetActive(false);
