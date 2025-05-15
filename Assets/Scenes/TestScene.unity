@@ -224,7 +224,7 @@ GameObject:
   - component: {fileID: 311033950}
   - component: {fileID: 311033949}
   m_Layer: 0
-  m_Name: UniTask Sphere
+  m_Name: UniTask Sphere Obj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -551,7 +551,7 @@ GameObject:
   - component: {fileID: 714526618}
   - component: {fileID: 714526617}
   m_Layer: 0
-  m_Name: Coroutine Cube
+  m_Name: Coroutine Cube Obj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
