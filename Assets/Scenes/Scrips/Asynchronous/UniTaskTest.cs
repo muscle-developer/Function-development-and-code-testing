@@ -18,7 +18,21 @@ public class UniTaskTest : MonoBehaviour
         StartCoroutine(Wait1Second());
         Wait1SecondAsync().Forget();
 
+        // 비동기 작업 취소
 
+        // 특정 조건이 되었을 때
+        StartCoroutine(Wait3Count());
+        Wait3CountAsync().Forget();
+    }
+
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            count += 1;
+            if(count >= 4)
+                count = 0;
+        }
     }
 
 #region n초후 오브젝트 비활성화(코루틴, UniTask)
@@ -37,7 +51,22 @@ public class UniTaskTest : MonoBehaviour
     }
 #endregion
 
+#region 비동기 작업 취소
+
+    // 코루틴 제어를 위한 변수 추가
+    private Coroutine coroutine;
+
+    private IEnumerator OffObjectCoroutine()
+    {
+        yield return new WaitForSeconds(3f);
+        coroutineObj.gameObject.SetActive(false);
+        Debug.Log("코루틴 오브젝트 3초뒤 꺼짐");
+    }
+
+#endregion 
+
 #region 특정 조건이 되었을 때
+    [SerializeField]
     private int count = 0;
 
     private IEnumerator Wait3Count()
