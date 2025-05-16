@@ -14,10 +14,14 @@ public class UniTaskTest : MonoBehaviour
 
     void Start()
     {
+        // n초후 비활성화
         StartCoroutine(Wait1Second());
         Wait1SecondAsync().Forget();
+
+
     }
 
+#region n초후 오브젝트 비활성화(코루틴, UniTask)
     private IEnumerator Wait1Second()
     {
         yield return new WaitForSeconds(3f);
@@ -31,6 +35,25 @@ public class UniTaskTest : MonoBehaviour
         uniTaskObj.SetActive(false);
         Debug.Log("유니테스크 오브젝트 3초뒤 꺼짐");
     }
+#endregion
+
+#region 특정 조건이 되었을 때
+    private int count = 0;
+
+    private IEnumerator Wait3Count()
+    {
+        yield return new WaitUntil(() => count == 3);
+        Debug.Log("Coroutine의 Count의 갯수 가" + count.ToString() + "이 되었습니다");
+    }
+
+    private async UniTaskVoid Wait3CountAsync()
+    {
+        await UniTask.WaitUntil(() => count == 3);
+        Debug.Log("UniTask의 Count의 갯수 가" + count.ToString() + "이 되었습니다");
+    }
+
+#endregion
+
 }
 
 #region UniTaskVoid 와 UniTask
