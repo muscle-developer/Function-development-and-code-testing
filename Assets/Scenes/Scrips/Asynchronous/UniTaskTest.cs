@@ -6,6 +6,7 @@ using System;
 using UnityEngine.SceneManagement;
 using System.Threading.Tasks;   // UniTask 관련 네임스페이스
 using UnityEngine.UI;
+using System.Threading;
 
 public class UniTaskTest : MonoBehaviour
 {
@@ -15,10 +16,12 @@ public class UniTaskTest : MonoBehaviour
     void Start()
     {
         // n초후 비활성화
-        StartCoroutine(Wait1Second());
-        Wait1SecondAsync().Forget();
+        // StartCoroutine(Wait1Second());
+        // Wait1SecondAsync().Forget();
 
-        // 비동기 작업 취소
+        // 비동기 작업 취소 케이스
+        coroutine = StartCoroutine(OffObjectCoroutine());
+        OffObjectAsync().Forget();
 
         // 특정 조건이 되었을 때
         StartCoroutine(Wait3Count());
@@ -32,6 +35,12 @@ public class UniTaskTest : MonoBehaviour
             count += 1;
             if(count >= 4)
                 count = 0;
+        }
+        // 비동기 작업 취소
+        else if(Input.GetKeyDown(KeyCode.Q))
+        {
+            StopCoroutine(coroutine);
+            source.Cancel();
         }
     }
 
@@ -55,7 +64,6 @@ public class UniTaskTest : MonoBehaviour
 
     // 코루틴 제어를 위한 변수 추가
     private Coroutine coroutine;
-
     private IEnumerator OffObjectCoroutine()
     {
         yield return new WaitForSeconds(3f);
@@ -63,6 +71,22 @@ public class UniTaskTest : MonoBehaviour
         Debug.Log("코루틴 오브젝트 3초뒤 꺼짐");
     }
 
+    // UniTaks 작업 취소를 위한 변수 추가 (CancellationTokenSource 케이스)
+    private CancellationTokenSource source = new();
+    private async UniTaskVoid OffObjectAsync()
+    {
+        try
+        {
+            // 3초 대기, 도중에 source.Cancel() 되면 TaskCanceledException 발생
+            await UniTask.Delay(TimeSpan.FromSeconds(3), cancellationToken: source.Token);
+            uniTaskObj.gameObject.SetActive(false);
+            Debug.Log("유니테스크 오브젝트 3초뒤 꺼짐");
+        }
+        catch (OperationCanceledException)
+        {
+            Debug.LogWarning("유니테스크 취소됨");
+        }
+    }
 #endregion 
 
 #region 특정 조건이 되었을 때
