@@ -87,6 +87,21 @@ public class UniTaskTest : MonoBehaviour
             Debug.LogWarning("유니테스크 취소됨");
         }
     }
+
+    private async UniTaskVoid DestoyedObjectAsync()
+    {
+        try
+        {
+            // 3초 대기, 도중에 오브젝트가 삭제 되면 자동적으로 task종료
+            await UniTask.Delay(TimeSpan.FromSeconds(3), cancellationToken: this.GetCancellationTokenOnDestroy());
+            uniTaskObj.gameObject.SetActive(false);
+            Debug.Log("유니테스크 오브젝트 3초뒤 꺼짐");
+        }
+        catch (OperationCanceledException)
+        {
+            Debug.LogWarning("유니테스크 삭제됨");
+        }
+    }
 #endregion 
 
 #region 특정 조건이 되었을 때
@@ -107,6 +122,8 @@ public class UniTaskTest : MonoBehaviour
 
 #endregion
 
+#region 
+#endregion 
 }
 
 #region UniTaskVoid 와 UniTask
