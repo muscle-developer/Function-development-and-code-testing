@@ -119,8 +119,11 @@ public class UniTaskTest : MonoBehaviour
         await UniTask.WaitUntil(() => count == 3);
         Debug.Log("UniTask의 Count의 갯수 가" + count.ToString() + "이 되었습니다");
     }
-
 #endregion
+
+#region 서드파티 DoTween 연계 사용
+#endregion
+
 }
 
 #region UniTaskVoid 와 UniTask
