@@ -6,7 +6,7 @@ using System;
 using UnityEngine.SceneManagement;
 using System.Threading.Tasks;   // UniTask 관련 네임스페이스
 using UnityEngine.UI;
-using System.Threading;
+using System.Threading;         // UniTask 취소를 위한 네임스페이스
 
 public class UniTaskTest : MonoBehaviour
 {
@@ -121,9 +121,6 @@ public class UniTaskTest : MonoBehaviour
     }
 
 #endregion
-
-#region 
-#endregion 
 }
 
 #region UniTaskVoid 와 UniTask
