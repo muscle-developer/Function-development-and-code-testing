@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 using System.Threading.Tasks;   // UniTask 관련 네임스페이스
 using UnityEngine.UI;
 using System.Threading;         // UniTask 취소를 위한 네임스페이스
+using DG.Tweening;
 
 public class UniTaskTest : MonoBehaviour
 {
@@ -26,6 +27,9 @@ public class UniTaskTest : MonoBehaviour
         // 특정 조건이 되었을 때
         StartCoroutine(Wait3Count());
         Wait3CountAsync().Forget();
+
+        // DoTween 사용
+        WaitMove().Forget();
     }
 
     void Update()
@@ -122,6 +126,10 @@ public class UniTaskTest : MonoBehaviour
 #endregion
 
 #region 서드파티 DoTween 연계 사용
+    private async UniTaskVoid WaitMove()
+    {
+        await uniTaskObj.transform.DOMove(new Vector3(0, 3, 3), 3);
+    }
 #endregion
 
 }
